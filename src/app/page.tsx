@@ -6,7 +6,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex justify-between items-center mb-4">
             <div className="flex items-center space-x-4">
-              <img src="/placeholder-logo.svg" alt="Wee Haul Junk Removal Logo" className="h-12 w-auto" />
+              <img src="/Logo.webp" alt="Wee Haul Junk Removal Logo" className="h-12 w-auto" />
               <h1 className="text-2xl font-bold">Wee Haul Junk Removal</h1>
             </div>
             <div className="flex items-center space-x-6">
@@ -75,7 +75,7 @@ export default function Home() {
       <section className="relative bg-gradient-to-b from-blue-50 to-white py-20">
         {/* Background Image */}
         <div className="absolute inset-0 opacity-10">
-          <img src="/hero-image.jpg" alt="Junk Removal Service" className="w-full h-full object-cover" />
+          <img src="/hero-image.webp" alt="Junk Removal Service" className="w-full h-full object-cover" />
         </div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <h2 className="text-5xl font-bold text-gray-800 mb-6">
@@ -103,7 +103,7 @@ export default function Home() {
           
           {/* Team Photo */}
           <div className="max-w-2xl mx-auto">
-            <img src="/team-photo.jpg" alt="Wee Haul Junk Removal Team" className="w-full rounded-lg shadow-lg" />
+            <img src="/team-photo.webp" alt="Wee Haul Junk Removal Team" className="w-full rounded-lg shadow-lg" />
             <p className="mt-4 text-gray-600">Our professional junk removal team serving Northern Virginia</p>
           </div>
         </div>
@@ -197,7 +197,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12">See Our Work - Before & After</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-4 rounded-lg shadow-md">
-              <img src="/before-after-1.jpg" alt="Garage Cleanout Before and After" className="w-full h-48 object-cover rounded-lg mb-3" />
+              <img src="/before-after-1.PNG" alt="Garage Cleanout Before and After" className="w-full h-48 object-cover rounded-lg mb-3" />
               <h3 className="font-bold text-center">Garage Cleanout</h3>
               <p className="text-center text-gray-600 text-sm">Complete garage transformation</p>
             </div>
