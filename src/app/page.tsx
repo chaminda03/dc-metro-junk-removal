@@ -32,7 +32,7 @@ export default function Home() {
               <li>
                 <div className="relative group">
                   <button className="hover:text-orange-400 font-medium transition-colors">SERVICES</button>
-                  <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                     <div className="space-y-2">
                       <a href="/services/furniture-removal" className="block hover:text-orange-500">Furniture Removal</a>
                       <a href="/services/appliance-removal" className="block hover:text-orange-500">Appliance Removal</a>
@@ -47,7 +47,7 @@ export default function Home() {
               <li>
                 <div className="relative group">
                   <button className="hover:text-orange-400 font-medium transition-colors">LOCATIONS</button>
-                  <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                     <div className="space-y-2">
                       <a href="/fairfax-county" className="block hover:text-orange-500">Fairfax County</a>
                       <a href="/loudoun-county" className="block hover:text-orange-500">Loudoun County</a>
