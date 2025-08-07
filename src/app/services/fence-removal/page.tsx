@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Header from '../../../components/Header'
 
 export const metadata: Metadata = {
   title: 'Fence Removal Northern Virginia - Wood, Vinyl, Chain Link Fence Removal | Wee Haul',
@@ -12,21 +13,7 @@ export const metadata: Metadata = {
 export default function FenceRemovalPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header - Using same navigation as other pages */}
-      <header className="bg-blue-900 text-white py-4 px-6">
-        <div className="container mx-auto">
-          <div className="flex justify-between items-center mb-4">
-            <h1 className="text-2xl font-bold">Wee Haul Junk Removal</h1>
-            <div className="flex items-center space-x-6">
-              <div className="text-right">
-                <div className="text-xl font-bold text-orange-400">(571) 489-2961</div>
-                <div className="text-sm">7AM - 9PM • 7 Days a Week</div>
-              </div>
-              <a href="tel:5714892961" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg transition-colors">📞 Call Now</a>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-green-50 to-white py-20">

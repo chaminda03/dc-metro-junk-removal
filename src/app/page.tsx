@@ -1,264 +1,654 @@
+import Header from '../components/Header'
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-blue-900 text-white py-4 px-6">
-        <div className="container mx-auto">
-          <div className="flex justify-between items-center mb-4">
-            <div className="flex items-center space-x-4">
-              <img src="/Logo.webp" alt="Wee Haul Junk Removal Logo" className="h-12 w-auto" />
-              <h1 className="text-2xl font-bold">Wee Haul Junk Removal</h1>
-            </div>
-            <div className="flex items-center space-x-6">
-              <div className="text-right">
-                <div className="text-xl font-bold text-orange-400">(571) 489-2961</div>
-                <div className="text-sm">7AM - 9PM • 7 Days a Week</div>
-              </div>
-              <a 
-                href="tel:5714892961" 
-                className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg transition-colors"
-              >
-                📞 Call Now
-              </a>
-            </div>
-          </div>
-          
-          {/* Navigation Menu */}
-          <nav className="border-t border-blue-800 pt-4">
-            <ul className="flex justify-center space-x-8">
-              <li>
-                <a href="/" className="hover:text-orange-400 font-medium transition-colors">HOME</a>
-              </li>
-              <li>
-                <div className="relative group">
-                  <button className="hover:text-orange-400 font-medium transition-colors">SERVICES</button>
-                  <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <div className="space-y-2">
-                      <a href="/services/furniture-removal" className="block hover:text-orange-500">Furniture Removal</a>
-                      <a href="/services/appliance-removal" className="block hover:text-orange-500">Appliance Removal</a>
-                      <a href="/services/hot-tub-removal" className="block hover:text-orange-500">Hot Tub Removal</a>
-                      <a href="/services/shed-removal" className="block hover:text-orange-500">Shed Removal</a>
-                      <a href="/services/fence-removal" className="block hover:text-orange-500">Fence Removal</a>
-                      <a href="/services/garage-cleanout" className="block hover:text-orange-500">Garage Cleanout</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="relative group">
-                  <button className="hover:text-orange-400 font-medium transition-colors">LOCATIONS</button>
-                  <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <div className="space-y-2">
-                      <a href="/fairfax-county" className="block hover:text-orange-500">Fairfax County</a>
-                      <a href="/loudoun-county" className="block hover:text-orange-500">Loudoun County</a>
-                      <a href="/prince-william-county" className="block hover:text-orange-500">Prince William County</a>
-                      <a href="/arlington-county" className="block hover:text-orange-500">Arlington County</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <a href="/blog" className="hover:text-orange-400 font-medium transition-colors">BLOG</a>
-              </li>
-              <li>
-                <a href="/about" className="hover:text-orange-400 font-medium transition-colors">ABOUT</a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:text-orange-400 font-medium transition-colors">CONTACT</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-blue-50 to-white py-20">
-        {/* Background Image */}
-        <div className="absolute inset-0 opacity-10">
-          <img src="/hero-image.webp" alt="Junk Removal Service" className="w-full h-full object-cover" />
+      <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-gray-800 text-white overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-0 -left-4 w-72 h-72 bg-orange-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
+          <div className="absolute top-0 -right-4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse animation-delay-2000"></div>
+          <div className="absolute -bottom-8 left-20 w-72 h-72 bg-orange-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse animation-delay-4000"></div>
         </div>
-        <div className="container mx-auto px-6 text-center relative z-10">
-          <h2 className="text-5xl font-bold text-gray-800 mb-6">
-            #1 Junk Removal in Northern Virginia
-          </h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Same-day pickup • Eco-friendly disposal • Top Rated & insured
-            <br />
-            Serving Fairfax, Loudoun, Prince William & Arlington Counties
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <a 
-              href="tel:5714892961" 
-              className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
-            >
-              📞 Call Now for Free Quote
-            </a>
-            <a 
-              href="#contact" 
-              className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
-            >
-              Get Free Estimate
-            </a>
+        
+        <div className="relative z-10 flex items-center min-h-screen">
+          <div className="container mx-auto px-6">
+            <div className="flex flex-col lg:flex-row items-center justify-between">
+              {/* Left Content */}
+              <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
+                <h1 className="text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
+                  <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+                    JUNK REMOVAL
+                  </span>
+                  <br />
+                  <span className="text-white">EXPERTS</span>
+                </h1>
+                <div className="w-24 h-1 bg-orange-500 mx-auto lg:mx-0 mb-6"></div>
+                <p className="text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed">
+                  Same-day pickup throughout <strong className="text-orange-400">Northern Virginia</strong>
+                  <br />
+                  Professional • Insured • Eco-friendly
+                </p>
+                
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row gap-4 mb-8">
+                  <a 
+                    href="tel:5714892961" 
+                    className="group relative overflow-hidden bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                  >
+                    <span className="relative z-10">📞 (571) 489-2961</span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
+                  </a>
+                  <a 
+                    href="#contact" 
+                    className="group border-2 border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105"
+                  >
+                    Get Free Quote
+                  </a>
+                </div>
+                
+                {/* Trust Indicators */}
+                <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-sm">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-green-400 text-lg">✓</span>
+                    <span>Same-Day Service</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <span className="text-green-400 text-lg">✓</span>
+                    <span>Licensed & Insured</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <span className="text-green-400 text-lg">✓</span>
+                    <span>Top Rated</span>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Right Content - Team Photo */}
+              <div className="lg:w-1/2 lg:pl-12">
+                <div className="relative">
+                  <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl transform rotate-3"></div>
+                  <img 
+                    src="/team-photo.webp" 
+                    alt="Wee Haul Junk Removal Professional Team" 
+                    className="relative z-10 w-full rounded-2xl shadow-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-500"
+                  />
+                  <div className="absolute -bottom-6 -right-6 bg-white text-gray-900 p-4 rounded-xl shadow-2xl">
+                    <div className="text-2xl font-bold text-orange-500">7AM-9PM</div>
+                    <div className="text-sm">7 Days a Week</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+          <div className="flex flex-col items-center text-white opacity-60">
+            <span className="text-sm mb-2">Scroll to explore</span>
+            <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
+              <div className="w-1 h-3 bg-white rounded-full mt-2 animate-bounce"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Areas Section */}
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-gray-900 mb-4">Serving All of Northern Virginia</h2>
+            <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Fast, reliable junk removal service across Fairfax, Loudoun, Prince William & Arlington Counties
+            </p>
           </div>
           
-          {/* Team Photo */}
-          <div className="max-w-2xl mx-auto">
-            <img src="/team-photo.webp" alt="Wee Haul Junk Removal Team" className="w-full rounded-lg shadow-lg" />
-            <p className="mt-4 text-gray-600">Our professional junk removal team serving Northern Virginia</p>
+          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
+            <a href="/fairfax-county" className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+              <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-orange-400 to-orange-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
+                <span className="text-white font-bold text-sm">NOVA</span>
+              </div>
+              <div className="text-center pt-4">
+                <h3 className="text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Fairfax County</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">Fairfax • Vienna • McLean • Reston • Herndon • Great Falls</p>
+                <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
+                  Learn More →
+                </span>
+              </div>
+            </a>
+            
+            <a href="/loudoun-county" className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+              <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-green-400 to-green-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
+                <span className="text-white font-bold text-sm">NOVA</span>
+              </div>
+              <div className="text-center pt-4">
+                <h3 className="text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Loudoun County</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">Ashburn • Sterling • Leesburg • Purcellville • Hamilton</p>
+                <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
+                  Learn More →
+                </span>
+              </div>
+            </a>
+            
+            <a href="/prince-william-county" className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+              <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-purple-400 to-purple-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
+                <span className="text-white font-bold text-sm">NOVA</span>
+              </div>
+              <div className="text-center pt-4">
+                <h3 className="text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Prince William County</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">Manassas • Woodbridge • Dale City • Gainesville • Haymarket</p>
+                <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
+                  Learn More →
+                </span>
+              </div>
+            </a>
+            
+            <a href="/arlington-county" className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+              <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
+                <span className="text-white font-bold text-sm">NOVA</span>
+              </div>
+              <div className="text-center pt-4">
+                <h3 className="text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Arlington County</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">Arlington • Crystal City • Ballston • Clarendon • Rosslyn</p>
+                <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
+                  Learn More →
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
 
-      {/* Service Areas */}
-      <section className="py-16 bg-gray-50">
+      {/* Services Section */}
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Service Areas in Northern Virginia</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <h3 className="text-xl font-bold mb-2 text-blue-900">Fairfax County</h3>
-              <p className="text-gray-600">Fairfax, Vienna, McLean, Reston, Herndon, Great Falls</p>
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-gray-900 mb-4">Our Junk Removal Services</h2>
+            <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Professional junk removal services throughout Northern Virginia. No job too big or small.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            {/* Furniture Removal */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-orange-200 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-400 to-orange-600 rounded-t-2xl"></div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-2xl text-white">🛋️</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Furniture Removal</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Sofas, mattresses, dressers, tables, chairs & more</p>
+                <a href="/services/furniture-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
+                  Learn More →
+                </a>
+              </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <h3 className="text-xl font-bold mb-2 text-blue-900">Loudoun County</h3>
-              <p className="text-gray-600">Ashburn, Sterling, Leesburg, Purcellville, Hamilton</p>
+
+            {/* Appliance Removal */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-orange-200 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-blue-600 rounded-t-2xl"></div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-2xl text-white">🔌</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Appliance Removal</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Refrigerators, washers, dryers, dishwashers & water heaters</p>
+                <a href="/services/appliance-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
+                  Learn More →
+                </a>
+              </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <h3 className="text-xl font-bold mb-2 text-blue-900">Prince William County</h3>
-              <p className="text-gray-600">Manassas, Woodbridge, Dale City, Gainesville, Haymarket</p>
+
+            {/* Hot Tub Removal */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-orange-200 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-400 to-purple-600 rounded-t-2xl"></div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-2xl text-white">🛁</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Hot Tub Removal</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Professional hot tub removal, spas & pool equipment</p>
+                <a href="/services/hot-tub-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
+                  Learn More →
+                </a>
+              </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <h3 className="text-xl font-bold mb-2 text-blue-900">Arlington County</h3>
-              <p className="text-gray-600">Arlington, Crystal City, Ballston, Clarendon, Rosslyn</p>
+
+            {/* Shed Removal */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-orange-200 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-400 to-green-600 rounded-t-2xl"></div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-2xl text-white">🏚️</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Shed Removal</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Complete shed demolition & debris removal</p>
+                <a href="/services/shed-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
+                  Learn More →
+                </a>
+              </div>
             </div>
+
+            {/* Fence Removal */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-orange-200 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-t-2xl"></div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-2xl text-white">🚧</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Fence Removal</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Wood, vinyl, chain link fence removal & disposal</p>
+                <a href="/services/fence-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
+                  Learn More →
+                </a>
+              </div>
+            </div>
+
+            {/* Garage Cleanout */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-orange-200 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-400 to-red-600 rounded-t-2xl"></div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-red-400 to-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-2xl text-white">🏠</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Garage Cleanout</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Complete garage cleaning & junk removal</p>
+                <a href="/services/garage-cleanout" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
+                  Learn More →
+                </a>
+              </div>
+            </div>
+
+            {/* Storage Cleanout */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-orange-200 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-400 to-indigo-600 rounded-t-2xl"></div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-2xl text-white">📦</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Storage Cleanout</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Storage unit & facility cleanouts</p>
+                <a href="/services/storage-cleanout" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
+                  Learn More →
+                </a>
+              </div>
+            </div>
+
+            {/* Basement Cleanout */}
+            <div className="group relative bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-orange-200 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-400 to-teal-600 rounded-t-2xl"></div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-2xl text-white">🏘️</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Basement Cleanout</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Full basement clearing & junk removal</p>
+                <a href="/services/basement-cleanout" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
+                  Learn More →
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          {/* View All Services Button */}
+          <div className="text-center mt-12">
+            <a href="/services" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+              View All Services →
+            </a>
           </div>
         </div>
       </section>
 
-      {/* Services */}
-      <section className="py-16">
+      {/* Testimonials Section */}
+      <section className="py-20 bg-gradient-to-br from-gray-900 to-blue-900 text-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Junk Removal Services</h2>
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold mb-4">What Our Customers Say</h2>
+            <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Don't just take our word for it - hear from satisfied customers across Northern Virginia
+            </p>
+          </div>
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Furniture Removal</h3>
-              <p className="text-gray-700">Old sofas, mattresses, dressers, tables, chairs, and more</p>
+            {/* Testimonial 1 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center mb-4">
+                <div className="flex text-orange-400 text-xl mr-2">★★★★★</div>
+                <span className="text-sm text-gray-300">5.0 • Google Review</span>
+              </div>
+              <p className="text-gray-200 mb-6 leading-relaxed italic">
+                "Amazing service! They showed up on time, worked efficiently, and cleaned up everything perfectly. The team was professional and the pricing was fair. Highly recommend Wee Haul!"
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center font-bold text-white mr-4">
+                  S
+                </div>
+                <div>
+                  <div className="font-semibold">Sarah M.</div>
+                  <div className="text-sm text-gray-400">Fairfax County</div>
+                </div>
+              </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Appliance Removal</h3>
-              <p className="text-gray-700">Refrigerators, washers, dryers, dishwashers, water heaters</p>
+
+            {/* Testimonial 2 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center mb-4">
+                <div className="flex text-orange-400 text-xl mr-2">★★★★★</div>
+                <span className="text-sm text-gray-300">5.0 • Yelp Review</span>
+              </div>
+              <p className="text-gray-200 mb-6 leading-relaxed italic">
+                "Called them for a basement cleanout and they exceeded expectations. Very reasonable pricing and they donated items that were still good. Great communication throughout!"
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center font-bold text-white mr-4">
+                  M
+                </div>
+                <div>
+                  <div className="font-semibold">Mike D.</div>
+                  <div className="text-sm text-gray-400">Loudoun County</div>
+                </div>
+              </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Hot Tub & Spa Removal</h3>
-              <p className="text-gray-700">Professional hot tub removal, spas, and pool equipment</p>
+
+            {/* Testimonial 3 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300">
+              <div className="flex items-center mb-4">
+                <div className="flex text-orange-400 text-xl mr-2">★★★★★</div>
+                <span className="text-sm text-gray-300">5.0 • Facebook Review</span>
+              </div>
+              <p className="text-gray-200 mb-6 leading-relaxed italic">
+                "Same-day service for hot tub removal! Couldn't believe how quickly they responded and the job was done perfectly. Will definitely use them again."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center font-bold text-white mr-4">
+                  J
+                </div>
+                <div>
+                  <div className="font-semibold">Jennifer L.</div>
+                  <div className="text-sm text-gray-400">Prince William County</div>
+                </div>
+              </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Shed Removal</h3>
-              <p className="text-gray-700">Complete shed demolition and debris removal</p>
+          </div>
+          
+          {/* Stats Row */}
+          <div className="grid md:grid-cols-4 gap-8 mt-16 text-center">
+            <div className="border-r border-white/20 last:border-r-0">
+              <div className="text-4xl font-bold text-orange-400 mb-2">1000+</div>
+              <div className="text-gray-300">Jobs Completed</div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Fence Removal</h3>
-              <p className="text-gray-700">Wood, vinyl, chain link fence removal and disposal</p>
+            <div className="border-r border-white/20 last:border-r-0">
+              <div className="text-4xl font-bold text-orange-400 mb-2">5.0</div>
+              <div className="text-gray-300">Average Rating</div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Garage Cleanout</h3>
-              <p className="text-gray-700">Complete garage cleaning and junk removal</p>
+            <div className="border-r border-white/20 last:border-r-0">
+              <div className="text-4xl font-bold text-orange-400 mb-2">Same Day</div>
+              <div className="text-gray-300">Service Available</div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Storage Cleanout</h3>
-              <p className="text-gray-700">Storage unit and facility cleanouts</p>
-            </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Basement Cleanout</h3>
-              <p className="text-gray-700">Full basement clearing and junk removal</p>
-            </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Eviction Cleanout</h3>
-              <p className="text-gray-700">Property management and landlord cleanout services</p>
-            </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Apartment Cleanout</h3>
-              <p className="text-gray-700">Complete apartment and condo cleanouts</p>
-            </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Hoarder Cleanout</h3>
-              <p className="text-gray-700">Sensitive, professional hoarding cleanup services</p>
-            </div>
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-blue-900">Light Demolition</h3>
-              <p className="text-gray-700">Interior demolition, deck removal, and construction debris</p>
+            <div>
+              <div className="text-4xl font-bold text-orange-400 mb-2">100%</div>
+              <div className="text-gray-300">Satisfaction Rate</div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Before & After Gallery */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">See Our Work - Before & After</h2>
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-gray-900 mb-4">See Our Work - Before & After</h2>
+            <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Real transformations from our professional junk removal services
+            </p>
+          </div>
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-4 rounded-lg shadow-md">
-              <img src="/before-after-1.PNG" alt="Garage Cleanout Before and After" className="w-full h-48 object-cover rounded-lg mb-3" />
-              <h3 className="font-bold text-center">Garage Cleanout</h3>
-              <p className="text-center text-gray-600 text-sm">Complete garage transformation</p>
+            <div className="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <div className="relative overflow-hidden">
+                <img src="/before-after-1.PNG" alt="Garage Cleanout Before and After" className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" />
+                <div className="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  COMPLETED
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Garage Cleanout</h3>
+                <p className="text-gray-600 mb-4">Complete garage transformation - from cluttered to clean and organized</p>
+                <div className="flex items-center text-sm text-gray-500">
+                  <span className="mr-4">📍 Fairfax County</span>
+                  <span>⏱️ Same Day</span>
+                </div>
+              </div>
             </div>
-            <div className="bg-white p-4 rounded-lg shadow-md">
-              <img src="/before-after-2.jpg" alt="Basement Cleanout Before and After" className="w-full h-48 object-cover rounded-lg mb-3" />
-              <h3 className="font-bold text-center">Basement Cleanout</h3>
-              <p className="text-center text-gray-600 text-sm">Basement cleared and cleaned</p>
+            
+            <div className="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <div className="relative overflow-hidden">
+                <img src="/before-after-2.jpg" alt="Basement Cleanout Before and After" className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" />
+                <div className="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  COMPLETED
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Basement Cleanout</h3>
+                <p className="text-gray-600 mb-4">Full basement clearing and junk removal with eco-friendly disposal</p>
+                <div className="flex items-center text-sm text-gray-500">
+                  <span className="mr-4">📍 Loudoun County</span>
+                  <span>⏱️ 2 Hours</span>
+                </div>
+              </div>
             </div>
-            <div className="bg-white p-4 rounded-lg shadow-md">
-              <img src="/before-after-3.jpg" alt="Furniture Removal Before and After" className="w-full h-48 object-cover rounded-lg mb-3" />
-              <h3 className="font-bold text-center">Furniture Removal</h3>
-              <p className="text-center text-gray-600 text-sm">Old furniture removed safely</p>
+            
+            <div className="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+              <div className="relative overflow-hidden bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center h-64">
+                <div className="text-center">
+                  <div className="text-6xl mb-4">📸</div>
+                  <div className="text-xl font-bold text-gray-700 mb-2">Your Project Next!</div>
+                  <div className="text-gray-600">Call us for a free quote</div>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Ready to Start?</h3>
+                <p className="text-gray-600 mb-4">Get your free quote and join our satisfied customers today</p>
+                <a href="tel:5714892961" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors">
+                  📞 Call Now
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Contact Form */}
-      <section id="contact" className="py-16 bg-gray-900 text-white">
-        <div className="container mx-auto px-6">
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Get Your Free Quote Today</h2>
-            <p className="text-xl mb-8">Fast, reliable junk removal service in Northern Virginia</p>
+      {/* Contact CTA Section */}
+      <section id="contact" className="py-20 bg-gradient-to-br from-orange-600 via-orange-500 to-red-500 text-white relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/2 translate-y-1/2"></div>
+        </div>
+        
+        <div className="relative z-10 container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-5xl lg:text-6xl font-bold mb-6">Ready to Get Started?</h2>
+              <p className="text-2xl text-orange-100 mb-8">
+                Get your <strong>FREE quote</strong> and same-day junk removal service
+              </p>
+            </div>
             
-            <div className="bg-gray-800 p-8 rounded-lg">
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div className="text-left">
-                  <h3 className="text-xl font-bold mb-4 text-orange-400">Contact Information</h3>
-                  <p className="mb-2">📞 <strong>(571) 489-2961</strong></p>
-                  <p className="mb-2">📧 info@weehaulnow.com</p>
-                  <p className="mb-2">📍 2246 Pimmit Run Lane, Falls Church, VA 22043</p>
-                  <p className="mb-4">🕐 7AM - 9PM, 7 Days a Week</p>
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Left Side - Contact Info */}
+              <div className="bg-white/20 backdrop-blur-sm rounded-3xl p-8 border border-white/30">
+                <h3 className="text-2xl font-bold mb-6 text-center lg:text-left">Contact Us Now</h3>
+                
+                <div className="space-y-4 mb-8">
+                  <a href="tel:5714892961" className="flex items-center p-4 bg-white/20 rounded-2xl hover:bg-white/30 transition-all group">
+                    <div className="w-12 h-12 bg-white text-orange-500 rounded-2xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform">
+                      📞
+                    </div>
+                    <div>
+                      <div className="font-bold text-xl">(571) 489-2961</div>
+                      <div className="text-orange-100">Call now for instant quote</div>
+                    </div>
+                  </a>
+                  
+                  <div className="flex items-center p-4 bg-white/20 rounded-2xl">
+                    <div className="w-12 h-12 bg-white text-orange-500 rounded-2xl flex items-center justify-center mr-4">
+                      📧
+                    </div>
+                    <div>
+                      <div className="font-bold">info@weehaulnow.com</div>
+                      <div className="text-orange-100">Email us anytime</div>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center p-4 bg-white/20 rounded-2xl">
+                    <div className="w-12 h-12 bg-white text-orange-500 rounded-2xl flex items-center justify-center mr-4">
+                      🕐
+                    </div>
+                    <div>
+                      <div className="font-bold">7AM - 9PM</div>
+                      <div className="text-orange-100">7 Days a Week</div>
+                    </div>
+                  </div>
                 </div>
-                <div className="text-left">
-                  <h3 className="text-xl font-bold mb-4 text-orange-400">Service Guarantee</h3>
-                  <ul className="space-y-2">
-                    <li>✅ Same-day pickup available</li>
-                    <li>✅ Top Rated & insured</li>
-                    <li>✅ Eco-friendly disposal</li>
-                    <li>✅ Fair, transparent pricing</li>
-                    <li>✅ 100% satisfaction guarantee</li>
-                  </ul>
+                
+                <div className="text-center lg:text-left">
+                  <div className="text-sm text-orange-100 mb-4">Serving all of Northern Virginia</div>
+                  <div className="flex flex-wrap justify-center lg:justify-start gap-2">
+                    <span className="bg-white/20 px-3 py-1 rounded-full text-sm">Fairfax</span>
+                    <span className="bg-white/20 px-3 py-1 rounded-full text-sm">Loudoun</span>
+                    <span className="bg-white/20 px-3 py-1 rounded-full text-sm">Prince William</span>
+                    <span className="bg-white/20 px-3 py-1 rounded-full text-sm">Arlington</span>
+                  </div>
                 </div>
               </div>
               
-              <a 
-                href="tel:5714892961" 
-                className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-12 rounded-lg text-xl transition-colors inline-block"
-              >
-                📞 Call Now: (571) 489-2961
-              </a>
+              {/* Right Side - Service Guarantees */}
+              <div className="text-center lg:text-left">
+                <h3 className="text-3xl font-bold mb-8">Why Choose Wee Haul?</h3>
+                
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-center justify-center lg:justify-start">
+                    <div className="w-8 h-8 bg-white text-orange-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                      ⚡
+                    </div>
+                    <div className="text-lg">Same-day service available</div>
+                  </div>
+                  <div className="flex items-center justify-center lg:justify-start">
+                    <div className="w-8 h-8 bg-white text-orange-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                      🛡️
+                    </div>
+                    <div className="text-lg">Licensed & fully insured</div>
+                  </div>
+                  <div className="flex items-center justify-center lg:justify-start">
+                    <div className="w-8 h-8 bg-white text-orange-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                      ♻️
+                    </div>
+                    <div className="text-lg">Eco-friendly disposal & donation</div>
+                  </div>
+                  <div className="flex items-center justify-center lg:justify-start">
+                    <div className="w-8 h-8 bg-white text-orange-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                      💰
+                    </div>
+                    <div className="text-lg">Fair, transparent pricing</div>
+                  </div>
+                  <div className="flex items-center justify-center lg:justify-start">
+                    <div className="w-8 h-8 bg-white text-orange-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                      ⭐
+                    </div>
+                    <div className="text-lg">100% satisfaction guarantee</div>
+                  </div>
+                </div>
+                
+                {/* Big CTA Button */}
+                <div className="text-center">
+                  <a 
+                    href="tel:5714892961" 
+                    className="inline-block bg-white text-orange-600 font-bold py-6 px-12 rounded-2xl text-2xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                  >
+                    📞 GET FREE QUOTE NOW
+                  </a>
+                  <div className="mt-4 text-orange-100">
+                    Call now or we'll call you back within 5 minutes!
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-blue-900 text-white py-8">
-        <div className="container mx-auto px-6 text-center">
-          <p>&copy; 2025 Wee Haul Junk Removal. All rights reserved.</p>
-          <p className="mt-2">Professional junk removal services in Fairfax, Loudoun, Prince William & Arlington Counties, Virginia</p>
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="container mx-auto px-6">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div>
+              <div className="flex items-center space-x-4 mb-4">
+                <img src="/Logo.webp" alt="Wee Haul Junk Removal Logo" className="h-10 w-auto" />
+                <div className="text-xl font-bold">Wee Haul Junk Removal</div>
+              </div>
+              <p className="text-gray-400 mb-4">
+                Professional junk removal services throughout Northern Virginia. Licensed, insured, and eco-friendly.
+              </p>
+              <div className="flex space-x-4">
+                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm">f</span>
+                </div>
+                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm">@</span>
+                </div>
+                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm">in</span>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-bold mb-4">Quick Links</h4>
+              <div className="space-y-2">
+                <a href="/services" className="block text-gray-400 hover:text-orange-400 transition-colors">All Services</a>
+                <a href="/fairfax-county" className="block text-gray-400 hover:text-orange-400 transition-colors">Service Areas</a>
+                <a href="/about" className="block text-gray-400 hover:text-orange-400 transition-colors">About Us</a>
+                <a href="/blog" className="block text-gray-400 hover:text-orange-400 transition-colors">Blog</a>
+              </div>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-bold mb-4">Contact Info</h4>
+              <div className="space-y-2 text-gray-400">
+                <div className="flex items-center">
+                  <span className="mr-2">📞</span>
+                  <a href="tel:5714892961" className="hover:text-orange-400 transition-colors">(571) 489-2961</a>
+                </div>
+                <div className="flex items-center">
+                  <span className="mr-2">📧</span>
+                  <span>info@weehaulnow.com</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="mr-2">📍</span>
+                  <span>Falls Church, VA</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="mr-2">🕐</span>
+                  <span>7AM - 9PM, 7 Days</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
+            <p>&copy; 2025 Wee Haul Junk Removal. All rights reserved.</p>
+            <p className="mt-2">Professional junk removal services in Fairfax, Loudoun, Prince William & Arlington Counties, Virginia</p>
+          </div>
         </div>
       </footer>
     </div>

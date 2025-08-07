@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Header from '../../components/Header'
 
 export const metadata: Metadata = {
   title: 'Junk Removal Loudoun County VA - Ashburn, Sterling, Leesburg | Wee Haul',
@@ -12,18 +13,7 @@ export const metadata: Metadata = {
 export default function LoudounCountyPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-blue-900 text-white py-4 px-6">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-4">
-            <h1 className="text-2xl font-bold">Wee Haul Junk Removal</h1>
-          </div>
-          <div className="text-right">
-            <div className="text-xl font-bold text-orange-400">(571) 489-2961</div>
-            <div className="text-sm">7AM - 9PM • 7 Days a Week</div>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-green-50 to-white py-20">
