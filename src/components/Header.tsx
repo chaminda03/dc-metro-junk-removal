@@ -57,8 +57,10 @@ export default function Header() {
             <li>
               <div className="relative group">
                 <button className="hover:text-orange-400 font-medium transition-colors text-sm sm:text-base">LOCATIONS</button>
-                <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="space-y-2">
+                    <a href="/washington-dc" className="block hover:text-orange-500">Washington DC</a>
+                    <a href="/montgomery-county" className="block hover:text-orange-500">Montgomery County</a>
                     <a href="/fairfax-county" className="block hover:text-orange-500">Fairfax County</a>
                     <a href="/loudoun-county" className="block hover:text-orange-500">Loudoun County</a>
                     <a href="/prince-william-county" className="block hover:text-orange-500">Prince William County</a>
