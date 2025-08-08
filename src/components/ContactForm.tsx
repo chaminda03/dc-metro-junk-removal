@@ -31,31 +31,24 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
     setSubmitMessage('')
 
     try {
-      // Try EmailJS first (client-side email sending)
-      const emailjsPublicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-      const emailjsServiceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
-      const emailjsTemplateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+      // Send email using EmailJS
+      const result = await emailjs.send(
+        'service_otz7arl', // Your EmailJS Service ID
+        'template_h9dm1td', // Your EmailJS Template ID
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.description || 'No description provided',
+          website: 'weehauljunkdc.com'
+        },
+        'OYseYsN7veIs6tN_K' // Your EmailJS Public Key
+      )
 
-      if (emailjsPublicKey && emailjsServiceId && emailjsTemplateId) {
-        // Send email using EmailJS
-        const result = await emailjs.send(
-          emailjsServiceId,
-          emailjsTemplateId,
-          {
-            from_name: formData.name,
-            from_email: formData.email,
-            from_phone: formData.phone,
-            message: formData.description || 'No description provided',
-            to_email: 'info@weehaulnow.com'
-          },
-          emailjsPublicKey
-        )
-
-        if (result.status === 200) {
-          setSubmitMessage('Thank you! Your quote request has been submitted. We\'ll contact you within 24 hours.')
-          setFormData({ name: '', email: '', phone: '', description: '' })
-          return
-        }
+      if (result.status === 200) {
+        setSubmitMessage('Thank you! Your quote request has been submitted. We\'ll contact you within 24 hours.')
+        setFormData({ name: '', email: '', phone: '', description: '' })
+        return
       }
 
       // Fallback to API route if EmailJS not configured
