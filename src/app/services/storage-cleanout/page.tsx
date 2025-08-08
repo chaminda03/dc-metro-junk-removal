@@ -1,26 +1,19 @@
 import type { Metadata } from 'next'
+import Header from '../../../components/Header'
 
 export const metadata: Metadata = {
   title: 'Storage Unit Cleanout Northern Virginia - Storage Facility Junk Removal | Wee Haul',
   description: 'Professional storage unit cleanout in Northern Virginia. Complete storage facility cleaning and junk removal services. Clear your storage space in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',
   keywords: 'storage unit cleanout Northern Virginia, storage facility cleaning VA, storage junk removal, storage unit clearing Northern Virginia',
   alternates: {
-    canonical: 'https://weehaulnow.com/services/storage-cleanout',
+    canonical: 'https://weehauljunkdc.com/services/storage-cleanout',
   },
 }
 
 export default function StorageCleanoutPage() {
   return (
     <div className="min-h-screen bg-white">
-      <header className="bg-blue-900 text-white py-4 px-6">
-        <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Wee Haul Junk Removal</h1>
-          <div className="flex items-center space-x-6">
-            <div className="text-xl font-bold text-orange-400">(571) 489-2961</div>
-            <a href="tel:5714892961" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg transition-colors">📞 Call Now</a>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       <section className="bg-gradient-to-b from-purple-50 to-white py-20">
         <div className="container mx-auto px-6 text-center">
