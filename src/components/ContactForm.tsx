@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 interface ContactFormProps {
   isOpen: boolean
@@ -30,10 +31,36 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
     setSubmitMessage('')
 
     try {
-      // Try multiple endpoints to handle trailing slash issues
+      // Try EmailJS first (client-side email sending)
+      const emailjsPublicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      const emailjsServiceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+      const emailjsTemplateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+
+      if (emailjsPublicKey && emailjsServiceId && emailjsTemplateId) {
+        // Send email using EmailJS
+        const result = await emailjs.send(
+          emailjsServiceId,
+          emailjsTemplateId,
+          {
+            from_name: formData.name,
+            from_email: formData.email,
+            from_phone: formData.phone,
+            message: formData.description || 'No description provided',
+            to_email: 'info@weehaulnow.com'
+          },
+          emailjsPublicKey
+        )
+
+        if (result.status === 200) {
+          setSubmitMessage('Thank you! Your quote request has been submitted. We\'ll contact you within 24 hours.')
+          setFormData({ name: '', email: '', phone: '', description: '' })
+          return
+        }
+      }
+
+      // Fallback to API route if EmailJS not configured
       const endpoints = ['/api/contact', '/api/contact/', '/api/contact/index']
       let response: Response | null = null
-      let lastError: Error | null = null
 
       for (const endpoint of endpoints) {
         try {
@@ -54,7 +81,6 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
             break
           }
         } catch (err) {
-          lastError = err as Error
           continue // Try next endpoint
         }
       }
