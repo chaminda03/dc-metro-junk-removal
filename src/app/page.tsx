@@ -398,6 +398,34 @@ export default function Home() {
               <div className="text-gray-300">Satisfaction Rate</div>
             </div>
           </div>
+          
+          {/* Follow Us Section */}
+          <div className="mt-16 text-center">
+            <h3 className="text-2xl font-bold mb-6">Follow Our Work</h3>
+            <p className="text-gray-300 mb-8">See daily updates and behind-the-scenes content from our junk removal projects</p>
+            <div className="flex justify-center gap-4 flex-wrap">
+              <a href="https://www.youtube.com/@weehauljunk" target="_blank" rel="noopener noreferrer"
+                 className="bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 text-white px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
+                <span className="text-xl">📺</span>
+                <span className="font-semibold">YouTube</span>
+              </a>
+              <a href="https://www.tiktok.com/@wee.haul.junk.rem" target="_blank" rel="noopener noreferrer"
+                 className="bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 text-white px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
+                <span className="text-xl">🎵</span>
+                <span className="font-semibold">TikTok</span>
+              </a>
+              <a href="https://www.instagram.com/weehauljunkremoval/" target="_blank" rel="noopener noreferrer"
+                 className="bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 text-white px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
+                <span className="text-xl">📷</span>
+                <span className="font-semibold">Instagram</span>
+              </a>
+              <a href="https://share.google/NpzoBiCNH7QxPquf4" target="_blank" rel="noopener noreferrer"
+                 className="bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 text-white px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
+                <span className="text-xl">⭐</span>
+                <span className="font-semibold">Google Reviews</span>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -415,14 +443,14 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="relative overflow-hidden">
-                <img src="/before-after-1.PNG" alt="Garage Cleanout Before and After" className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" />
+                <img src="/before-after-1.PNG" alt="Shed Removal and Demolition Before and After" className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" />
                 <div className="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   COMPLETED
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Garage Cleanout</h3>
-                <p className="text-gray-600 mb-4">Complete garage transformation - from cluttered to clean and organized</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Shed Removal / Shed Demolition</h3>
+                <p className="text-gray-600 mb-4">Complete shed demolition and debris removal - professional and efficient</p>
                 <div className="flex items-center text-sm text-gray-500">
                   <span className="mr-4">📍 Fairfax County</span>
                   <span>⏱️ Same Day</span>
@@ -599,16 +627,31 @@ export default function Home() {
               <p className="text-gray-400 mb-4">
                 Professional junk removal services throughout Northern Virginia. Licensed, insured, and eco-friendly.
               </p>
-              <div className="flex space-x-4">
-                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">f</span>
-                </div>
-                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">@</span>
-                </div>
-                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">in</span>
-                </div>
+              <div className="flex flex-wrap gap-3">
+                <a href="https://www.facebook.com/WeeHaulJunkRemoval/" target="_blank" rel="noopener noreferrer" 
+                   className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-full flex items-center justify-center transition-colors group">
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">📘</span>
+                </a>
+                <a href="https://www.instagram.com/weehauljunkremoval/" target="_blank" rel="noopener noreferrer"
+                   className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-full flex items-center justify-center transition-colors group">
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">📷</span>
+                </a>
+                <a href="https://www.youtube.com/@weehauljunk" target="_blank" rel="noopener noreferrer"
+                   className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-full flex items-center justify-center transition-colors group">
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">📺</span>
+                </a>
+                <a href="https://www.linkedin.com/in/weehauljunkremoval/" target="_blank" rel="noopener noreferrer"
+                   className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-full flex items-center justify-center transition-colors group">
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">💼</span>
+                </a>
+                <a href="https://www.tiktok.com/@wee.haul.junk.rem" target="_blank" rel="noopener noreferrer"
+                   className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-full flex items-center justify-center transition-colors group">
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">🎵</span>
+                </a>
+                <a href="https://share.google/NpzoBiCNH7QxPquf4" target="_blank" rel="noopener noreferrer"
+                   className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-full flex items-center justify-center transition-colors group">
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">🗺️</span>
+                </a>
               </div>
             </div>
             

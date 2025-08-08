@@ -166,10 +166,12 @@ export default function RootLayout({
               "image": "https://weehaulnow.com/images/wee-haul-junk-removal-team.jpg",
               "logo": "https://weehaulnow.com/images/wee-haul-junk-removal-logo.png",
               "sameAs": [
-                "https://www.facebook.com/weehaulnow",
-                "https://www.instagram.com/weehaulnow", 
-                "https://www.yelp.com/biz/wee-haul-junk-removal",
-                "https://www.google.com/maps/place/wee-haul-junk-removal"
+                "https://www.facebook.com/WeeHaulJunkRemoval/",
+                "https://www.instagram.com/weehauljunkremoval/",
+                "https://www.youtube.com/@weehauljunk",
+                "https://www.linkedin.com/in/weehauljunkremoval/",
+                "https://www.tiktok.com/@wee.haul.junk.rem",
+                "https://share.google/NpzoBiCNH7QxPquf4"
               ],
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
