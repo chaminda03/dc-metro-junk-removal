@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional shed removal and demolition in Northern Virginia. We remove storage sheds, garden sheds, tool sheds, and outbuildings. Complete demolition and debris removal in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',
   keywords: 'shed removal Northern Virginia, storage shed demolition VA, garden shed removal, tool shed demolition, outbuilding removal Northern Virginia',
   alternates: {
-    canonical: 'https://weehaulnow.com/services/shed-removal',
+    canonical: 'https://weehauljunkdc.com/services/shed-removal',
   },
 }
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Expert junk removal tips, guides, and local insights for Northern Virginia. Learn from professionals about furniture removal, appliance disposal, and property cleanouts in Fairfax, Loudoun, Prince William & Arlington.',
   keywords: 'junk removal blog, Northern Virginia junk removal tips, property cleanout guides, furniture removal advice, appliance disposal, Fairfax County junk removal, Loudoun County cleanouts',
   alternates: {
-    canonical: 'https://weehaulnow.com/blog',
+    canonical: 'https://weehauljunkdc.com/blog',
   },
 }
 

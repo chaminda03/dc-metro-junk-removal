@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional garage cleanout services in Northern Virginia. Complete garage cleaning, junk removal, and organization. Clear your garage space in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',
   keywords: 'garage cleanout Northern Virginia, garage cleaning VA, garage junk removal, garage organization, garage clearing Northern Virginia',
   alternates: {
-    canonical: 'https://weehaulnow.com/services/garage-cleanout',
+    canonical: 'https://weehauljunkdc.com/services/garage-cleanout',
   },
 }
 

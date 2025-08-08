@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional junk removal services in Fairfax County, VA. Serving Fairfax, Vienna, McLean, Reston, Herndon. Same-day pickup, eco-friendly disposal. Call (571) 489-2961',
   keywords: 'junk removal Fairfax County, junk removal Fairfax VA, junk removal Vienna VA, junk removal McLean VA, junk removal Reston VA, junk removal Herndon VA, furniture removal Fairfax County',
   alternates: {
-    canonical: 'https://weehaulnow.com/fairfax-county',
+    canonical: 'https://weehauljunkdc.com/fairfax-county',
   },
 }
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional fence removal in Northern Virginia. We remove wood fences, vinyl fences, chain link, and metal fencing. Complete fence demolition and post removal in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',
   keywords: 'fence removal Northern Virginia, wood fence removal VA, vinyl fence removal, chain link fence removal, fence demolition Northern Virginia',
   alternates: {
-    canonical: 'https://weehaulnow.com/services/fence-removal',
+    canonical: 'https://weehauljunkdc.com/services/fence-removal',
   },
 }
 

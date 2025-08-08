@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional appliance removal in Northern Virginia. We remove refrigerators, washers, dryers, dishwashers, water heaters. Eco-friendly disposal in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',
   keywords: 'appliance removal Northern Virginia, refrigerator removal VA, washer dryer removal, dishwasher removal, water heater removal, appliance disposal Northern Virginia',
   alternates: {
-    canonical: 'https://weehaulnow.com/services/appliance-removal',
+    canonical: 'https://weehauljunkdc.com/services/appliance-removal',
   },
 }
 

@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     creator: '@weehaulnow',
   },
   verification: {
-    google: 'wee-haul-google-site-verification',
+    google: '4_1YVTiqWX1z4MBLt0svnYJxQL5jBcG-_s8LJDHhYGs',
   },
   other: {
     'DC.title': 'Wee Haul Junk Removal - Washington DC Metro Area',

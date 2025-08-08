@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional furniture removal in Northern Virginia. We remove sofas, mattresses, couches, dining sets, beds. Serving Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',
   keywords: 'furniture removal Northern Virginia, sofa removal VA, mattress removal VA, couch pickup, bed removal, dining room furniture removal, furniture disposal Northern Virginia',
   alternates: {
-    canonical: 'https://weehaulnow.com/services/furniture-removal',
+    canonical: 'https://weehauljunkdc.com/services/furniture-removal',
   },
 }
 

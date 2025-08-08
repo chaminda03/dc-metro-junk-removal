@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional junk removal in Loudoun County, VA. Serving Ashburn, Sterling, Leesburg, Purcellville. Same-day pickup, top rated & insured. Call (571) 489-2961',
   keywords: 'junk removal Loudoun County, junk removal Ashburn VA, junk removal Sterling VA, junk removal Leesburg VA, junk removal Purcellville VA, furniture removal Loudoun County',
   alternates: {
-    canonical: 'https://weehaulnow.com/loudoun-county',
+    canonical: 'https://weehauljunkdc.com/loudoun-county',
   },
 }
 

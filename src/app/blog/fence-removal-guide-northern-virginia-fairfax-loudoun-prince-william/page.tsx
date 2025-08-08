@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Expert fence removal services in Fairfax, Loudoun, and Prince William Counties. Professional wood, vinyl, chain link fence removal with permits, disposal & cleanup. Call (571) 489-2961 for same-day service.',
   keywords: 'fence removal Fairfax VA, fence removal Loudoun County, fence removal Prince William County, fence removal Northern Virginia, wood fence removal, vinyl fence removal, chain link fence removal, fence disposal, fence removal permits Virginia, professional fence removal DC metro',
   alternates: {
-    canonical: 'https://weehaulnow.com/blog/fence-removal-guide-northern-virginia-fairfax-loudoun-prince-william',
+    canonical: 'https://weehauljunkdc.com/blog/fence-removal-guide-northern-virginia-fairfax-loudoun-prince-william',
   },
   openGraph: {
     title: 'Complete Fence Removal Guide - Fairfax, Loudoun & Prince William Counties',

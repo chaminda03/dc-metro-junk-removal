@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional junk removal in Prince William County, VA. Serving Manassas, Woodbridge, Dale City, Gainesville. Same-day pickup available. Call (571) 489-2961',
   keywords: 'junk removal Prince William County, junk removal Manassas VA, junk removal Woodbridge VA, junk removal Dale City VA, junk removal Gainesville VA, furniture removal Prince William County',
   alternates: {
-    canonical: 'https://weehaulnow.com/prince-william-county',
+    canonical: 'https://weehauljunkdc.com/prince-william-county',
   },
 }
 

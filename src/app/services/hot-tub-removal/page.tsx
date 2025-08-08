@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional hot tub and spa removal in Northern Virginia. We remove jacuzzis, spas, swim spas, and pool equipment. Expert demolition and disposal in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',
   keywords: 'hot tub removal Northern Virginia, spa removal VA, jacuzzi removal, swim spa removal, hot tub demolition, spa disposal Northern Virginia',
   alternates: {
-    canonical: 'https://weehaulnow.com/services/hot-tub-removal',
+    canonical: 'https://weehauljunkdc.com/services/hot-tub-removal',
   },
 }
 

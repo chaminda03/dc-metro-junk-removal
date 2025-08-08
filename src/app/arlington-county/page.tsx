@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Professional junk removal in Arlington County, VA. Serving Arlington, Crystal City, Ballston, Clarendon, Rosslyn. Urban junk hauling experts. Call (571) 489-2961',
   keywords: 'junk removal Arlington County, junk removal Arlington VA, junk removal Crystal City VA, junk removal Ballston VA, junk removal Clarendon VA, junk removal Rosslyn VA',
   alternates: {
-    canonical: 'https://weehaulnow.com/arlington-county',
+    canonical: 'https://weehauljunkdc.com/arlington-county',
   },
 }
 
