@@ -1,0 +1,34 @@
+# Robots.txt for Wee Haul Junk Removal - DC Metro Area
+User-agent: *
+Allow: /
+
+# High priority pages for junk removal searches
+Allow: /washington-dc
+Allow: /montgomery-county  
+Allow: /fairfax-county
+Allow: /loudoun-county
+Allow: /prince-william-county
+Allow: /arlington-county
+Allow: /blog
+Allow: /services/
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Important: Sitemap location
+Sitemap: https://weehauljunkdc.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Special instructions for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Special instructions for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1

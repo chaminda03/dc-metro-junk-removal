@@ -5,8 +5,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://weehauljunkdc.com'),
   title: {
-    template: '%s | Wee Haul Junk Removal - Fairfax, Loudoun, Prince William, Arlington',
+    template: '%s | Wee Haul Junk Removal - DC Metro Area',
     default: 'Junk Removal Near Me | Same Day Service Washington DC Metro | Wee Haul'
   },
   description: 'Professional junk removal services near you in Washington DC metro area. Same-day pickup, licensed & insured. Serving Potomac, Bethesda, Georgetown, Fairfax, Loudoun, Prince William Counties.',
@@ -49,9 +50,15 @@ export const metadata: Metadata = {
     creator: '@weehaulnow',
   },
   verification: {
-    google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
-    yahoo: 'your-yahoo-verification-code',
+    google: 'wee-haul-google-site-verification',
+  },
+  other: {
+    'DC.title': 'Wee Haul Junk Removal - Washington DC Metro Area',
+    'geo.region': 'US-DC',
+    'geo.placename': 'Washington DC',
+    'geo.position': '38.9072;-77.0369',
+    'ICBM': '38.9072, -77.0369',
+    'format-detection': 'telephone=no',
   },
   alternates: {
     canonical: 'https://weehauljunkdc.com',
@@ -79,11 +86,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://weehaulnow.com",
+              "@id": "https://weehauljunkdc.com",
               "name": "Wee Haul Junk Removal",
-              "alternateName": "Wee Haul Junk Removal & Hauling",
-              "description": "Professional junk removal and hauling services in Northern Virginia including Fairfax, Loudoun, Prince William, and Arlington Counties.",
-              "url": "https://weehaulnow.com",
+              "alternateName": ["Wee Haul Junk Removal & Hauling", "DC Metro Junk Removal", "Washington DC Junk Removal"],
+              "description": "Premier junk removal and hauling services in Washington DC metro area including DC, Montgomery County MD, Fairfax, Loudoun, Prince William, and Arlington Counties. Same-day service for luxury homes.",
+              "url": "https://weehauljunkdc.com",
+              "paymentAccepted": "Cash, Check, Credit Card, Venmo, PayPal",
               "telephone": "(571) 489-2961",
               "email": "info@weehaulnow.com",
               "address": {
@@ -96,16 +104,24 @@ export default function RootLayout({
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 38.8462,
-                "longitude": -77.3064
+                "latitude": 38.9072,
+                "longitude": -77.0369
               },
               "areaServed": [
                 {
                   "@type": "City",
-                  "name": "Fairfax",
+                  "name": "Washington",
                   "containedInPlace": {
                     "@type": "State",
-                    "name": "Virginia"
+                    "name": "District of Columbia"
+                  }
+                },
+                {
+                  "@type": "AdministrativeArea",
+                  "name": "Montgomery County", 
+                  "containedInPlace": {
+                    "@type": "State",
+                    "name": "Maryland"
                   }
                 },
                 {
@@ -113,6 +129,14 @@ export default function RootLayout({
                   "name": "Fairfax County",
                   "containedInPlace": {
                     "@type": "State", 
+                    "name": "Virginia"
+                  }
+                },
+                {
+                  "@type": "AdministrativeArea",
+                  "name": "Arlington County",
+                  "containedInPlace": {
+                    "@type": "State",
                     "name": "Virginia"
                   }
                 },
@@ -131,23 +155,20 @@ export default function RootLayout({
                     "@type": "State",
                     "name": "Virginia"
                   }
-                },
-                {
-                  "@type": "AdministrativeArea",
-                  "name": "Arlington County", 
-                  "containedInPlace": {
-                    "@type": "State",
-                    "name": "Virginia"
-                  }
                 }
               ],
               "serviceType": [
-                "Junk Removal",
+                "Junk Removal Near Me",
+                "Same Day Junk Removal",
+                "Luxury Junk Removal",
+                "Estate Cleanouts",
                 "Furniture Removal", 
                 "Appliance Removal",
+                "Piano Removal",
                 "Hot Tub Removal",
-                "Spa Removal",
+                "Spa Removal", 
                 "Shed Removal",
+                "Shed Demolition",
                 "Fence Removal",
                 "Garage Cleanouts",
                 "Storage Cleanouts",
@@ -157,14 +178,14 @@ export default function RootLayout({
                 "Hoarder Cleanouts",
                 "Light Demolition",
                 "Construction Debris Removal",
-                "Estate Cleanouts",
                 "Office Cleanouts",
-                "Same Day Junk Pickup"
+                "Corporate Relocations",
+                "White Glove Service"
               ],
               "priceRange": "$$",
               "openingHours": "Mo-Su 07:00-21:00",
-              "image": "https://weehaulnow.com/images/wee-haul-junk-removal-team.jpg",
-              "logo": "https://weehaulnow.com/images/wee-haul-junk-removal-logo.png",
+              "image": "https://weehauljunkdc.com/team-photo.webp",
+              "logo": "https://weehauljunkdc.com/Logo.webp",
               "sameAs": [
                 "https://www.facebook.com/WeeHaulJunkRemoval/",
                 "https://www.instagram.com/weehauljunkremoval/",

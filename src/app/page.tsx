@@ -754,6 +754,59 @@ export default function Home() {
         isOpen={isContactFormOpen} 
         onClose={() => setIsContactFormOpen(false)} 
       />
+
+      {/* FAQ Schema for Rich Snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question", 
+                "name": "Do you provide same-day junk removal near me in Washington DC?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! We provide same-day junk removal services throughout Washington DC metro area including Georgetown, Dupont Circle, Wesley Heights, and all luxury neighborhoods. Call (571) 489-2961 for immediate pickup."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What areas do you serve for junk removal?", 
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We serve Washington DC, Montgomery County MD (Potomac, Bethesda, Chevy Chase), Fairfax County VA, Arlington County VA, Loudoun County VA, and Prince William County VA. Same-day service available 7AM-9PM daily."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does junk removal cost in DC metro area?",
+                "acceptedAnswer": {
+                  "@type": "Answer", 
+                  "text": "Our junk removal prices are competitive and transparent with no hidden fees. Costs depend on volume and items. We offer free estimates and upfront pricing. Contact us at (571) 489-2961 for your free quote."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are you licensed and insured for junk removal?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we are fully licensed and insured with $2M+ liability coverage specifically for luxury homes. We are bonded and certified for safe junk removal and disposal in Washington DC metro area."
+                }
+              },
+              {
+                "@type": "Question", 
+                "name": "Do you remove furniture, appliances, and hot tubs?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! We remove all types of junk including furniture, appliances, hot tubs, pianos, construction debris, and more. We specialize in estate cleanouts, luxury furniture removal, and white-glove service for high-end homes."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </div>
   );
 }
