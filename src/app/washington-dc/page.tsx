@@ -1,6 +1,11 @@
+'use client'
+
 import Header from '../../components/Header'
+import ContactForm from '../../components/ContactForm'
+import { useState } from 'react'
 
 export default function WashingtonDC() {
+  const [isContactFormOpen, setIsContactFormOpen] = useState(false)
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -29,7 +34,10 @@ export default function WashingtonDC() {
               >
                 📞 Call (571) 489-2961
               </a>
-              <button className="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300">
+              <button 
+                onClick={() => setIsContactFormOpen(true)}
+                className="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300"
+              >
                 Get Free Quote
               </button>
             </div>
@@ -302,7 +310,10 @@ export default function WashingtonDC() {
             >
               📞 Call (571) 489-2961
             </a>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-red-600 font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300">
+            <button 
+              onClick={() => setIsContactFormOpen(true)}
+              className="border-2 border-white text-white hover:bg-white hover:text-red-600 font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300"
+            >
               Get Free Quote
             </button>
           </div>
@@ -377,6 +388,11 @@ export default function WashingtonDC() {
             ]
           })
         }}
+      />
+
+      <ContactForm 
+        isOpen={isContactFormOpen} 
+        onClose={() => setIsContactFormOpen(false)} 
       />
     </div>
   )

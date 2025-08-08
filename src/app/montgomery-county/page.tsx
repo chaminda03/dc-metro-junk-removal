@@ -1,6 +1,11 @@
+'use client'
+
 import Header from '../../components/Header'
+import ContactForm from '../../components/ContactForm'
+import { useState } from 'react'
 
 export default function MontgomeryCounty() {
+  const [isContactFormOpen, setIsContactFormOpen] = useState(false)
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -29,7 +34,10 @@ export default function MontgomeryCounty() {
               >
                 📞 Call (571) 489-2961
               </a>
-              <button className="border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300">
+              <button 
+                onClick={() => setIsContactFormOpen(true)}
+                className="border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300"
+              >
                 Get Free Quote
               </button>
             </div>
@@ -383,7 +391,10 @@ export default function MontgomeryCounty() {
             >
               📞 Call (571) 489-2961
             </a>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-emerald-600 font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300">
+            <button 
+              onClick={() => setIsContactFormOpen(true)}
+              className="border-2 border-white text-white hover:bg-white hover:text-emerald-600 font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300"
+            >
               Get Free Quote
             </button>
           </div>
@@ -478,6 +489,11 @@ export default function MontgomeryCounty() {
             ]
           })
         }}
+      />
+
+      <ContactForm 
+        isOpen={isContactFormOpen} 
+        onClose={() => setIsContactFormOpen(false)} 
       />
     </div>
   )

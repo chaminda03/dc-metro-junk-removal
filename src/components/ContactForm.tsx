@@ -42,9 +42,12 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
         setSubmitMessage('Thank you! Your quote request has been submitted. We\'ll contact you within 24 hours.')
         setFormData({ name: '', email: '', phone: '', description: '' })
       } else {
+        const errorData = await response.text()
+        console.error('Form submission error:', response.status, errorData)
         setSubmitMessage('Sorry, there was an error submitting your request. Please call us at (571) 489-2961.')
       }
     } catch (error) {
+      console.error('Network error:', error)
       setSubmitMessage('Sorry, there was an error submitting your request. Please call us at (571) 489-2961.')
     } finally {
       setIsSubmitting(false)
