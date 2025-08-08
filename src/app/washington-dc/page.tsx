@@ -321,7 +321,7 @@ export default function WashingtonDC() {
             "@type": "LocalBusiness",
             "name": "Wee Haul Junk Removal - Washington DC",
             "description": "Premium junk removal services in Washington DC. Same-day service for Georgetown, Dupont Circle, Wesley Heights & luxury neighborhoods. Licensed, insured, eco-friendly.",
-            "url": "https://weehaulnow.com/washington-dc",
+            "url": "https://weehauljunkdc.com/washington-dc",
             "telephone": "+15714892961",
             "address": {
               "@type": "PostalAddress",

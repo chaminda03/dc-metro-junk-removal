@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://weehaulnow.com',
+    url: 'https://weehauljunkdc.com',
     siteName: 'Wee Haul Junk Removal',
     title: 'Junk Removal Near Me | Same Day Service Washington DC Metro | Wee Haul',
     description: 'Professional junk removal services near you in Washington DC metro area. Same-day pickup, licensed & insured. Serving Potomac, Bethesda, Georgetown, Fairfax, Loudoun, Prince William Counties.',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     yahoo: 'your-yahoo-verification-code',
   },
   alternates: {
-    canonical: 'https://weehaulnow.com',
+    canonical: 'https://weehauljunkdc.com',
   },
 };
 

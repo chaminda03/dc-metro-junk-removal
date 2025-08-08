@@ -402,7 +402,7 @@ export default function MontgomeryCounty() {
             "@type": "LocalBusiness",
             "name": "Wee Haul Junk Removal - Montgomery County Maryland",
             "description": "Elite junk removal services in Montgomery County MD. White-glove service for Potomac, Bethesda, Chevy Chase luxury homes. Same-day service, fully insured.",
-            "url": "https://weehaulnow.com/montgomery-county",
+            "url": "https://weehauljunkdc.com/montgomery-county",
             "telephone": "+15714892961",
             "address": {
               "@type": "PostalAddress",
