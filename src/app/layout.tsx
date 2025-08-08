@@ -7,10 +7,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: {
     template: '%s | Wee Haul Junk Removal - Fairfax, Loudoun, Prince William, Arlington',
-    default: 'Wee Haul Junk Removal - Same Day Pickup in Fairfax, Loudoun, Prince William & Arlington VA'
+    default: 'Junk Removal Near Me | Same Day Service Washington DC Metro | Wee Haul'
   },
-  description: 'Professional junk removal services in Northern Virginia. Furniture removal, hot tub removal, shed removal, fence removal, garage cleanouts, basement cleanouts. Same-day pickup, eco-friendly disposal, top rated & insured. Serving Fairfax, Loudoun, Prince William & Arlington Counties.',
-  keywords: 'junk removal Virginia, junk removal Fairfax VA, junk removal Loudoun County, junk removal Prince William County, junk removal Arlington VA, furniture removal, appliance removal, hot tub removal, shed removal, fence removal, garage cleanout, storage cleanout, basement cleanout, eviction cleanout, apartment cleanout, hoarder cleanout, light demolition, construction debris removal, same day junk removal',
+  description: 'Professional junk removal services near you in Washington DC metro area. Same-day pickup, licensed & insured. Serving Potomac, Bethesda, Georgetown, Fairfax, Loudoun, Prince William Counties.',
+  keywords: 'junk removal near me, junk removal Washington DC, junk removal Potomac MD, junk removal Bethesda, junk removal Georgetown, junk removal Chevy Chase, junk removal Fairfax VA, junk removal Loudoun County, same day junk removal, furniture removal, appliance removal, estate cleanout, luxury junk removal, construction debris removal, eco-friendly junk removal','
   authors: [{ name: 'Wee Haul Junk Removal' }],
   creator: 'Wee Haul Junk Removal',
   publisher: 'Wee Haul Junk Removal',
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://weehaulnow.com',
     siteName: 'Wee Haul Junk Removal',
-    title: 'Wee Haul Junk Removal - Same Day Pickup in Northern Virginia',
-    description: 'Professional junk removal services in Northern Virginia. Furniture removal, hot tub removal, shed removal, fence removal, garage cleanouts, basement cleanouts. Same-day pickup, eco-friendly disposal, top rated & insured. Serving Fairfax, Loudoun, Prince William & Arlington Counties.',
+    title: 'Junk Removal Near Me | Same Day Service Washington DC Metro | Wee Haul',
+    description: 'Professional junk removal services near you in Washington DC metro area. Same-day pickup, licensed & insured. Serving Potomac, Bethesda, Georgetown, Fairfax, Loudoun, Prince William Counties.',
     images: [
       {
         url: '/images/wee-haul-junk-removal-og.jpg',
@@ -43,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Wee Haul Junk Removal - Same Day Pickup in Northern Virginia',
-    description: 'Professional junk removal services in Northern Virginia. Same-day pickup, eco-friendly disposal, top rated & insured.',
+    title: 'Junk Removal Near Me | Same Day Service Washington DC Metro | Wee Haul',
+    description: 'Professional junk removal services near you in Washington DC metro area. Same-day pickup, licensed & insured. Serving wealthy neighborhoods.',
     images: ['/images/wee-haul-junk-removal-twitter.jpg'],
     creator: '@weehaulnow',
   },

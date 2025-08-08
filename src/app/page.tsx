@@ -24,7 +24,7 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row items-center justify-between">
               {/* Left Content */}
               <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
-                <h1 className="text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
+                <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold mb-6 leading-tight">
                   <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
                     JUNK REMOVAL
                   </span>
@@ -32,24 +32,24 @@ export default function Home() {
                   <span className="text-white">EXPERTS</span>
                 </h1>
                 <div className="w-24 h-1 bg-orange-500 mx-auto lg:mx-0 mb-6"></div>
-                <p className="text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed">
-                  Same-day pickup throughout <strong className="text-orange-400">Northern Virginia</strong>
+                <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed">
+                  Same-day <strong className="text-orange-400">junk removal near me</strong> serving <strong className="text-orange-400">Washington DC metro</strong> area
                   <br />
-                  Professional • Insured • Eco-friendly
+                  Professional • Licensed • Insured • Eco-friendly
                 </p>
                 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
                   <a 
                     href="tel:5714892961" 
-                    className="group relative overflow-hidden bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                    className="group relative overflow-hidden bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-4 sm:py-4 sm:px-8 rounded-lg text-lg sm:text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                   >
                     <span className="relative z-10">📞 (571) 489-2961</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
                   </a>
                   <button 
                     onClick={() => setIsContactFormOpen(true)}
-                    className="group border-2 border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105"
+                    className="group border-2 border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white font-bold py-3 px-4 sm:py-4 sm:px-8 rounded-lg text-lg sm:text-xl transition-all duration-300 transform hover:scale-105"
                   >
                     Get Free Quote
                   </button>
@@ -106,20 +106,20 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold text-gray-900 mb-4">Serving All of Northern Virginia</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Premier Junk Removal Services</h2>
             <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Fast, reliable junk removal service across Fairfax, Loudoun, Prince William & Arlington Counties
+              Same-day junk removal near me serving Washington DC metro area's most exclusive neighborhoods
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-            <a href="/fairfax-county" className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            <a href="/fairfax-county" className="group relative bg-white p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
               <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-orange-400 to-orange-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
                 <span className="text-white font-bold text-sm">NOVA</span>
               </div>
               <div className="text-center pt-4">
-                <h3 className="text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Fairfax County</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Fairfax County</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">Fairfax • Vienna • McLean • Reston • Herndon • Great Falls</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
@@ -127,12 +127,12 @@ export default function Home() {
               </div>
             </a>
             
-            <a href="/loudoun-county" className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+            <a href="/loudoun-county" className="group relative bg-white p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
               <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-green-400 to-green-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
                 <span className="text-white font-bold text-sm">NOVA</span>
               </div>
               <div className="text-center pt-4">
-                <h3 className="text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Loudoun County</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Loudoun County</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">Ashburn • Sterling • Leesburg • Purcellville • Hamilton</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
@@ -140,12 +140,12 @@ export default function Home() {
               </div>
             </a>
             
-            <a href="/prince-william-county" className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+            <a href="/prince-william-county" className="group relative bg-white p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
               <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-purple-400 to-purple-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
                 <span className="text-white font-bold text-sm">NOVA</span>
               </div>
               <div className="text-center pt-4">
-                <h3 className="text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Prince William County</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Prince William County</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">Manassas • Woodbridge • Dale City • Gainesville • Haymarket</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
@@ -153,13 +153,39 @@ export default function Home() {
               </div>
             </a>
             
-            <a href="/arlington-county" className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+            <a href="/arlington-county" className="group relative bg-white p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
               <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
                 <span className="text-white font-bold text-sm">NOVA</span>
               </div>
               <div className="text-center pt-4">
-                <h3 className="text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Arlington County</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Arlington County</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">Arlington • Crystal City • Ballston • Clarendon • Rosslyn</p>
+                <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
+                  Learn More →
+                </span>
+              </div>
+            </a>
+            
+            <a href="/washington-dc" className="group relative bg-white p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+              <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-red-400 to-red-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
+                <span className="text-white font-bold text-sm">DC</span>
+              </div>
+              <div className="text-center pt-4">
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Washington DC</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">Georgetown • Dupont Circle • Wesley Heights • Mass Ave Heights</p>
+                <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
+                  Learn More →
+                </span>
+              </div>
+            </a>
+            
+            <a href="/montgomery-county" className="group relative bg-white p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-transparent hover:border-orange-200">
+              <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-bl-2xl rounded-tr-2xl flex items-center justify-center">
+                <span className="text-white font-bold text-sm">MD</span>
+              </div>
+              <div className="text-center pt-4">
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Montgomery County</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">Potomac • Bethesda • Chevy Chase • Travilah • Kensington</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
                 </span>
@@ -173,10 +199,10 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold text-gray-900 mb-4">Our Junk Removal Services</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Professional Junk Removal Services Near You</h2>
             <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Professional junk removal services throughout Northern Virginia. No job too big or small.
+              Same-day junk removal services throughout Washington DC metro area. Licensed, insured, and eco-friendly disposal solutions.
             </p>
           </div>
           
