@@ -30,20 +30,41 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
     setSubmitMessage('')
 
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      })
+      // Try multiple endpoints to handle trailing slash issues
+      const endpoints = ['/api/contact', '/api/contact/', '/api/contact/index']
+      let response: Response | null = null
+      let lastError: Error | null = null
 
-      if (response.ok) {
+      for (const endpoint of endpoints) {
+        try {
+          response = await fetch(endpoint, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          })
+          
+          if (response.ok) {
+            break // Success, exit loop
+          }
+          
+          if (response.status !== 404 && response.status !== 405) {
+            // Not a routing issue, break and handle error
+            break
+          }
+        } catch (err) {
+          lastError = err as Error
+          continue // Try next endpoint
+        }
+      }
+
+      if (response && response.ok) {
         setSubmitMessage('Thank you! Your quote request has been submitted. We\'ll contact you within 24 hours.')
         setFormData({ name: '', email: '', phone: '', description: '' })
       } else {
-        const errorData = await response.text()
-        console.error('Form submission error:', response.status, errorData)
+        const errorData = response ? await response.text().catch(() => 'Unknown error') : 'No response'
+        console.error('Form submission error:', response?.status, errorData)
         setSubmitMessage('Sorry, there was an error submitting your request. Please call us at (571) 489-2961.')
       }
     } catch (error) {
