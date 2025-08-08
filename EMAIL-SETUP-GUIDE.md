@@ -9,9 +9,16 @@
 
 ### Step 2: Create Email Service
 1. In EmailJS dashboard, click **"Add New Service"**
-2. Choose **Gmail** (or your email provider)
-3. Authorize access to your `info@weehaulnow.com` account
-4. **Copy the Service ID** (looks like: `service_abc123`)
+2. Choose **"EmailJS"** (Custom SMTP) for Hostinger email
+3. Enter your Hostinger email settings:
+   - **SMTP Server**: `smtp.hostinger.com`
+   - **Port**: `587` (or `465` for SSL)
+   - **Username**: `info@weehaulnow.com`
+   - **Password**: Your email password
+   - **Security**: TLS/STARTTLS
+4. Test the connection and **Copy the Service ID** (looks like: `service_abc123`)
+
+**Alternative**: If you have Gmail forwarding set up, you can choose **Gmail** instead.
 
 ### Step 3: Create Email Template
 1. Click **"Create New Template"**
