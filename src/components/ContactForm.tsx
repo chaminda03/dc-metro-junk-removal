@@ -34,7 +34,7 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
       // Send email using EmailJS
       const result = await emailjs.send(
         'service_otz7arl', // Your EmailJS Service ID
-        'template_h9dm1td', // Your EmailJS Template ID
+        'template_pqcktwm', // Your EmailJS Template ID
         {
           name: formData.name,
           email: formData.email,
