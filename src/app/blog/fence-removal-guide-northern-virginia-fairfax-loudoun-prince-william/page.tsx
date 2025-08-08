@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
-import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Fence Removal Fairfax VA | Professional Service Loudoun & Prince William Counties | Wee Haul',
@@ -86,9 +85,9 @@ export default function FenceRemovalGuidePage() {
       <article className="max-w-4xl mx-auto px-6 py-12">
         <header className="mb-12">
           <div className="flex items-center gap-4 mb-6">
-            <Link href="/blog" className="text-orange-500 hover:text-orange-600 font-semibold">
+            <a href="/blog" className="text-orange-500 hover:text-orange-600 font-semibold">
               ← Back to Blog
-            </Link>
+            </a>
             <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-semibold">
               Fence Removal
             </span>
@@ -707,23 +706,23 @@ export default function FenceRemovalGuidePage() {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <h3 className="text-2xl font-bold text-gray-900 mb-6">Related Articles</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/services/shed-removal" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <a href="/services/shed-removal" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="text-3xl mb-3">🏚️</div>
               <h4 className="font-bold text-lg mb-2 group-hover:text-orange-600">Professional Shed Removal</h4>
               <p className="text-gray-600 text-sm">Complete guide to shed removal and demolition services</p>
-            </Link>
+            </a>
             
-            <Link href="/services/garage-cleanout" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <a href="/services/garage-cleanout" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="text-3xl mb-3">🏠</div>
               <h4 className="font-bold text-lg mb-2 group-hover:text-orange-600">Garage Cleanout Services</h4>
               <p className="text-gray-600 text-sm">Transform your cluttered garage into usable space</p>
-            </Link>
+            </a>
             
-            <Link href="/services/light-demolition" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <a href="/services/light-demolition" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="text-3xl mb-3">🔨</div>
               <h4 className="font-bold text-lg mb-2 group-hover:text-orange-600">Light Demolition</h4>
               <p className="text-gray-600 text-sm">Safe demolition and debris removal services</p>
-            </Link>
+            </a>
           </div>
         </div>
       </article>

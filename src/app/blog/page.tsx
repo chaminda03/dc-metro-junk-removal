@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Header from '../../components/Header'
-import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Junk Removal Blog - Expert Tips & Local Insights | Wee Haul',
@@ -73,12 +72,12 @@ export default function BlogPage() {
                     <p className="text-gray-600 mb-6 text-lg leading-relaxed">
                       {post.excerpt}
                     </p>
-                    <Link 
+                    <a 
                       href={`/blog/${post.slug}`}
                       className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-xl transition-all duration-300 transform hover:scale-105"
                     >
                       Read Full Article →
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
