@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Header from '../../components/Header'
-import ServicesPageClient from './ServicesPageClient'
 
 export const metadata: Metadata = {
   title: 'Professional Junk Removal Services DC Metro | Same-Day Pickup | Wee Haul',
