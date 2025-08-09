@@ -4,6 +4,19 @@
       "includeFiles": "src/**"
     }
   },
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.weehauljunkdc.com"
+        }
+      ],
+      "destination": "https://weehauljunkdc.com/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/contact/",

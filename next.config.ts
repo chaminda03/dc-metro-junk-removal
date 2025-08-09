@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Redirect www to non-www
       {
         source: '/(.*)',
         has: [
@@ -14,7 +15,7 @@ const nextConfig: NextConfig = {
             value: 'www.weehauljunkdc.com',
           },
         ],
-        destination: 'https://weehauljunkdc.com/:path*',
+        destination: 'https://weehauljunkdc.com/$1',
         permanent: true,
       },
     ]
