@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex justify-between items-center mb-4">
           <div className="flex items-center space-x-2 sm:space-x-4">
             <img src="/Logo.webp" alt="Wee Haul Junk Removal Logo" className="h-8 sm:h-12 w-auto" />
-            <h1 className="text-lg sm:text-2xl font-bold">Wee Haul Junk Removal</h1>
+            <div className="text-lg sm:text-2xl font-bold">Wee Haul Junk Removal</div>
           </div>
           <div className="flex items-center space-x-2 sm:space-x-6">
             <div className="text-right hidden sm:block">
