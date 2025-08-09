@@ -1,9 +1,6 @@
-'use client'
-
 import type { Metadata } from 'next'
 import Header from '../../components/Header'
-import ContactForm from '../../components/ContactForm'
-import { useState } from 'react'
+import ServicesPageClient from './ServicesPageClient'
 
 export const metadata: Metadata = {
   title: 'Professional Junk Removal Services DC Metro | Same-Day Pickup | Wee Haul',
@@ -21,7 +18,6 @@ export const metadata: Metadata = {
 }
 
 export default function ServicesPage() {
-  const [isContactFormOpen, setIsContactFormOpen] = useState(false)
 
   const services = [
     {
@@ -231,12 +227,12 @@ export default function ServicesPage() {
               Complete junk removal solutions across Washington DC Metro Area. Same-day pickup, licensed & insured service for residential and commercial properties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
-                onClick={() => setIsContactFormOpen(true)}
+              <a 
+                href="tel:5714892961"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
                 📞 Get Free Estimate
-              </button>
+              </a>
               <a 
                 href="tel:5714892961"
                 className="bg-transparent border-2 border-orange-500 hover:bg-orange-500 text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300"
@@ -395,12 +391,12 @@ export default function ServicesPage() {
           </div>
 
           <div className="text-center mt-12">
-            <button 
-              onClick={() => setIsContactFormOpen(true)}
+            <a 
+              href="tel:5714892961"
               className="bg-white text-orange-600 font-bold py-4 px-12 rounded-2xl text-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl"
             >
               📞 Start Your Project Today
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -445,12 +441,12 @@ export default function ServicesPage() {
             Join thousands of satisfied customers across the DC Metro Area. Professional, reliable, and eco-friendly junk removal service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={() => setIsContactFormOpen(true)}
+            <a 
+              href="tel:5714892961"
               className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-12 rounded-xl text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
             >
               📞 Get Free Quote Now
-            </button>
+            </a>
             <a 
               href="tel:5714892961"
               className="bg-transparent border-2 border-orange-500 hover:bg-orange-500 text-white font-bold py-4 px-12 rounded-xl text-xl transition-all duration-300"
@@ -462,11 +458,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Contact Form Modal */}
-      <ContactForm 
-        isOpen={isContactFormOpen} 
-        onClose={() => setIsContactFormOpen(false)} 
-      />
     </div>
   )
 }
