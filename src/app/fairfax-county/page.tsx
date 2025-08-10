@@ -18,9 +18,9 @@ export default function FairfaxCountyPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-blue-50 to-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-5xl font-bold text-gray-800 mb-6">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             #1 Junk Removal in Fairfax County, VA
-          </h2>
+          </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Professional junk removal services in Fairfax, Vienna, McLean, Reston, Herndon & Great Falls
             <br />

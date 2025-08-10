@@ -18,9 +18,9 @@ export default function PrinceWilliamCountyPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-purple-50 to-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-5xl font-bold text-gray-800 mb-6">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Prince William County Junk Removal Experts
-          </h2>
+          </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Professional junk hauling in Manassas, Woodbridge, Dale City & Gainesville
             <br />
@@ -40,7 +40,7 @@ export default function PrinceWilliamCountyPage() {
       {/* Service Cities */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Prince William County Cities We Serve</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Prince William County Cities We Serve</h1>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-purple-700">Manassas, VA</h3>
@@ -103,7 +103,7 @@ export default function PrinceWilliamCountyPage() {
       {/* Common Junk Types */}
       <section className="py-16">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">What We Remove in Prince William County</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">What We Remove in Prince William County</h1>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center p-4 bg-purple-50 rounded-lg">
               <div className="text-4xl mb-3">🛋️</div>
@@ -152,7 +152,7 @@ export default function PrinceWilliamCountyPage() {
       {/* Local Knowledge */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Local Prince William County Expertise</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Local Prince William County Expertise</h1>
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-purple-700">We Know PWC</h3>
@@ -186,7 +186,7 @@ export default function PrinceWilliamCountyPage() {
       {/* CTA Section */}
       <section className="py-16 bg-purple-900 text-white">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-6">Prince William County's Trusted Junk Removal</h2>
+          <h2 className="text-3xl font-bold mb-6">Prince William County's Trusted Junk Removal</h1>
           <p className="text-xl mb-8">From Manassas to Woodbridge - we've got you covered</p>
           <a 
             href="tel:5714892961" 
