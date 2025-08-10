@@ -1,8 +1,26 @@
 'use client'
 
+import { useState, useEffect, useRef } from 'react'
+
 export default function Header() {
+  const [servicesOpen, setServicesOpen] = useState(false)
+  const [locationsOpen, setLocationsOpen] = useState(false)
+  const headerRef = useRef<HTMLElement>(null)
+
+  // Close dropdowns when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (headerRef.current && !headerRef.current.contains(event.target as Node)) {
+        setServicesOpen(false)
+        setLocationsOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
   return (
-    <header className="bg-blue-900 text-white py-4 px-6">
+    <header ref={headerRef} className="bg-blue-900 text-white py-4 px-6">
       <div className="container mx-auto">
         <div className="flex justify-between items-center mb-4">
           <div className="flex items-center space-x-2 sm:space-x-4">
@@ -15,7 +33,7 @@ export default function Header() {
               <div className="text-sm">7AM - 9PM • 7 Days a Week</div>
             </div>
             <div className="text-right sm:hidden">
-              <div className="text-sm font-bold text-orange-400">(571) 489-2961</div>
+              <div className="text-xs font-bold text-orange-400 whitespace-nowrap">(571) 489-2961</div>
             </div>
             <a 
               href="tel:5714892961" 
@@ -34,9 +52,19 @@ export default function Header() {
               <a href="/" className="hover:text-orange-400 font-medium transition-colors text-sm sm:text-base">HOME</a>
             </li>
             <li>
-              <div className="relative group">
-                <button className="hover:text-orange-400 font-medium transition-colors text-sm sm:text-base">SERVICES</button>
-                <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-64 max-h-96 overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <div className="relative">
+                <button 
+                  onClick={() => {
+                    setServicesOpen(!servicesOpen)
+                    setLocationsOpen(false)
+                  }}
+                  className="hover:text-orange-400 font-medium transition-colors text-sm sm:text-base focus:outline-none"
+                >
+                  SERVICES <span className="ml-1">{servicesOpen ? '▼' : '▼'}</span>
+                </button>
+                <div className={`absolute top-full left-1/2 transform -translate-x-1/2 sm:left-0 sm:transform-none bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-64 max-h-96 overflow-y-auto transition-all duration-200 z-50 ${
+                  servicesOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+                }`}>
                   <div className="space-y-2">
                     <a href="/services/furniture-removal" className="block hover:text-orange-500">Furniture Removal</a>
                     <a href="/services/appliance-removal" className="block hover:text-orange-500">Appliance Removal</a>
@@ -55,9 +83,19 @@ export default function Header() {
               </div>
             </li>
             <li>
-              <div className="relative group">
-                <button className="hover:text-orange-400 font-medium transition-colors text-sm sm:text-base">LOCATIONS</button>
-                <div className="absolute top-full left-0 bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <div className="relative">
+                <button 
+                  onClick={() => {
+                    setLocationsOpen(!locationsOpen)
+                    setServicesOpen(false)
+                  }}
+                  className="hover:text-orange-400 font-medium transition-colors text-sm sm:text-base focus:outline-none"
+                >
+                  LOCATIONS <span className="ml-1">{locationsOpen ? '▼' : '▼'}</span>
+                </button>
+                <div className={`absolute top-full left-1/2 transform -translate-x-1/2 sm:left-0 sm:transform-none bg-white text-gray-800 shadow-lg rounded-lg p-4 mt-2 w-56 transition-all duration-200 z-50 ${
+                  locationsOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+                }`}>
                   <div className="space-y-2">
                     <a href="/fairfax-county" className="block hover:text-orange-500">Fairfax County</a>
                     <a href="/arlington-county" className="block hover:text-orange-500">Arlington County</a>
