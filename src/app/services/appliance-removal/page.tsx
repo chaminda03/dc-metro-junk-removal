@@ -20,7 +20,7 @@ export default function ApplianceRemovalPage() {
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Professional Appliance Removal in Northern Virginia
-          </h2>
+          </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Safe, efficient appliance pickup and eco-friendly disposal
             <br />
