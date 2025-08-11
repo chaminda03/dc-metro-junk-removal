@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Header from '../../components/Header'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Fairfax County VA - Same Day Pickup | Wee Haul',
-  description: 'Professional junk removal services in Fairfax County, VA. Serving Fairfax, Vienna, McLean, Reston, Herndon. Same-day pickup, eco-friendly disposal. Call (571) 489-2961',
-  keywords: 'junk removal Fairfax County, junk removal Fairfax VA, junk removal Vienna VA, junk removal McLean VA, junk removal Reston VA, junk removal Herndon VA, furniture removal Fairfax County',
+  title: 'Junk Removal Fairfax County VA - McLean, Vienna, Reston | Same Day Pickup',
+  description: 'Top-rated junk removal in Fairfax County, VA. Serving McLean, Vienna, Great Falls, Reston, Herndon, Oakton. Same-day service, luxury home specialists. Licensed & insured. Call (571) 489-2961',
+  keywords: 'junk removal Fairfax County VA, junk removal McLean VA, junk removal Vienna VA, junk removal Great Falls VA, junk removal Reston VA, junk removal Herndon VA, luxury junk removal Fairfax County, same day junk removal Fairfax VA',
   alternates: {
     canonical: 'https://weehauljunkdc.com/fairfax-county',
   },
