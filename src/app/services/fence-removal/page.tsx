@@ -1,10 +1,32 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better performance
+export const dynamic = 'force-static'
+export const revalidate = 86400 // Revalidate once per day
+
 export const metadata: Metadata = {
-  title: 'Professional Fence Removal Services Fairfax County VA | Same Day Service',
-  description: 'Expert fence removal and disposal throughout Northern Virginia and DC Metro Area. Wood, vinyl, chain link, wrought iron fence removal. Same day service available. Licensed & insured. Call (571) 489-2961',
+  title: 'Fence Removal Fairfax County VA | Same Day Service | Wee Haul',
+  description: 'Expert fence removal in Northern Virginia. Wood, vinyl, chain link fence removal. Same day service, licensed & insured. Call (571) 489-2961',
   keywords: 'fence removal Fairfax County VA, wood fence removal Northern Virginia, vinyl fence removal VA, chain link fence removal, fence demolition Fairfax VA, post removal Northern Virginia, same day fence removal',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    title: 'Fence Removal Fairfax County VA | Same Day Service',
+    description: 'Expert fence removal in Northern Virginia. Wood, vinyl, chain link fence removal. Same day service, licensed & insured.',
+    url: 'https://weehauljunkdc.com/services/fence-removal',
+    siteName: 'Wee Haul Junk Removal',
+    type: 'website',
+  },
   alternates: {
     canonical: 'https://weehauljunkdc.com/services/fence-removal',
   },
