@@ -202,7 +202,7 @@ export default function Home() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Professional Junk Removal Services Near You</h2>
             <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Same-day junk removal services throughout Washington DC metro area. Licensed, insured, and eco-friendly disposal solutions.
+              Same-day hauling and cleanout services throughout Washington DC metro area. Licensed, insured, and eco-friendly disposal solutions.
             </p>
           </div>
           
@@ -290,7 +290,7 @@ export default function Home() {
                   <span className="text-2xl text-white">🏠</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Garage Cleanout</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Complete garage cleaning & junk removal</p>
+                <p className="text-gray-600 text-sm leading-relaxed">Complete garage cleaning & decluttering</p>
                 <a href="/services/garage-cleanout" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -320,7 +320,7 @@ export default function Home() {
                   <span className="text-2xl text-white">🏘️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Basement Cleanout</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Full basement clearing & junk removal</p>
+                <p className="text-gray-600 text-sm leading-relaxed">Full basement clearing & cleanout service</p>
                 <a href="/services/basement-cleanout" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -433,7 +433,7 @@ export default function Home() {
           {/* Follow Us Section */}
           <div className="mt-16 text-center">
             <h3 className="text-2xl font-bold mb-6">Follow Our Work</h3>
-            <p className="text-gray-300 mb-8">See daily updates and behind-the-scenes content from our junk removal projects</p>
+            <p className="text-gray-300 mb-8">See daily updates and behind-the-scenes content from our cleanout projects</p>
             <div className="flex justify-center gap-4 flex-wrap">
               <a href="https://www.youtube.com/@weehauljunk" target="_blank" rel="noopener noreferrer"
                  className="bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 text-white px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
@@ -467,7 +467,7 @@ export default function Home() {
             <h2 className="text-5xl font-bold text-gray-900 mb-4">See Our Work - Before & After</h2>
             <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Real transformations from our professional junk removal services
+              Real transformations from our professional hauling services
             </p>
           </div>
           
@@ -498,7 +498,7 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Basement Cleanout</h3>
-                <p className="text-gray-600 mb-4">Full basement clearing and junk removal with eco-friendly disposal</p>
+                <p className="text-gray-600 mb-4">Full basement clearing and cleanout service with eco-friendly disposal</p>
                 <div className="flex items-center text-sm text-gray-500">
                   <span className="mr-4">📍 Loudoun County</span>
                   <span>⏱️ 2 Hours</span>
@@ -539,7 +539,7 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="text-5xl lg:text-6xl font-bold mb-6">Ready to Get Started?</h2>
               <p className="text-2xl text-orange-100 mb-8">
-                Get your <strong>FREE quote</strong> and same-day junk removal service
+                Get your <strong>FREE quote</strong> and same-day hauling service
               </p>
             </div>
             
