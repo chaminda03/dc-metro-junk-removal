@@ -29,7 +29,7 @@ export default function Home() {
                     JUNK REMOVAL
                   </span>
                   <br />
-                  <span className="text-white">EXPERTS</span>
+                  <span className="text-white"> EXPERTS</span>
                 </h1>
                 <div className="w-24 h-1 bg-orange-500 mx-auto lg:mx-0 mb-6"></div>
                 <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed">
