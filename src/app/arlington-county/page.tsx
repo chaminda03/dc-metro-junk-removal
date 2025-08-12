@@ -21,7 +21,7 @@ export default function ArlingtonCountyPage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Arlington County's Premier Junk Removal
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">
             Urban junk hauling specialists serving Arlington, Crystal City, Ballston & Rosslyn
             <br />
             Expert navigation of Arlington's unique urban challenges
@@ -44,8 +44,8 @@ export default function ArlingtonCountyPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-red-700">Arlington, VA</h3>
-              <p className="text-gray-600 mb-3">Full-service junk removal throughout Arlington</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Full-service junk removal throughout Arlington</p>
+              <ul className="text-sm text-gray-700">
                 <li>• High-rise apartment cleanouts</li>
                 <li>• Townhome furniture removal</li>
                 <li>• Metro-accessible service</li>
@@ -53,8 +53,8 @@ export default function ArlingtonCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-red-700">Crystal City, VA</h3>
-              <p className="text-gray-600 mb-3">Urban renewal junk removal</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Urban renewal junk removal</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Office building cleanouts</li>
                 <li>• Condo furniture removal</li>
                 <li>• Commercial space clearing</li>
@@ -62,8 +62,8 @@ export default function ArlingtonCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-red-700">Ballston, VA</h3>
-              <p className="text-gray-600 mb-3">Modern urban living solutions</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Modern urban living solutions</p>
+              <ul className="text-sm text-gray-700">
                 <li>• High-rise building access</li>
                 <li>• Tech office cleanouts</li>
                 <li>• Residential tower service</li>
@@ -71,8 +71,8 @@ export default function ArlingtonCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-red-700">Clarendon, VA</h3>
-              <p className="text-gray-600 mb-3">Mixed-use development specialist</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Mixed-use development specialist</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Restaurant equipment removal</li>
                 <li>• Retail space cleanouts</li>
                 <li>• Urban apartment service</li>
@@ -80,8 +80,8 @@ export default function ArlingtonCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-red-700">Rosslyn, VA</h3>
-              <p className="text-gray-600 mb-3">Corporate corridor cleaning</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Corporate corridor cleaning</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Corporate office cleanouts</li>
                 <li>• Executive furniture removal</li>
                 <li>• Building renovation debris</li>
@@ -89,8 +89,8 @@ export default function ArlingtonCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-red-700">Pentagon City</h3>
-              <p className="text-gray-600 mb-3">Government area specialist</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Government area specialist</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Secure facility cleanouts</li>
                 <li>• Government office clearing</li>
                 <li>• High-security building access</li>
@@ -140,7 +140,7 @@ export default function ArlingtonCountyPage() {
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold mb-4 text-red-700">Urban Specialists</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-800 mb-4">
                 We understand Arlington County's unique urban environment. From navigating narrow streets 
                 to working within building restrictions, our team has the experience and equipment for 
                 efficient city junk removal.
@@ -162,7 +162,7 @@ export default function ArlingtonCountyPage() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold mb-4 text-red-700">Fast & Reliable</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-800 mb-4">
                 Arlington County residents and businesses need quick, reliable service. We provide 
                 same-day pickup when possible and always arrive on time with professional, 
                 courteous service.

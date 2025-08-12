@@ -97,7 +97,7 @@ export default function FenceRemovalGuidePage() {
             Complete Guide to Professional Fence Removal in Northern Virginia: Fairfax, Loudoun & Prince William Counties
           </h1>
           
-          <div className="flex items-center gap-6 text-gray-600 mb-8">
+          <div className="flex items-center gap-6 text-gray-800 mb-8">
             <div className="flex items-center gap-2">
               <span>📅</span>
               <span>January 8, 2025</span>
@@ -124,7 +124,7 @@ export default function FenceRemovalGuidePage() {
           <div className="bg-gray-100 rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-bold mb-4">Watch: Professional Fence Removal in Action</h2>
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <p className="text-gray-600 mb-4">See our expert team in action removing fences efficiently and safely</p>
+              <p className="text-gray-800 mb-4">See our expert team in action removing fences efficiently and safely</p>
               <a 
                 href="https://youtube.com/shorts/WhhJY__orMA?si=QXOoM_PEWwLIs7gF" 
                 target="_blank" 
@@ -193,8 +193,8 @@ export default function FenceRemovalGuidePage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
                 <div className="text-3xl mb-4">🌲</div>
                 <h3 className="text-xl font-bold mb-3">Wood Fence Removal</h3>
-                <p className="text-gray-600 mb-4">Most common in Fairfax and Loudoun Counties. Includes cedar, pine, pressure-treated lumber, and composite materials.</p>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <p className="text-gray-800 mb-4">Most common in Fairfax and Loudoun Counties. Includes cedar, pine, pressure-treated lumber, and composite materials.</p>
+                <ul className="text-sm text-gray-800 space-y-1">
                   <li>• Privacy fences (6-8 feet tall)</li>
                   <li>• Picket fences (3-4 feet tall)</li>
                   <li>• Split rail fences</li>
@@ -205,8 +205,8 @@ export default function FenceRemovalGuidePage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
                 <div className="text-3xl mb-4">⚪</div>
                 <h3 className="text-xl font-bold mb-3">Vinyl Fence Removal</h3>
-                <p className="text-gray-600 mb-4">Popular in newer developments across Prince William County and Loudoun County subdivisions.</p>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <p className="text-gray-800 mb-4">Popular in newer developments across Prince William County and Loudoun County subdivisions.</p>
+                <ul className="text-sm text-gray-800 space-y-1">
                   <li>• Privacy vinyl panels</li>
                   <li>• Decorative vinyl picket</li>
                   <li>• Pool safety fencing</li>
@@ -217,8 +217,8 @@ export default function FenceRemovalGuidePage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
                 <div className="text-3xl mb-4">🔗</div>
                 <h3 className="text-xl font-bold mb-3">Chain Link Fence Removal</h3>
-                <p className="text-gray-600 mb-4">Common in commercial properties and older residential areas throughout the DC metro region.</p>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <p className="text-gray-800 mb-4">Common in commercial properties and older residential areas throughout the DC metro region.</p>
+                <ul className="text-sm text-gray-800 space-y-1">
                   <li>• Galvanized chain link</li>
                   <li>• Vinyl-coated chain link</li>
                   <li>• Commercial security fencing</li>
@@ -229,8 +229,8 @@ export default function FenceRemovalGuidePage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
                 <div className="text-3xl mb-4">🏛️</div>
                 <h3 className="text-xl font-bold mb-3">Specialty Fence Removal</h3>
-                <p className="text-gray-600 mb-4">Unique fencing solutions requiring specialized removal techniques and equipment.</p>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <p className="text-gray-800 mb-4">Unique fencing solutions requiring specialized removal techniques and equipment.</p>
+                <ul className="text-sm text-gray-800 space-y-1">
                   <li>• Wrought iron and aluminum</li>
                   <li>• Electric and invisible dog fences</li>
                   <li>• Concrete and masonry walls</li>
@@ -372,23 +372,23 @@ export default function FenceRemovalGuidePage() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                   <div className="text-3xl font-bold text-blue-600 mb-2">$8-15</div>
-                  <div className="text-sm text-gray-600 mb-2">per linear foot</div>
+                  <div className="text-sm text-gray-800 mb-2">per linear foot</div>
                   <div className="font-semibold text-gray-800">Wood Fence</div>
-                  <div className="text-xs text-gray-500 mt-2">Standard 6ft privacy fence</div>
+                  <div className="text-xs text-gray-700 mt-2">Standard 6ft privacy fence</div>
                 </div>
                 
                 <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                   <div className="text-3xl font-bold text-green-600 mb-2">$6-12</div>
-                  <div className="text-sm text-gray-600 mb-2">per linear foot</div>
+                  <div className="text-sm text-gray-800 mb-2">per linear foot</div>
                   <div className="font-semibold text-gray-800">Chain Link</div>
-                  <div className="text-xs text-gray-500 mt-2">Standard residential height</div>
+                  <div className="text-xs text-gray-700 mt-2">Standard residential height</div>
                 </div>
                 
                 <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                   <div className="text-3xl font-bold text-purple-600 mb-2">$10-18</div>
-                  <div className="text-sm text-gray-600 mb-2">per linear foot</div>
+                  <div className="text-sm text-gray-800 mb-2">per linear foot</div>
                   <div className="font-semibold text-gray-800">Vinyl Fence</div>
-                  <div className="text-xs text-gray-500 mt-2">Privacy or decorative style</div>
+                  <div className="text-xs text-gray-700 mt-2">Privacy or decorative style</div>
                 </div>
               </div>
             </div>
@@ -563,7 +563,7 @@ export default function FenceRemovalGuidePage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-2">Local Expertise</h4>
-                    <p className="text-gray-600">Over 5 years serving Northern Virginia with deep knowledge of local regulations, soil conditions, and community requirements.</p>
+                    <p className="text-gray-800">Over 5 years serving Northern Virginia with deep knowledge of local regulations, soil conditions, and community requirements.</p>
                   </div>
                 </div>
 
@@ -573,7 +573,7 @@ export default function FenceRemovalGuidePage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-2">Same-Day Service</h4>
-                    <p className="text-gray-600">Emergency and same-day fence removal available. Most projects completed within 24-48 hours of approval.</p>
+                    <p className="text-gray-800">Emergency and same-day fence removal available. Most projects completed within 24-48 hours of approval.</p>
                   </div>
                 </div>
 
@@ -583,7 +583,7 @@ export default function FenceRemovalGuidePage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-2">Fully Licensed & Insured</h4>
-                    <p className="text-gray-600">Complete liability and worker's compensation insurance. Licensed for commercial and residential projects.</p>
+                    <p className="text-gray-800">Complete liability and worker's compensation insurance. Licensed for commercial and residential projects.</p>
                   </div>
                 </div>
               </div>
@@ -595,7 +595,7 @@ export default function FenceRemovalGuidePage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-2">Eco-Friendly Practices</h4>
-                    <p className="text-gray-600">85% of materials diverted from landfills through recycling, donation, and reuse programs.</p>
+                    <p className="text-gray-800">85% of materials diverted from landfills through recycling, donation, and reuse programs.</p>
                   </div>
                 </div>
 
@@ -605,7 +605,7 @@ export default function FenceRemovalGuidePage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-2">Transparent Pricing</h4>
-                    <p className="text-gray-600">No hidden fees, upfront quotes, and competitive pricing with value-added services included.</p>
+                    <p className="text-gray-800">No hidden fees, upfront quotes, and competitive pricing with value-added services included.</p>
                   </div>
                 </div>
 
@@ -615,7 +615,7 @@ export default function FenceRemovalGuidePage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-2">5-Star Service</h4>
-                    <p className="text-gray-600">Hundreds of satisfied customers with consistently high ratings across Google, Yelp, and Facebook.</p>
+                    <p className="text-gray-800">Hundreds of satisfied customers with consistently high ratings across Google, Yelp, and Facebook.</p>
                   </div>
                 </div>
               </div>
@@ -696,8 +696,8 @@ export default function FenceRemovalGuidePage() {
             </div>
             <div>
               <h3 className="text-xl font-bold text-gray-900">Wee Haul Expert Team</h3>
-              <p className="text-gray-600 mb-2">Professional junk removal specialists serving Northern Virginia since 2019</p>
-              <p className="text-sm text-gray-500">Our team of licensed and insured professionals has completed over 1,000 fence removal projects across Fairfax, Loudoun, Prince William, and Arlington Counties.</p>
+              <p className="text-gray-800 mb-2">Professional junk removal specialists serving Northern Virginia since 2019</p>
+              <p className="text-sm text-gray-700">Our team of licensed and insured professionals has completed over 1,000 fence removal projects across Fairfax, Loudoun, Prince William, and Arlington Counties.</p>
             </div>
           </div>
         </div>
@@ -709,19 +709,19 @@ export default function FenceRemovalGuidePage() {
             <a href="/services/shed-removal" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="text-3xl mb-3">🏚️</div>
               <h4 className="font-bold text-lg mb-2 group-hover:text-orange-600">Professional Shed Removal</h4>
-              <p className="text-gray-600 text-sm">Complete guide to shed removal and demolition services</p>
+              <p className="text-gray-800 text-sm">Complete guide to shed removal and demolition services</p>
             </a>
             
             <a href="/services/garage-cleanout" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="text-3xl mb-3">🏠</div>
               <h4 className="font-bold text-lg mb-2 group-hover:text-orange-600">Garage Cleanout Services</h4>
-              <p className="text-gray-600 text-sm">Transform your cluttered garage into usable space</p>
+              <p className="text-gray-800 text-sm">Transform your cluttered garage into usable space</p>
             </a>
             
             <a href="/services/light-demolition" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="text-3xl mb-3">🔨</div>
               <h4 className="font-bold text-lg mb-2 group-hover:text-orange-600">Light Demolition</h4>
-              <p className="text-gray-600 text-sm">Safe demolition and debris removal services</p>
+              <p className="text-gray-800 text-sm">Safe demolition and debris removal services</p>
             </a>
           </div>
         </div>

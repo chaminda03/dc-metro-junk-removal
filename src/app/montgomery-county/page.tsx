@@ -46,17 +46,17 @@ export default function MontgomeryCounty() {
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <div className="text-green-500 text-2xl mb-2">✓</div>
                 <h3 className="font-bold text-gray-900 mb-2">Same-Day Service</h3>
-                <p className="text-gray-600 text-sm">Available 7AM-9PM daily</p>
+                <p className="text-gray-800 text-sm">Available 7AM-9PM daily</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <div className="text-green-500 text-2xl mb-2">✓</div>
                 <h3 className="font-bold text-gray-900 mb-2">Licensed & Insured</h3>
-                <p className="text-gray-600 text-sm">$2M+ coverage for luxury homes</p>
+                <p className="text-gray-800 text-sm">$2M+ coverage for luxury homes</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <div className="text-green-500 text-2xl mb-2">✓</div>
                 <h3 className="font-bold text-gray-900 mb-2">White-Glove Service</h3>
-                <p className="text-gray-600 text-sm">Luxury treatment guaranteed</p>
+                <p className="text-gray-800 text-sm">Luxury treatment guaranteed</p>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function MontgomeryCounty() {
                 Maryland's Most Exclusive Communities
               </h2>
               <div className="w-24 h-1 bg-emerald-500 mx-auto mb-6"></div>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-xl text-gray-800 max-w-3xl mx-auto">
                 Specialized junk removal for Montgomery County's ultra-high net worth neighborhoods. Discretion and excellence guaranteed.
               </p>
             </div>
@@ -83,9 +83,9 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">💎</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Potomac</h3>
-                <p className="text-gray-600 text-sm mb-4">Ultra-luxury estates, executive relocations, high-end cleanouts</p>
+                <p className="text-gray-800 text-sm mb-4">Ultra-luxury estates, executive relocations, high-end cleanouts</p>
                 <p className="text-emerald-600 font-semibold text-sm">Avg Home: $937K</p>
-                <p className="text-xs text-gray-500 mt-1">83.8% college grads</p>
+                <p className="text-xs text-gray-700 mt-1">83.8% college grads</p>
               </div>
               
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
@@ -93,9 +93,9 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">🏆</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Bethesda</h3>
-                <p className="text-gray-600 text-sm mb-4">Medical professionals, luxury condos, upscale townhomes</p>
+                <p className="text-gray-800 text-sm mb-4">Medical professionals, luxury condos, upscale townhomes</p>
                 <p className="text-blue-600 font-semibold text-sm">Avg Home: $958K</p>
-                <p className="text-xs text-gray-500 mt-1">Mean Income: $290K</p>
+                <p className="text-xs text-gray-700 mt-1">Mean Income: $290K</p>
               </div>
               
               <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
@@ -103,9 +103,9 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">👑</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Chevy Chase</h3>
-                <p className="text-gray-600 text-sm mb-4">Million-dollar properties, country club district, executive homes</p>
+                <p className="text-gray-800 text-sm mb-4">Million-dollar properties, country club district, executive homes</p>
                 <p className="text-purple-600 font-semibold text-sm">Avg Home: $999K</p>
-                <p className="text-xs text-gray-500 mt-1">Mean Income: $432K</p>
+                <p className="text-xs text-gray-700 mt-1">Mean Income: $432K</p>
               </div>
               
               <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
@@ -113,9 +113,9 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">🏡</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Travilah</h3>
-                <p className="text-gray-600 text-sm mb-4">Custom luxury homes, estate properties, scenic river community</p>
+                <p className="text-gray-800 text-sm mb-4">Custom luxury homes, estate properties, scenic river community</p>
                 <p className="text-orange-600 font-semibold text-sm">Avg Home: $1.1M</p>
-                <p className="text-xs text-gray-500 mt-1">Luxury estates</p>
+                <p className="text-xs text-gray-700 mt-1">Luxury estates</p>
               </div>
               
               <div className="bg-gradient-to-br from-teal-50 to-teal-100 p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
@@ -123,9 +123,9 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">🌟</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Kensington</h3>
-                <p className="text-gray-600 text-sm mb-4">Historic charm, upscale families, boutique neighborhood feel</p>
+                <p className="text-gray-800 text-sm mb-4">Historic charm, upscale families, boutique neighborhood feel</p>
                 <p className="text-teal-600 font-semibold text-sm">Mean Income: $232K</p>
-                <p className="text-xs text-gray-500 mt-1">Historic luxury</p>
+                <p className="text-xs text-gray-700 mt-1">Historic luxury</p>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function MontgomeryCounty() {
                 Luxury Junk Removal Services for Montgomery County
               </h2>
               <div className="w-24 h-1 bg-emerald-500 mx-auto mb-6"></div>
-              <p className="text-xl text-gray-600">
+              <p className="text-xl text-gray-800">
                 White-glove junk removal services designed for Maryland's most exclusive communities
               </p>
             </div>
@@ -152,8 +152,8 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">🏛️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Million-Dollar Estate Cleanouts</h3>
-                <p className="text-gray-600 mb-4">Complete estate liquidation services for Potomac and Chevy Chase luxury properties. We coordinate with estate attorneys, appraisers, and auction houses.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Complete estate liquidation services for Potomac and Chevy Chase luxury properties. We coordinate with estate attorneys, appraisers, and auction houses.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Fine art & antique handling</li>
                   <li>• Valuable item appraisal coordination</li>
                   <li>• Charitable donation maximization</li>
@@ -166,8 +166,8 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">🎹</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Piano & Fine Furniture Removal</h3>
-                <p className="text-gray-600 mb-4">Specialized removal of grand pianos, antique furniture, and high-value items with custom equipment and master craftsmen.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Specialized removal of grand pianos, antique furniture, and high-value items with custom equipment and master craftsmen.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Grand piano specialists</li>
                   <li>• Custom protective wrapping</li>
                   <li>• Climate-controlled transport</li>
@@ -180,8 +180,8 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">🏢</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Executive Home Office Cleanouts</h3>
-                <p className="text-gray-600 mb-4">Discreet cleanouts for C-suite executives, medical professionals, and high-profile Bethesda residents with complete confidentiality.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Discreet cleanouts for C-suite executives, medical professionals, and high-profile Bethesda residents with complete confidentiality.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Secure document shredding</li>
                   <li>• Medical equipment disposal</li>
                   <li>• IT equipment data wiping</li>
@@ -194,8 +194,8 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">🏗️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Luxury Home Renovations</h3>
-                <p className="text-gray-600 mb-4">Construction debris removal for high-end kitchen remodels, master suite additions, and luxury home improvements throughout Montgomery County.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Construction debris removal for high-end kitchen remodels, master suite additions, and luxury home improvements throughout Montgomery County.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Designer material removal</li>
                   <li>• Marble & granite disposal</li>
                   <li>• Appliance recycling</li>
@@ -208,8 +208,8 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">🌿</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Eco-Luxury Disposal Services</h3>
-                <p className="text-gray-600 mb-4">Environmentally conscious disposal for sustainability-minded residents with maximum donation and recycling efforts.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Environmentally conscious disposal for sustainability-minded residents with maximum donation and recycling efforts.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• 85% landfill diversion rate</li>
                   <li>• Tax-deductible donation receipts</li>
                   <li>• Carbon-neutral operations</li>
@@ -222,8 +222,8 @@ export default function MontgomeryCounty() {
                   <span className="text-2xl text-white">🚨</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Emergency Same-Day Service</h3>
-                <p className="text-gray-600 mb-4">Priority emergency junk removal for urgent situations, real estate showings, and time-sensitive luxury home transactions.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Priority emergency junk removal for urgent situations, real estate showings, and time-sensitive luxury home transactions.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• 2-hour response time</li>
                   <li>• Real estate agent partnerships</li>
                   <li>• Weekend & holiday availability</li>
@@ -253,11 +253,11 @@ export default function MontgomeryCounty() {
                     <span>⭐⭐⭐⭐⭐</span>
                   </div>
                 </div>
-                <p className="text-gray-600 mb-6 italic">"Exceptional service for our Potomac estate cleanout. They handled our antiques with museum-quality care and coordinated perfectly with our estate attorney. True professionals."</p>
+                <p className="text-gray-800 mb-6 italic">"Exceptional service for our Potomac estate cleanout. They handled our antiques with museum-quality care and coordinated perfectly with our estate attorney. True professionals."</p>
                 <div className="flex items-center">
                   <div>
                     <h4 className="font-bold text-gray-900">Margaret W.</h4>
-                    <p className="text-sm text-gray-500">Potomac Resident</p>
+                    <p className="text-sm text-gray-700">Potomac Resident</p>
                   </div>
                 </div>
               </div>
@@ -268,11 +268,11 @@ export default function MontgomeryCounty() {
                     <span>⭐⭐⭐⭐⭐</span>
                   </div>
                 </div>
-                <p className="text-gray-600 mb-6 italic">"Same-day service when we needed our Bethesda home staged for sale. They removed everything professionally and helped us get top dollar. Highly recommend for luxury properties."</p>
+                <p className="text-gray-800 mb-6 italic">"Same-day service when we needed our Bethesda home staged for sale. They removed everything professionally and helped us get top dollar. Highly recommend for luxury properties."</p>
                 <div className="flex items-center">
                   <div>
                     <h4 className="font-bold text-gray-900">Dr. James K.</h4>
-                    <p className="text-sm text-gray-500">Bethesda Physician</p>
+                    <p className="text-sm text-gray-700">Bethesda Physician</p>
                   </div>
                 </div>
               </div>
@@ -283,11 +283,11 @@ export default function MontgomeryCounty() {
                     <span>⭐⭐⭐⭐⭐</span>
                   </div>
                 </div>
-                <p className="text-gray-600 mb-6 italic">"Complete discretion during our sensitive family situation. They handled everything with compassion and professionalism. The white-glove service exceeded expectations."</p>
+                <p className="text-gray-800 mb-6 italic">"Complete discretion during our sensitive family situation. They handled everything with compassion and professionalism. The white-glove service exceeded expectations."</p>
                 <div className="flex items-center">
                   <div>
                     <h4 className="font-bold text-gray-900">Patricia S.</h4>
-                    <p className="text-sm text-gray-500">Chevy Chase Resident</p>
+                    <p className="text-sm text-gray-700">Chevy Chase Resident</p>
                   </div>
                 </div>
               </div>
@@ -313,7 +313,7 @@ export default function MontgomeryCounty() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Luxury Market Specialists</h3>
-                    <p className="text-gray-600">Exclusive focus on Montgomery County's $1M+ properties with specialized training for high-value items.</p>
+                    <p className="text-gray-800">Exclusive focus on Montgomery County's $1M+ properties with specialized training for high-value items.</p>
                   </div>
                 </div>
                 
@@ -323,7 +323,7 @@ export default function MontgomeryCounty() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Realtor Network Preferred</h3>
-                    <p className="text-gray-600">Trusted by Montgomery County's top luxury real estate professionals for staging and move-out services.</p>
+                    <p className="text-gray-800">Trusted by Montgomery County's top luxury real estate professionals for staging and move-out services.</p>
                   </div>
                 </div>
                 
@@ -333,7 +333,7 @@ export default function MontgomeryCounty() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Concierge-Level Service</h3>
-                    <p className="text-gray-600">Personal account managers, flexible scheduling, and 24/7 emergency response for VIP clients.</p>
+                    <p className="text-gray-800">Personal account managers, flexible scheduling, and 24/7 emergency response for VIP clients.</p>
                   </div>
                 </div>
               </div>
@@ -345,7 +345,7 @@ export default function MontgomeryCounty() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Maximum Insurance Protection</h3>
-                    <p className="text-gray-600">$2M+ liability coverage specifically designed for luxury homes and high-value possessions.</p>
+                    <p className="text-gray-800">$2M+ liability coverage specifically designed for luxury homes and high-value possessions.</p>
                   </div>
                 </div>
                 
@@ -355,7 +355,7 @@ export default function MontgomeryCounty() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Local Montgomery County Experts</h3>
-                    <p className="text-gray-600">Born and raised locally with intimate knowledge of exclusive neighborhoods and community standards.</p>
+                    <p className="text-gray-800">Born and raised locally with intimate knowledge of exclusive neighborhoods and community standards.</p>
                   </div>
                 </div>
                 
@@ -365,7 +365,7 @@ export default function MontgomeryCounty() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Charitable Giving Program</h3>
-                    <p className="text-gray-600">Partner with Montgomery County's finest charities to maximize tax benefits and community impact.</p>
+                    <p className="text-gray-800">Partner with Montgomery County's finest charities to maximize tax benefits and community impact.</p>
                   </div>
                 </div>
               </div>

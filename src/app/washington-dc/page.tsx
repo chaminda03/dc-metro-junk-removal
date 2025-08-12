@@ -46,17 +46,17 @@ export default function WashingtonDC() {
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <div className="text-green-500 text-2xl mb-2">✓</div>
                 <h3 className="font-bold text-gray-900 mb-2">Same-Day Service</h3>
-                <p className="text-gray-600 text-sm">Available 7AM-9PM daily</p>
+                <p className="text-gray-800 text-sm">Available 7AM-9PM daily</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <div className="text-green-500 text-2xl mb-2">✓</div>
                 <h3 className="font-bold text-gray-900 mb-2">Licensed & Insured</h3>
-                <p className="text-gray-600 text-sm">Fully bonded for your protection</p>
+                <p className="text-gray-800 text-sm">Fully bonded for your protection</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <div className="text-green-500 text-2xl mb-2">✓</div>
                 <h3 className="font-bold text-gray-900 mb-2">Eco-Friendly</h3>
-                <p className="text-gray-600 text-sm">Donate & recycle whenever possible</p>
+                <p className="text-gray-800 text-sm">Donate & recycle whenever possible</p>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function WashingtonDC() {
                 Washington DC's Premier Neighborhoods
               </h2>
               <div className="w-24 h-1 bg-red-500 mx-auto mb-6"></div>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-xl text-gray-800 max-w-3xl mx-auto">
                 Professional junk removal services for DC's most exclusive residential areas. Discreet, efficient, and white-glove service.
               </p>
             </div>
@@ -83,7 +83,7 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">🏛️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Georgetown</h3>
-                <p className="text-gray-600 text-sm mb-4">Historic luxury homes, estate cleanouts, high-value furniture removal</p>
+                <p className="text-gray-800 text-sm mb-4">Historic luxury homes, estate cleanouts, high-value furniture removal</p>
                 <p className="text-red-600 font-semibold text-sm">Avg Home Value: $2M+</p>
               </div>
               
@@ -92,7 +92,7 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">🌆</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Dupont Circle</h3>
-                <p className="text-gray-600 text-sm mb-4">Luxury condos, corporate relocations, same-day service</p>
+                <p className="text-gray-800 text-sm mb-4">Luxury condos, corporate relocations, same-day service</p>
                 <p className="text-blue-600 font-semibold text-sm">Median Income: $150K+</p>
               </div>
               
@@ -101,7 +101,7 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">🏘️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Wesley Heights</h3>
-                <p className="text-gray-600 text-sm mb-4">Executive homes, basement cleanouts, construction debris</p>
+                <p className="text-gray-800 text-sm mb-4">Executive homes, basement cleanouts, construction debris</p>
                 <p className="text-green-600 font-semibold text-sm">Median Income: $180K+</p>
               </div>
               
@@ -110,7 +110,7 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">🏙️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Mass Ave Heights</h3>
-                <p className="text-gray-600 text-sm mb-4">Diplomatic residences, white-glove service, discretion assured</p>
+                <p className="text-gray-800 text-sm mb-4">Diplomatic residences, white-glove service, discretion assured</p>
                 <p className="text-purple-600 font-semibold text-sm">Median Income: $200K+</p>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function WashingtonDC() {
                 Luxury Junk Removal Services in DC
               </h2>
               <div className="w-24 h-1 bg-red-500 mx-auto mb-6"></div>
-              <p className="text-xl text-gray-600">
+              <p className="text-xl text-gray-800">
                 Specialized services for Washington DC's most discerning residents
               </p>
             </div>
@@ -138,8 +138,8 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">🏡</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Estate Cleanouts</h3>
-                <p className="text-gray-600 mb-4">Full-service estate cleanouts with respectful handling of personal belongings. We work with estate attorneys and real estate professionals.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Full-service estate cleanouts with respectful handling of personal belongings. We work with estate attorneys and real estate professionals.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Antique & artwork careful handling</li>
                   <li>• Donation coordination</li>
                   <li>• Document disposal services</li>
@@ -151,8 +151,8 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">🏢</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Corporate Relocations</h3>
-                <p className="text-gray-600 mb-4">Executive office cleanouts, embassy relocations, and corporate moves with complete discretion and professionalism.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Executive office cleanouts, embassy relocations, and corporate moves with complete discretion and professionalism.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Confidential document shredding</li>
                   <li>• After-hours service available</li>
                   <li>• Secure item handling</li>
@@ -164,8 +164,8 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">🛋️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Luxury Furniture Removal</h3>
-                <p className="text-gray-600 mb-4">Safe removal of high-end furniture, pianos, artwork, and antiques with specialized equipment and trained professionals.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Safe removal of high-end furniture, pianos, artwork, and antiques with specialized equipment and trained professionals.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Piano removal specialists</li>
                   <li>• Art & antique care</li>
                   <li>• Damage-free guarantee</li>
@@ -177,8 +177,8 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">🏗️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Construction Cleanup</h3>
-                <p className="text-gray-600 mb-4">Post-renovation cleanup for luxury home improvements, kitchen remodels, and construction debris removal.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Post-renovation cleanup for luxury home improvements, kitchen remodels, and construction debris removal.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Drywall & debris removal</li>
                   <li>• Flooring material disposal</li>
                   <li>• Site cleanup services</li>
@@ -190,8 +190,8 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">📦</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Hoarding Cleanup</h3>
-                <p className="text-gray-600 mb-4">Compassionate hoarding cleanup services with complete discretion, working with families and healthcare professionals.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Compassionate hoarding cleanup services with complete discretion, working with families and healthcare professionals.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Sensitive approach</li>
                   <li>• Medical waste disposal</li>
                   <li>• Insurance coordination</li>
@@ -203,8 +203,8 @@ export default function WashingtonDC() {
                   <span className="text-2xl text-white">🌿</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Eco-Luxury Disposal</h3>
-                <p className="text-gray-600 mb-4">Environmentally responsible disposal with maximum donation and recycling efforts for sustainability-conscious residents.</p>
-                <ul className="text-sm text-gray-500 space-y-1">
+                <p className="text-gray-800 mb-4">Environmentally responsible disposal with maximum donation and recycling efforts for sustainability-conscious residents.</p>
+                <ul className="text-sm text-gray-700 space-y-1">
                   <li>• 80% diversion from landfills</li>
                   <li>• Charitable donation receipts</li>
                   <li>• Carbon-neutral hauling</li>
@@ -232,7 +232,7 @@ export default function WashingtonDC() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">White-Glove Service</h3>
-                    <p className="text-gray-600">Luxury treatment for high-end homes with careful handling of valuable items and respectful service.</p>
+                    <p className="text-gray-800">Luxury treatment for high-end homes with careful handling of valuable items and respectful service.</p>
                   </div>
                 </div>
                 
@@ -242,7 +242,7 @@ export default function WashingtonDC() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Same-Day Response</h3>
-                    <p className="text-gray-600">Emergency junk removal available 7AM-9PM for urgent situations and last-minute needs.</p>
+                    <p className="text-gray-800">Emergency junk removal available 7AM-9PM for urgent situations and last-minute needs.</p>
                   </div>
                 </div>
                 
@@ -252,7 +252,7 @@ export default function WashingtonDC() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Complete Discretion</h3>
-                    <p className="text-gray-600">Privacy and confidentiality assured for high-profile clients, diplomatic residences, and executive properties.</p>
+                    <p className="text-gray-800">Privacy and confidentiality assured for high-profile clients, diplomatic residences, and executive properties.</p>
                   </div>
                 </div>
               </div>
@@ -264,7 +264,7 @@ export default function WashingtonDC() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Upfront Pricing</h3>
-                    <p className="text-gray-600">Transparent, no-surprise pricing with free estimates and guaranteed rates for DC metro area.</p>
+                    <p className="text-gray-800">Transparent, no-surprise pricing with free estimates and guaranteed rates for DC metro area.</p>
                   </div>
                 </div>
                 
@@ -274,7 +274,7 @@ export default function WashingtonDC() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Luxury Insurance</h3>
-                    <p className="text-gray-600">Comprehensive insurance coverage for high-value items with specialized handling protocols.</p>
+                    <p className="text-gray-800">Comprehensive insurance coverage for high-value items with specialized handling protocols.</p>
                   </div>
                 </div>
                 
@@ -284,7 +284,7 @@ export default function WashingtonDC() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Local Expertise</h3>
-                    <p className="text-gray-600">Born and raised in the DC area with deep knowledge of local neighborhoods and requirements.</p>
+                    <p className="text-gray-800">Born and raised in the DC area with deep knowledge of local neighborhoods and requirements.</p>
                   </div>
                 </div>
               </div>

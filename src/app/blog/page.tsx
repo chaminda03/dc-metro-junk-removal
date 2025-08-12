@@ -55,7 +55,7 @@ export default function BlogPage() {
                     <div className="text-center">
                       <div className="text-6xl mb-6">🚧</div>
                       <div className="text-2xl font-bold text-gray-800 mb-2">{post.category}</div>
-                      <div className="text-gray-600">Professional Service Guide</div>
+                      <div className="text-gray-800">Professional Service Guide</div>
                     </div>
                   </div>
                   <div className="p-12">
@@ -63,13 +63,13 @@ export default function BlogPage() {
                       <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-semibold">
                         {post.category}
                       </span>
-                      <span className="text-gray-500 text-sm">{post.readTime}</span>
-                      <span className="text-gray-500 text-sm">{new Date(post.date).toLocaleDateString()}</span>
+                      <span className="text-gray-700 text-sm">{post.readTime}</span>
+                      <span className="text-gray-700 text-sm">{new Date(post.date).toLocaleDateString()}</span>
                     </div>
                     <h3 className="text-3xl font-bold text-gray-900 mb-4 leading-tight">
                       {post.title}
                     </h3>
-                    <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+                    <p className="text-gray-800 mb-6 text-lg leading-relaxed">
                       {post.excerpt}
                     </p>
                     <a 
@@ -95,17 +95,17 @@ export default function BlogPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="text-4xl mb-4">🚧</div>
                 <h3 className="text-xl font-bold mb-2">Fence Removal</h3>
-                <p className="text-gray-600">Expert guides on fence removal, permits, and disposal</p>
+                <p className="text-gray-800">Expert guides on fence removal, permits, and disposal</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="text-4xl mb-4">🛋️</div>
                 <h3 className="text-xl font-bold mb-2">Furniture Removal</h3>
-                <p className="text-gray-600">Tips for removing large furniture safely and efficiently</p>
+                <p className="text-gray-800">Tips for removing large furniture safely and efficiently</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="text-4xl mb-4">🏠</div>
                 <h3 className="text-xl font-bold mb-2">Property Cleanouts</h3>
-                <p className="text-gray-600">Complete guides for garage, basement, and estate cleanouts</p>
+                <p className="text-gray-800">Complete guides for garage, basement, and estate cleanouts</p>
               </div>
             </div>
           </div>

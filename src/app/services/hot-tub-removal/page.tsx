@@ -21,7 +21,7 @@ export default function HotTubRemovalPage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Expert Hot Tub & Spa Removal in Northern Virginia
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">
             Professional hot tub demolition and disposal services
             <br />
             Hot Tubs • Spas • Jacuzzis • Swim Spas • Pool Equipment
@@ -42,7 +42,7 @@ export default function HotTubRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Hot Tubs & Spas We Remove</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Complete removal service for all types of hot tubs, spas, and related equipment
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function HotTubRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">🛁</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Portable Hot Tubs</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Above-ground spas (2-8 person)</li>
                 <li>• Plug-and-play models</li>
                 <li>• Inflatable hot tubs</li>
@@ -63,7 +63,7 @@ export default function HotTubRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">🏗️</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">In-Ground Spas</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Concrete/gunite spas</li>
                 <li>• Fiberglass spa shells</li>
                 <li>• Tile & stone finished spas</li>
@@ -75,7 +75,7 @@ export default function HotTubRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">🏊</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Swim Spas</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Exercise spas (12-20 feet)</li>
                 <li>• Endless pools</li>
                 <li>• Dual-zone swim spas</li>
@@ -87,7 +87,7 @@ export default function HotTubRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">⚡</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Electrical Systems</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Control panels & circuit boards</li>
                 <li>• GFCI disconnect boxes</li>
                 <li>• Pumps & circulation systems</li>
@@ -99,7 +99,7 @@ export default function HotTubRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">🔧</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Plumbing & Filtration</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• PVC plumbing & manifolds</li>
                 <li>• Filter housings & cartridges</li>
                 <li>• Jets, valves & fittings</li>
@@ -111,7 +111,7 @@ export default function HotTubRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">🏗️</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Decking & Surrounds</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Composite & wood decking</li>
                 <li>• Concrete pads & slabs</li>
                 <li>• Stone & brick surrounds</li>
@@ -128,7 +128,7 @@ export default function HotTubRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Professional Hot Tub Removal Process</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Safe, efficient removal with complete site restoration
             </p>
           </div>
@@ -139,7 +139,7 @@ export default function HotTubRemovalPage() {
                 <span className="text-2xl font-bold text-blue-600">1</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Site Assessment</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Comprehensive inspection of hot tub type, access routes, and utility connections for safe removal planning.
               </p>
             </div>
@@ -149,7 +149,7 @@ export default function HotTubRemovalPage() {
                 <span className="text-2xl font-bold text-blue-600">2</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Utility Disconnection</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Professional electrical and plumbing disconnection following safety protocols and local codes.
               </p>
             </div>
@@ -159,7 +159,7 @@ export default function HotTubRemovalPage() {
                 <span className="text-2xl font-bold text-blue-600">3</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Controlled Demolition</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Systematic dismantling using specialized tools to minimize property damage during removal.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function HotTubRemovalPage() {
                 <span className="text-2xl font-bold text-blue-600">4</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Complete Cleanup</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Full debris removal, site cleanup, and preparation for your next project or landscaping.
               </p>
             </div>
@@ -182,7 +182,7 @@ export default function HotTubRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Hot Tub Removal Pricing</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Transparent pricing based on hot tub size and complexity
             </p>
           </div>
@@ -191,7 +191,7 @@ export default function HotTubRemovalPage() {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Standard Hot Tubs</h3>
               <div className="text-3xl font-bold text-blue-600 mb-4">$400-600</div>
-              <ul className="text-gray-600 space-y-2 mb-4">
+              <ul className="text-gray-800 space-y-2 mb-4">
                 <li>• 4-6 person portable spas</li>
                 <li>• Above-ground units</li>
                 <li>• Standard electrical disconnect</li>
@@ -203,7 +203,7 @@ export default function HotTubRemovalPage() {
               <div className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm mb-4 inline-block">Most Common</div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Large/In-Ground</h3>
               <div className="text-3xl font-bold text-blue-600 mb-4">$600-1200</div>
-              <ul className="text-gray-600 space-y-2 mb-4">
+              <ul className="text-gray-800 space-y-2 mb-4">
                 <li>• 6-8+ person hot tubs</li>
                 <li>• In-ground spas</li>
                 <li>• Complex utility disconnection</li>
@@ -214,7 +214,7 @@ export default function HotTubRemovalPage() {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Swim Spas</h3>
               <div className="text-3xl font-bold text-blue-600 mb-4">$1200+</div>
-              <ul className="text-gray-600 space-y-2 mb-4">
+              <ul className="text-gray-800 space-y-2 mb-4">
                 <li>• 12-20 foot swim spas</li>
                 <li>• Exercise pools</li>
                 <li>• Dual-zone systems</li>
@@ -228,11 +228,11 @@ export default function HotTubRemovalPage() {
             <div className="grid md:grid-cols-2 gap-4 text-left mt-4">
               <div>
                 <h4 className="font-bold text-gray-900">Electrical Disconnection</h4>
-                <p className="text-gray-600">Licensed electrician: $150-300 additional</p>
+                <p className="text-gray-800">Licensed electrician: $150-300 additional</p>
               </div>
               <div>
                 <h4 className="font-bold text-gray-900">Concrete/Decking Removal</h4>
-                <p className="text-gray-600">Deck/pad removal: $300-800 additional</p>
+                <p className="text-gray-800">Deck/pad removal: $300-800 additional</p>
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@ export default function HotTubRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Hot Tub Removal Challenges We Solve</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Overcoming common obstacles in hot tub removal projects
             </p>
           </div>
@@ -255,19 +255,19 @@ export default function HotTubRemovalPage() {
               <div className="space-y-4">
                 <div className="border-l-4 border-red-400 pl-4">
                   <h4 className="font-bold text-gray-900">Tight Access Areas</h4>
-                  <p className="text-gray-600">Hot tubs installed in backyards with narrow gates or limited access</p>
+                  <p className="text-gray-800">Hot tubs installed in backyards with narrow gates or limited access</p>
                 </div>
                 <div className="border-l-4 border-red-400 pl-4">
                   <h4 className="font-bold text-gray-900">Complex Wiring</h4>
-                  <p className="text-gray-600">240V electrical systems requiring licensed electrician disconnection</p>
+                  <p className="text-gray-800">240V electrical systems requiring licensed electrician disconnection</p>
                 </div>
                 <div className="border-l-4 border-red-400 pl-4">
                   <h4 className="font-bold text-gray-900">Heavy Weight</h4>
-                  <p className="text-gray-600">Most hot tubs weigh 3000-6000 lbs and require specialized equipment</p>
+                  <p className="text-gray-800">Most hot tubs weigh 3000-6000 lbs and require specialized equipment</p>
                 </div>
                 <div className="border-l-4 border-red-400 pl-4">
                   <h4 className="font-bold text-gray-900">Integrated Decking</h4>
-                  <p className="text-gray-600">Built-in decks, steps, and surrounds complicating removal process</p>
+                  <p className="text-gray-800">Built-in decks, steps, and surrounds complicating removal process</p>
                 </div>
               </div>
             </div>
@@ -277,19 +277,19 @@ export default function HotTubRemovalPage() {
               <div className="space-y-4">
                 <div className="border-l-4 border-green-400 pl-4">
                   <h4 className="font-bold text-gray-900">Crane & Heavy Equipment</h4>
-                  <p className="text-gray-600">Professional lifting equipment for tight spaces and over obstacles</p>
+                  <p className="text-gray-800">Professional lifting equipment for tight spaces and over obstacles</p>
                 </div>
                 <div className="border-l-4 border-green-400 pl-4">
                   <h4 className="font-bold text-gray-900">Licensed Electricians</h4>
-                  <p className="text-gray-600">Certified professionals for safe electrical disconnection and code compliance</p>
+                  <p className="text-gray-800">Certified professionals for safe electrical disconnection and code compliance</p>
                 </div>
                 <div className="border-l-4 border-green-400 pl-4">
                   <h4 className="font-bold text-gray-900">Controlled Demolition</h4>
-                  <p className="text-gray-600">Strategic dismantling to reduce weight and enable removal piece by piece</p>
+                  <p className="text-gray-800">Strategic dismantling to reduce weight and enable removal piece by piece</p>
                 </div>
                 <div className="border-l-4 border-green-400 pl-4">
                   <h4 className="font-bold text-gray-900">Complete Package</h4>
-                  <p className="text-gray-600">Full-service removal including decking, electrical, plumbing, and cleanup</p>
+                  <p className="text-gray-800">Full-service removal including decking, electrical, plumbing, and cleanup</p>
                 </div>
               </div>
             </div>
@@ -302,7 +302,7 @@ export default function HotTubRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Hot Tub Removal Service Areas</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Professional hot tub and spa removal throughout the DC metro area
             </p>
           </div>
@@ -310,27 +310,27 @@ export default function HotTubRemovalPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🏛️ Washington DC</h3>
-              <p className="text-gray-600 text-sm">Georgetown, Dupont Circle, Capitol Hill, Adams Morgan</p>
+              <p className="text-gray-800 text-sm">Georgetown, Dupont Circle, Capitol Hill, Adams Morgan</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🌟 Fairfax County</h3>
-              <p className="text-gray-600 text-sm">McLean, Great Falls, Vienna, Oakton, Tysons, Reston</p>
+              <p className="text-gray-800 text-sm">McLean, Great Falls, Vienna, Oakton, Tysons, Reston</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🏘️ Loudoun County</h3>
-              <p className="text-gray-600 text-sm">Ashburn, Leesburg, Sterling, Herndon, Purcellville</p>
+              <p className="text-gray-800 text-sm">Ashburn, Leesburg, Sterling, Herndon, Purcellville</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🏛️ Arlington County</h3>
-              <p className="text-gray-600 text-sm">Arlington, Rosslyn, Ballston, Pentagon City</p>
+              <p className="text-gray-800 text-sm">Arlington, Rosslyn, Ballston, Pentagon City</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🏡 Prince William</h3>
-              <p className="text-gray-600 text-sm">Woodbridge, Manassas, Gainesville, Haymarket</p>
+              <p className="text-gray-800 text-sm">Woodbridge, Manassas, Gainesville, Haymarket</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">💎 Montgomery County</h3>
-              <p className="text-gray-600 text-sm">Bethesda, Potomac, Chevy Chase, Rockville</p>
+              <p className="text-gray-800 text-sm">Bethesda, Potomac, Chevy Chase, Rockville</p>
             </div>
           </div>
         </div>
@@ -346,42 +346,42 @@ export default function HotTubRemovalPage() {
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">How do you remove a hot tub from a fenced backyard?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 We use professional lifting equipment including cranes and specialized dollies to lift hot tubs over fences, around tight corners, or through narrow gates. For extremely tight spaces, we can dismantle the hot tub on-site to reduce size and weight.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Do you handle electrical disconnection for 240V hot tubs?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Yes, we work with licensed electricians to safely disconnect 240V electrical connections according to local codes. This service typically costs $150-300 additional depending on the complexity of the electrical setup.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">What about in-ground spas and built-in jacuzzis?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 In-ground spa removal requires specialized demolition techniques. We carefully break up concrete, remove plumbing and electrical systems, and backfill the excavated area. This is typically more complex and costs $600-1200+ depending on size and construction.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">How long does hot tub removal take?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Standard portable hot tub removal typically takes 2-4 hours. In-ground spas or complex demolition projects may take 1-2 full days. We provide accurate time estimates during our initial assessment.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Will you remove the concrete pad or decking too?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Yes, we can remove concrete pads, wooden decks, stone surrounds, and related structures for an additional fee ($300-800). This includes breaking up concrete, removing decking materials, and cleaning up all debris.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">What happens to the hot tub after removal?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 We prioritize environmentally responsible disposal. Usable components like pumps and heaters may be resold or donated. Fiberglass and acrylic shells are recycled where possible. Metal components are separated for scrap recycling.
               </p>
             </div>

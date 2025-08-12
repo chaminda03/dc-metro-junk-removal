@@ -14,7 +14,7 @@ export default function EvictionCleanoutPage() {
       <section className="bg-gradient-to-b from-red-50 to-white py-20 text-center">
         <div className="container mx-auto px-6">
           <h2 className="text-5xl font-bold text-gray-800 mb-6">Eviction Cleanout Services in Northern Virginia</h2>
-          <p className="text-xl text-gray-600 mb-8">Fast property cleaning for landlords and property managers</p>
+          <p className="text-xl text-gray-800 mb-8">Fast property cleaning for landlords and property managers</p>
           <a href="tel:5714892961" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl">📞 Schedule Eviction Cleanout</a>
         </div>
       </section>

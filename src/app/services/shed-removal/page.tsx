@@ -21,7 +21,7 @@ export default function ShedRemovalPage() {
           <h2 className="text-5xl font-bold text-gray-800 mb-6">
             Professional Shed Removal & Demolition in Northern Virginia
           </h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">
             Complete shed demolition and debris removal services
             <br />
             Storage Sheds • Garden Sheds • Tool Sheds • Outbuildings
@@ -86,35 +86,35 @@ export default function ShedRemovalPage() {
                 <span className="text-2xl font-bold text-amber-800">1</span>
               </div>
               <h3 className="font-bold mb-2">Site Assessment</h3>
-              <p className="text-gray-600 text-sm">Evaluate shed condition and access</p>
+              <p className="text-gray-800 text-sm">Evaluate shed condition and access</p>
             </div>
             <div className="text-center">
               <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-amber-800">2</span>
               </div>
               <h3 className="font-bold mb-2">Utility Check</h3>
-              <p className="text-gray-600 text-sm">Verify no electrical or plumbing connections</p>
+              <p className="text-gray-800 text-sm">Verify no electrical or plumbing connections</p>
             </div>
             <div className="text-center">
               <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-amber-800">3</span>
               </div>
               <h3 className="font-bold mb-2">Content Removal</h3>
-              <p className="text-gray-600 text-sm">Clear all items from inside the shed</p>
+              <p className="text-gray-800 text-sm">Clear all items from inside the shed</p>
             </div>
             <div className="text-center">
               <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-amber-800">4</span>
               </div>
               <h3 className="font-bold mb-2">Demolition</h3>
-              <p className="text-gray-600 text-sm">Safe, systematic shed dismantling</p>
+              <p className="text-gray-800 text-sm">Safe, systematic shed dismantling</p>
             </div>
             <div className="text-center">
               <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-amber-800">5</span>
               </div>
               <h3 className="font-bold mb-2">Site Cleanup</h3>
-              <p className="text-gray-600 text-sm">Complete debris removal and cleanup</p>
+              <p className="text-gray-800 text-sm">Complete debris removal and cleanup</p>
             </div>
           </div>
         </div>

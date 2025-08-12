@@ -108,7 +108,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Premier Junk Removal Services</h2>
             <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Same-day junk removal near me serving Washington DC metro area's most exclusive neighborhoods
             </p>
           </div>
@@ -120,7 +120,7 @@ export default function Home() {
               </div>
               <div className="text-center pt-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Fairfax County</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">Fairfax • Vienna • McLean • Reston • Herndon • Great Falls</p>
+                <p className="text-gray-800 mb-4 leading-relaxed">Fairfax • Vienna • McLean • Reston • Herndon • Great Falls</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
                 </span>
@@ -133,7 +133,7 @@ export default function Home() {
               </div>
               <div className="text-center pt-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Loudoun County</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">Ashburn • Sterling • Leesburg • Purcellville • Hamilton</p>
+                <p className="text-gray-800 mb-4 leading-relaxed">Ashburn • Sterling • Leesburg • Purcellville • Hamilton</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
                 </span>
@@ -146,7 +146,7 @@ export default function Home() {
               </div>
               <div className="text-center pt-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Prince William County</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">Manassas • Woodbridge • Dale City • Gainesville • Haymarket</p>
+                <p className="text-gray-800 mb-4 leading-relaxed">Manassas • Woodbridge • Dale City • Gainesville • Haymarket</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
                 </span>
@@ -159,7 +159,7 @@ export default function Home() {
               </div>
               <div className="text-center pt-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Arlington County</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">Arlington • Crystal City • Ballston • Clarendon • Rosslyn</p>
+                <p className="text-gray-800 mb-4 leading-relaxed">Arlington • Crystal City • Ballston • Clarendon • Rosslyn</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
                 </span>
@@ -172,7 +172,7 @@ export default function Home() {
               </div>
               <div className="text-center pt-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Washington DC</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">Georgetown • Dupont Circle • Wesley Heights • Mass Ave Heights</p>
+                <p className="text-gray-800 mb-4 leading-relaxed">Georgetown • Dupont Circle • Wesley Heights • Mass Ave Heights</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
                 </span>
@@ -185,7 +185,7 @@ export default function Home() {
               </div>
               <div className="text-center pt-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-3 text-blue-900 group-hover:text-orange-600 transition-colors">Montgomery County</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">Potomac • Bethesda • Chevy Chase • Travilah • Kensington</p>
+                <p className="text-gray-800 mb-4 leading-relaxed">Potomac • Bethesda • Chevy Chase • Travilah • Kensington</p>
                 <span className="inline-block text-orange-500 font-semibold group-hover:text-orange-600 transition-colors">
                   Learn More →
                 </span>
@@ -201,7 +201,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Professional Junk Removal Services Near You</h2>
             <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Same-day hauling and cleanout services throughout Washington DC metro area. Licensed, insured, and eco-friendly disposal solutions.
             </p>
           </div>
@@ -215,7 +215,7 @@ export default function Home() {
                   <span className="text-2xl text-white">🛋️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Furniture Removal</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Sofas, mattresses, dressers, tables, chairs & more</p>
+                <p className="text-gray-800 text-sm leading-relaxed">Sofas, mattresses, dressers, tables, chairs & more</p>
                 <a href="/services/furniture-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -230,7 +230,7 @@ export default function Home() {
                   <span className="text-2xl text-white">🔌</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Appliance Removal</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Refrigerators, washers, dryers, dishwashers & water heaters</p>
+                <p className="text-gray-800 text-sm leading-relaxed">Refrigerators, washers, dryers, dishwashers & water heaters</p>
                 <a href="/services/appliance-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -245,7 +245,7 @@ export default function Home() {
                   <span className="text-2xl text-white">🛁</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Hot Tub Removal</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Professional hot tub removal, spas & pool equipment</p>
+                <p className="text-gray-800 text-sm leading-relaxed">Professional hot tub removal, spas & pool equipment</p>
                 <a href="/services/hot-tub-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -260,7 +260,7 @@ export default function Home() {
                   <span className="text-2xl text-white">🏚️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Shed Removal</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Complete shed demolition & debris removal</p>
+                <p className="text-gray-800 text-sm leading-relaxed">Complete shed demolition & debris removal</p>
                 <a href="/services/shed-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -275,7 +275,7 @@ export default function Home() {
                   <span className="text-2xl text-white">🚧</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Fence Removal</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Wood, vinyl, chain link fence removal & disposal</p>
+                <p className="text-gray-800 text-sm leading-relaxed">Wood, vinyl, chain link fence removal & disposal</p>
                 <a href="/services/fence-removal" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -290,7 +290,7 @@ export default function Home() {
                   <span className="text-2xl text-white">🏠</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Garage Cleanout</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Complete garage cleaning & decluttering</p>
+                <p className="text-gray-800 text-sm leading-relaxed">Complete garage cleaning & decluttering</p>
                 <a href="/services/garage-cleanout" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -305,7 +305,7 @@ export default function Home() {
                   <span className="text-2xl text-white">📦</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Storage Cleanout</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Storage unit & facility cleanouts</p>
+                <p className="text-gray-800 text-sm leading-relaxed">Storage unit & facility cleanouts</p>
                 <a href="/services/storage-cleanout" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -320,7 +320,7 @@ export default function Home() {
                   <span className="text-2xl text-white">🏘️</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Basement Cleanout</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Full basement clearing & cleanout service</p>
+                <p className="text-gray-800 text-sm leading-relaxed">Full basement clearing & cleanout service</p>
                 <a href="/services/basement-cleanout" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-semibold transition-colors">
                   Learn More →
                 </a>
@@ -466,7 +466,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-gray-900 mb-4">See Our Work - Before & After</h2>
             <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Real transformations from our professional hauling services
             </p>
           </div>
@@ -481,8 +481,8 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Shed Removal / Shed Demolition</h3>
-                <p className="text-gray-600 mb-4">Complete shed demolition and debris removal - professional and efficient</p>
-                <div className="flex items-center text-sm text-gray-500">
+                <p className="text-gray-800 mb-4">Complete shed demolition and debris removal - professional and efficient</p>
+                <div className="flex items-center text-sm text-gray-700">
                   <span className="mr-4">📍 Fairfax County</span>
                   <span>⏱️ Same Day</span>
                 </div>
@@ -498,8 +498,8 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Basement Cleanout</h3>
-                <p className="text-gray-600 mb-4">Full basement clearing and cleanout service with eco-friendly disposal</p>
-                <div className="flex items-center text-sm text-gray-500">
+                <p className="text-gray-800 mb-4">Full basement clearing and cleanout service with eco-friendly disposal</p>
+                <div className="flex items-center text-sm text-gray-700">
                   <span className="mr-4">📍 Loudoun County</span>
                   <span>⏱️ 2 Hours</span>
                 </div>
@@ -511,12 +511,12 @@ export default function Home() {
                 <div className="text-center">
                   <div className="text-6xl mb-4">📸</div>
                   <div className="text-xl font-bold text-gray-700 mb-2">Your Project Next!</div>
-                  <div className="text-gray-600">Call us for a free quote</div>
+                  <div className="text-gray-800">Call us for a free quote</div>
                 </div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Ready to Start?</h3>
-                <p className="text-gray-600 mb-4">Get your free quote and join our satisfied customers today</p>
+                <p className="text-gray-800 mb-4">Get your free quote and join our satisfied customers today</p>
                 <a href="tel:5714892961" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors">
                   📞 Call Now
                 </a>

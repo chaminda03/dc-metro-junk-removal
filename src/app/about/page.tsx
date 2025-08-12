@@ -220,10 +220,10 @@ export default function AboutPage() {
                 <p className="text-xl text-gray-700 leading-relaxed mb-6">
                   <strong>Wee Haul Junk Removal & Hauling</strong> is your trusted local junk removal expert serving Fairfax, Arlington, and the entire Washington DC metro area. What started as a simple mission to help our neighbors declutter their homes has grown into the region's most respected junk removal company.
                 </p>
-                <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                <p className="text-lg text-gray-800 leading-relaxed mb-6">
                   We specialize in fast, affordable residential and commercial junk hauling—including furniture removal, appliance pickup, garage cleanouts, and office cleanups. Whether it's a single item or full property cleanout, our friendly, uniformed professionals show up on time and get it done right, with eco-friendly disposal and recycling included in every job.
                 </p>
-                <p className="text-lg text-gray-600 leading-relaxed">
+                <p className="text-lg text-gray-800 leading-relaxed">
                   Need it fast? We offer emergency and after-hours junk removal to fit your busy schedule. From luxury estates in Potomac and McLean to bustling apartments in Arlington and condos in downtown DC, we've earned our reputation as the DC Metro Area's most reliable junk removal company.
                 </p>
               </div>
@@ -231,13 +231,13 @@ export default function AboutPage() {
               <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
                 <div>
                   <h3 className="text-3xl font-bold text-gray-900 mb-6">Why We Started Wee Haul</h3>
-                  <p className="text-gray-600 mb-4">
+                  <p className="text-gray-800 mb-4">
                     Living in the Washington DC Metro Area, we saw too many families and businesses struggling with junk removal companies that were unreliable, overpriced, or didn't care about the environment. We knew our community deserved better.
                   </p>
-                  <p className="text-gray-600 mb-4">
+                  <p className="text-gray-800 mb-4">
                     Founded on the principles of honesty, reliability, and environmental responsibility, Wee Haul was created to provide the DC Metro Area with a junk removal service that homeowners and businesses could trust completely.
                   </p>
-                  <p className="text-gray-600">
+                  <p className="text-gray-800">
                     Today, we're proud to serve over 5,000 satisfied customers across Washington DC, Fairfax, Arlington, Loudoun, Prince William, and Montgomery Counties, making our communities cleaner and more beautiful, one pickup at a time.
                   </p>
                 </div>
@@ -278,7 +278,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Core Values</h2>
-            <p className="text-xl text-gray-600">The principles that guide everything we do</p>
+            <p className="text-xl text-gray-800">The principles that guide everything we do</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -286,7 +286,7 @@ export default function AboutPage() {
               <div key={index} className="text-center bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="text-5xl mb-6">{value.icon}</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{value.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                <p className="text-gray-800 leading-relaxed">{value.description}</p>
               </div>
             ))}
           </div>
@@ -298,7 +298,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Communities We Serve</h2>
-            <p className="text-xl text-gray-600">Trusted junk removal across the Washington DC Metro Area</p>
+            <p className="text-xl text-gray-800">Trusted junk removal across the Washington DC Metro Area</p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
@@ -308,7 +308,7 @@ export default function AboutPage() {
                 <p className="text-orange-600 font-semibold mb-4 text-sm">
                   {area.neighborhoods}
                 </p>
-                <p className="text-gray-600 leading-relaxed">{area.description}</p>
+                <p className="text-gray-800 leading-relaxed">{area.description}</p>
               </div>
             ))}
           </div>
@@ -333,7 +333,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Licensed, Insured & Trusted</h2>
-              <p className="text-xl text-gray-600">Your peace of mind is our priority</p>
+              <p className="text-xl text-gray-800">Your peace of mind is our priority</p>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-orange-50 rounded-2xl p-8 mb-12">
@@ -341,17 +341,17 @@ export default function AboutPage() {
                 <div>
                   <div className="text-4xl mb-4">🏆</div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Fully Licensed</h3>
-                  <p className="text-gray-600">All required business licenses and permits for junk removal operations</p>
+                  <p className="text-gray-800">All required business licenses and permits for junk removal operations</p>
                 </div>
                 <div>
                   <div className="text-4xl mb-4">🛡️</div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Fully Insured</h3>
-                  <p className="text-gray-600">Comprehensive liability insurance protects you and your property</p>
+                  <p className="text-gray-800">Comprehensive liability insurance protects you and your property</p>
                 </div>
                 <div>
                   <div className="text-4xl mb-4">⭐</div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Bonded Team</h3>
-                  <p className="text-gray-600">All team members are background-checked and bonded professionals</p>
+                  <p className="text-gray-800">All team members are background-checked and bonded professionals</p>
                 </div>
               </div>
             </div>
@@ -369,7 +369,7 @@ export default function AboutPage() {
                   📋 Waste Reduction Partner
                 </div>
               </div>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-800 leading-relaxed">
                 We're committed to responsible disposal practices, partnering with local recycling centers and donation facilities to ensure 85% of collected items are diverted from landfills.
               </p>
             </div>

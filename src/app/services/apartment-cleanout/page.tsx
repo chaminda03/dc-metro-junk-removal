@@ -14,7 +14,7 @@ export default function ApartmentCleanoutPage() {
       <section className="bg-gradient-to-b from-blue-50 to-white py-20 text-center">
         <div className="container mx-auto px-6">
           <h2 className="text-5xl font-bold text-gray-800 mb-6">Apartment & Condo Cleanout Services</h2>
-          <p className="text-xl text-gray-600 mb-8">Professional apartment and condo junk removal</p>
+          <p className="text-xl text-gray-800 mb-8">Professional apartment and condo junk removal</p>
           <a href="tel:5714892961" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl">📞 Schedule Apartment Cleanout</a>
         </div>
       </section>

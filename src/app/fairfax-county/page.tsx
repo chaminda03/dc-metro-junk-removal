@@ -21,7 +21,7 @@ export default function FairfaxCountyPage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             #1 Junk Removal in Fairfax County, VA
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">
             Professional junk removal services in Fairfax, Vienna, McLean, Reston, Herndon & Great Falls
             <br />
             Same-day pickup • Top Rated & insured • Eco-friendly disposal
@@ -44,8 +44,8 @@ export default function FairfaxCountyPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Fairfax, VA</h3>
-              <p className="text-gray-600 mb-3">Professional junk removal in the heart of Fairfax County</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Professional junk removal in the heart of Fairfax County</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Residential junk removal</li>
                 <li>• Commercial cleanouts</li>
                 <li>• Same-day service available</li>
@@ -53,8 +53,8 @@ export default function FairfaxCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Vienna, VA</h3>
-              <p className="text-gray-600 mb-3">Trusted junk hauling services in Vienna</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Trusted junk hauling services in Vienna</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Furniture & appliance removal</li>
                 <li>• Estate cleanouts</li>
                 <li>• Construction debris removal</li>
@@ -62,8 +62,8 @@ export default function FairfaxCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-blue-900">McLean, VA</h3>
-              <p className="text-gray-600 mb-3">Premium junk removal services in McLean</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Premium junk removal services in McLean</p>
+              <ul className="text-sm text-gray-700">
                 <li>• High-end furniture removal</li>
                 <li>• Office cleanouts</li>
                 <li>• Garage & basement cleanouts</li>
@@ -71,8 +71,8 @@ export default function FairfaxCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Reston, VA</h3>
-              <p className="text-gray-600 mb-3">Reliable junk hauling in Reston community</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Reliable junk hauling in Reston community</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Condo & townhome cleanouts</li>
                 <li>• Moving assistance</li>
                 <li>• Appliance disposal</li>
@@ -80,8 +80,8 @@ export default function FairfaxCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Herndon, VA</h3>
-              <p className="text-gray-600 mb-3">Fast junk removal services in Herndon</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Fast junk removal services in Herndon</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Hot tub removal</li>
                 <li>• Deck demolition</li>
                 <li>• Yard waste removal</li>
@@ -89,8 +89,8 @@ export default function FairfaxCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-blue-900">Great Falls, VA</h3>
-              <p className="text-gray-600 mb-3">Luxury home junk removal in Great Falls</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Luxury home junk removal in Great Falls</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Estate cleanouts</li>
                 <li>• Pool equipment removal</li>
                 <li>• Large item hauling</li>
@@ -110,28 +110,28 @@ export default function FairfaxCountyPage() {
                 <span className="text-2xl">⚡</span>
               </div>
               <h3 className="font-bold mb-2">Same-Day Service</h3>
-              <p className="text-gray-600">Quick response times throughout Fairfax County</p>
+              <p className="text-gray-800">Quick response times throughout Fairfax County</p>
             </div>
             <div className="text-center">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">♻️</span>
               </div>
               <h3 className="font-bold mb-2">Eco-Friendly</h3>
-              <p className="text-gray-600">We recycle and donate whenever possible</p>
+              <p className="text-gray-800">We recycle and donate whenever possible</p>
             </div>
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🛡️</span>
               </div>
               <h3 className="font-bold mb-2">Licensed & Insured</h3>
-              <p className="text-gray-600">Full coverage for your protection</p>
+              <p className="text-gray-800">Full coverage for your protection</p>
             </div>
             <div className="text-center">
               <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💰</span>
               </div>
               <h3 className="font-bold mb-2">Fair Pricing</h3>
-              <p className="text-gray-600">Transparent, competitive rates</p>
+              <p className="text-gray-800">Transparent, competitive rates</p>
             </div>
           </div>
         </div>

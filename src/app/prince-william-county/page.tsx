@@ -21,7 +21,7 @@ export default function PrinceWilliamCountyPage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Prince William County Junk Removal Experts
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">
             Professional junk hauling in Manassas, Woodbridge, Dale City & Gainesville
             <br />
             Trusted by Prince William County residents and businesses
@@ -44,8 +44,8 @@ export default function PrinceWilliamCountyPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-purple-700">Manassas, VA</h3>
-              <p className="text-gray-600 mb-3">Historic city junk removal specialists</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Historic city junk removal specialists</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Downtown business cleanouts</li>
                 <li>• Historic district renovations</li>
                 <li>• Residential estate cleanouts</li>
@@ -53,8 +53,8 @@ export default function PrinceWilliamCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-purple-700">Woodbridge, VA</h3>
-              <p className="text-gray-600 mb-3">Community-focused junk hauling</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Community-focused junk hauling</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Townhome cleanouts</li>
                 <li>• Appliance disposal</li>
                 <li>• Moving assistance</li>
@@ -62,8 +62,8 @@ export default function PrinceWilliamCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-purple-700">Dale City, VA</h3>
-              <p className="text-gray-600 mb-3">Neighborhood junk removal</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Neighborhood junk removal</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Garage cleanouts</li>
                 <li>• Furniture removal</li>
                 <li>• Construction debris</li>
@@ -71,8 +71,8 @@ export default function PrinceWilliamCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-purple-700">Gainesville, VA</h3>
-              <p className="text-gray-600 mb-3">Growing community services</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Growing community services</p>
+              <ul className="text-sm text-gray-700">
                 <li>• New home cleanup</li>
                 <li>• Pool equipment removal</li>
                 <li>• Deck demolition</li>
@@ -80,8 +80,8 @@ export default function PrinceWilliamCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-purple-700">Haymarket, VA</h3>
-              <p className="text-gray-600 mb-3">Rural area specialist</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Rural area specialist</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Farm equipment removal</li>
                 <li>• Large property cleanups</li>
                 <li>• Shed & barn cleanouts</li>
@@ -89,8 +89,8 @@ export default function PrinceWilliamCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-purple-700">Lake Ridge, VA</h3>
-              <p className="text-gray-600 mb-3">Lakefront property services</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Lakefront property services</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Dock equipment removal</li>
                 <li>• Waterfront cleanouts</li>
                 <li>• Seasonal cleanup</li>
@@ -108,42 +108,42 @@ export default function PrinceWilliamCountyPage() {
             <div className="text-center p-4 bg-purple-50 rounded-lg">
               <div className="text-4xl mb-3">🛋️</div>
               <h4 className="font-bold text-purple-800">Furniture</h4>
-              <p className="text-sm text-gray-600">Sofas, beds, tables, chairs</p>
+              <p className="text-sm text-gray-800">Sofas, beds, tables, chairs</p>
             </div>
             <div className="text-center p-4 bg-purple-50 rounded-lg">
               <div className="text-4xl mb-3">🏠</div>
               <h4 className="font-bold text-purple-800">Appliances</h4>
-              <p className="text-sm text-gray-600">Refrigerators, washers, dryers</p>
+              <p className="text-sm text-gray-800">Refrigerators, washers, dryers</p>
             </div>
             <div className="text-center p-4 bg-purple-50 rounded-lg">
               <div className="text-4xl mb-3">🚧</div>
               <h4 className="font-bold text-purple-800">Construction</h4>
-              <p className="text-sm text-gray-600">Debris, drywall, flooring</p>
+              <p className="text-sm text-gray-800">Debris, drywall, flooring</p>
             </div>
             <div className="text-center p-4 bg-purple-50 rounded-lg">
               <div className="text-4xl mb-3">📺</div>
               <h4 className="font-bold text-purple-800">Electronics</h4>
-              <p className="text-sm text-gray-600">TVs, computers, stereos</p>
+              <p className="text-sm text-gray-800">TVs, computers, stereos</p>
             </div>
             <div className="text-center p-4 bg-purple-50 rounded-lg">
               <div className="text-4xl mb-3">🏊</div>
               <h4 className="font-bold text-purple-800">Hot Tubs</h4>
-              <p className="text-sm text-gray-600">Spas, pools, equipment</p>
+              <p className="text-sm text-gray-800">Spas, pools, equipment</p>
             </div>
             <div className="text-center p-4 bg-purple-50 rounded-lg">
               <div className="text-4xl mb-3">🏢</div>
               <h4 className="font-bold text-purple-800">Office Items</h4>
-              <p className="text-sm text-gray-600">Desks, chairs, equipment</p>
+              <p className="text-sm text-gray-800">Desks, chairs, equipment</p>
             </div>
             <div className="text-center p-4 bg-purple-50 rounded-lg">
               <div className="text-4xl mb-3">🌿</div>
               <h4 className="font-bold text-purple-800">Yard Waste</h4>
-              <p className="text-sm text-gray-600">Branches, leaves, debris</p>
+              <p className="text-sm text-gray-800">Branches, leaves, debris</p>
             </div>
             <div className="text-center p-4 bg-purple-50 rounded-lg">
               <div className="text-4xl mb-3">📦</div>
               <h4 className="font-bold text-purple-800">Moving Boxes</h4>
-              <p className="text-sm text-gray-600">Boxes, packing materials</p>
+              <p className="text-sm text-gray-800">Boxes, packing materials</p>
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@ export default function PrinceWilliamCountyPage() {
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-purple-700">We Know PWC</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-800 mb-4">
                 Our team understands Prince William County's unique needs, from historic Manassas properties 
                 to new developments in Gainesville. We're familiar with local disposal regulations and 
                 recycling centers.
@@ -169,7 +169,7 @@ export default function PrinceWilliamCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-purple-700">Community Focused</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-800 mb-4">
                 We're proud to serve Prince William County families and businesses. Our team lives and 
                 works in the community, providing personalized service with local knowledge.
               </p>

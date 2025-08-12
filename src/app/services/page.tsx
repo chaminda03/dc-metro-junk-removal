@@ -248,7 +248,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Complete Junk Removal Services</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               From single-item pickup to complete property cleanouts, we handle all your junk removal needs with professionalism and care.
             </p>
           </div>
@@ -259,13 +259,13 @@ export default function ServicesPage() {
                 <div className="p-8">
                   <div className="text-5xl mb-4 text-center">{service.icon}</div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">{service.title}</h3>
-                  <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
+                  <p className="text-gray-800 mb-6 leading-relaxed">{service.description}</p>
                   
                   <div className="space-y-2 mb-6">
                     {service.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center">
                         <span className="text-green-500 mr-2">✓</span>
-                        <span className="text-sm text-gray-600">{feature}</span>
+                        <span className="text-sm text-gray-800">{feature}</span>
                       </div>
                     ))}
                   </div>
@@ -288,7 +288,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Choose Wee Haul Junk Removal?</h2>
-            <p className="text-xl text-gray-600">The DC Metro Area's most trusted junk removal company</p>
+            <p className="text-xl text-gray-800">The DC Metro Area's most trusted junk removal company</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -297,7 +297,7 @@ export default function ServicesPage() {
                 <span className="text-3xl">⚡</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Same-Day Service</h3>
-              <p className="text-gray-600">Fast, reliable pickup when you need it most. Many jobs completed the same day you call.</p>
+              <p className="text-gray-800">Fast, reliable pickup when you need it most. Many jobs completed the same day you call.</p>
             </div>
             
             <div className="text-center">
@@ -305,7 +305,7 @@ export default function ServicesPage() {
                 <span className="text-3xl">🏆</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Licensed & Insured</h3>
-              <p className="text-gray-600">Fully licensed, bonded, and insured for your protection and peace of mind.</p>
+              <p className="text-gray-800">Fully licensed, bonded, and insured for your protection and peace of mind.</p>
             </div>
             
             <div className="text-center">
@@ -313,7 +313,7 @@ export default function ServicesPage() {
                 <span className="text-3xl">♻️</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Eco-Friendly</h3>
-              <p className="text-gray-600">We recycle, donate, and properly dispose of items to minimize landfill impact.</p>
+              <p className="text-gray-800">We recycle, donate, and properly dispose of items to minimize landfill impact.</p>
             </div>
             
             <div className="text-center">
@@ -321,7 +321,7 @@ export default function ServicesPage() {
                 <span className="text-3xl">💰</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Transparent Pricing</h3>
-              <p className="text-gray-600">Upfront, honest pricing with no hidden fees. Free estimates for all jobs.</p>
+              <p className="text-gray-800">Upfront, honest pricing with no hidden fees. Free estimates for all jobs.</p>
             </div>
           </div>
         </div>
@@ -332,7 +332,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Areas We Serve</h2>
-            <p className="text-xl text-gray-600">Premium junk removal across the Washington DC Metro Area</p>
+            <p className="text-xl text-gray-800">Premium junk removal across the Washington DC Metro Area</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -341,7 +341,7 @@ export default function ServicesPage() {
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-gray-900 mb-3">{area.name}</h3>
                   <p className="text-orange-600 font-semibold mb-3 text-sm">{area.neighborhoods}</p>
-                  <p className="text-gray-600 mb-4">{area.description}</p>
+                  <p className="text-gray-800 mb-4">{area.description}</p>
                   <a 
                     href={area.url}
                     className="text-orange-600 hover:text-orange-700 font-semibold flex items-center"
@@ -405,28 +405,28 @@ export default function ServicesPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
-            <p className="text-xl text-gray-600">Everything you need to know about our junk removal services</p>
+            <p className="text-xl text-gray-800">Everything you need to know about our junk removal services</p>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-white rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">What items do you remove?</h3>
-              <p className="text-gray-600">We remove almost everything! Furniture, appliances, electronics, construction debris, yard waste, and more. We cannot remove hazardous materials like paint, chemicals, or asbestos.</p>
+              <p className="text-gray-800">We remove almost everything! Furniture, appliances, electronics, construction debris, yard waste, and more. We cannot remove hazardous materials like paint, chemicals, or asbestos.</p>
             </div>
             
             <div className="bg-white rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">How do you price your services?</h3>
-              <p className="text-gray-600">Pricing is based on volume - how much space your items take in our truck. We provide upfront, transparent pricing with no hidden fees. Most jobs range from $150-$800.</p>
+              <p className="text-gray-800">Pricing is based on volume - how much space your items take in our truck. We provide upfront, transparent pricing with no hidden fees. Most jobs range from $150-$800.</p>
             </div>
             
             <div className="bg-white rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Do you offer same-day service?</h3>
-              <p className="text-gray-600">Yes! We offer same-day service for most areas when availability permits. Call us early in the day for the best chance of same-day pickup.</p>
+              <p className="text-gray-800">Yes! We offer same-day service for most areas when availability permits. Call us early in the day for the best chance of same-day pickup.</p>
             </div>
             
             <div className="bg-white rounded-xl shadow-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Are you licensed and insured?</h3>
-              <p className="text-gray-600">Absolutely! We are fully licensed, bonded, and insured. Our team is professional, uniformed, and trained to handle all types of junk removal safely.</p>
+              <p className="text-gray-800">Absolutely! We are fully licensed, bonded, and insured. Our team is professional, uniformed, and trained to handle all types of junk removal safely.</p>
             </div>
           </div>
         </div>

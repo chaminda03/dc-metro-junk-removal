@@ -21,7 +21,7 @@ export default function ApplianceRemovalPage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Professional Appliance Removal in Northern Virginia
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">
             Safe, efficient appliance pickup and eco-friendly disposal
             <br />
             Refrigerators • Washers • Dryers • Dishwashers • Water Heaters
@@ -42,7 +42,7 @@ export default function ApplianceRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Complete Appliance Removal Services</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Professional removal and EPA-compliant disposal of all major appliances
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function ApplianceRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">❄️</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Refrigerators & Freezers</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Full-size refrigerators (side-by-side, French door)</li>
                 <li>• Mini fridges & compact units</li>
                 <li>• Chest freezers & upright freezers</li>
@@ -63,7 +63,7 @@ export default function ApplianceRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">🌊</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Washers & Dryers</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Top-load & front-load washers</li>
                 <li>• Electric & gas dryers</li>
                 <li>• Stackable washer/dryer units</li>
@@ -75,7 +75,7 @@ export default function ApplianceRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">🍽️</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Dishwashers</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Built-in dishwashers</li>
                 <li>• Portable dishwashers</li>
                 <li>• Countertop dishwashers</li>
@@ -87,7 +87,7 @@ export default function ApplianceRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">🔥</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Water Heaters</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Tank water heaters (30-80+ gallons)</li>
                 <li>• Tankless water heaters</li>
                 <li>• Electric & gas water heaters</li>
@@ -99,7 +99,7 @@ export default function ApplianceRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">🍳</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Kitchen Appliances</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Gas & electric ranges/stoves</li>
                 <li>• Wall ovens & cooktops</li>
                 <li>• Microwaves (countertop & built-in)</li>
@@ -111,7 +111,7 @@ export default function ApplianceRemovalPage() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4 text-center">❄️</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">HVAC Equipment</h3>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-gray-800 space-y-1">
                 <li>• Central air conditioning units</li>
                 <li>• Window & portable AC units</li>
                 <li>• Furnaces & boilers</li>
@@ -128,7 +128,7 @@ export default function ApplianceRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Appliance Removal Process</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Safe, efficient, and environmentally responsible appliance removal
             </p>
           </div>
@@ -139,7 +139,7 @@ export default function ApplianceRemovalPage() {
                 <span className="text-2xl font-bold text-green-600">1</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Free Estimate</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Call for instant pricing. We provide transparent quotes with no hidden fees.
               </p>
             </div>
@@ -149,7 +149,7 @@ export default function ApplianceRemovalPage() {
                 <span className="text-2xl font-bold text-green-600">2</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Safe Disconnection</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Our team safely disconnects appliances from utilities (additional fees may apply).
               </p>
             </div>
@@ -159,7 +159,7 @@ export default function ApplianceRemovalPage() {
                 <span className="text-2xl font-bold text-green-600">3</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Professional Removal</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 We handle all heavy lifting and transport appliances safely from your property.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function ApplianceRemovalPage() {
                 <span className="text-2xl font-bold text-green-600">4</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">EPA Compliance</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Proper refrigerant recovery and environmentally responsible disposal or recycling.
               </p>
             </div>
@@ -182,7 +182,7 @@ export default function ApplianceRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Appliance Removal Pricing</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Competitive rates for professional appliance removal and disposal
             </p>
           </div>
@@ -191,7 +191,7 @@ export default function ApplianceRemovalPage() {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Small Appliances</h3>
               <div className="text-3xl font-bold text-green-600 mb-4">$75-125</div>
-              <ul className="text-gray-600 space-y-2 mb-4">
+              <ul className="text-gray-800 space-y-2 mb-4">
                 <li>• Microwaves</li>
                 <li>• Dishwashers</li>
                 <li>• Garbage disposals</li>
@@ -203,7 +203,7 @@ export default function ApplianceRemovalPage() {
               <div className="bg-green-500 text-white px-3 py-1 rounded-full text-sm mb-4 inline-block">Most Common</div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Major Appliances</h3>
               <div className="text-3xl font-bold text-green-600 mb-4">$125-200</div>
-              <ul className="text-gray-600 space-y-2 mb-4">
+              <ul className="text-gray-800 space-y-2 mb-4">
                 <li>• Refrigerators</li>
                 <li>• Washers & dryers</li>
                 <li>• Stoves & ovens</li>
@@ -214,7 +214,7 @@ export default function ApplianceRemovalPage() {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Large/Commercial</h3>
               <div className="text-3xl font-bold text-green-600 mb-4">$200+</div>
-              <ul className="text-gray-600 space-y-2 mb-4">
+              <ul className="text-gray-800 space-y-2 mb-4">
                 <li>• Commercial refrigeration</li>
                 <li>• HVAC systems</li>
                 <li>• Industrial equipment</li>
@@ -228,11 +228,11 @@ export default function ApplianceRemovalPage() {
             <div className="grid md:grid-cols-2 gap-4 text-left mt-4">
               <div>
                 <h4 className="font-bold text-gray-900">Disconnection Services</h4>
-                <p className="text-gray-600">Plumbing/electrical disconnection: $50-100 additional</p>
+                <p className="text-gray-800">Plumbing/electrical disconnection: $50-100 additional</p>
               </div>
               <div>
                 <h4 className="font-bold text-gray-900">Same-Day Service</h4>
-                <p className="text-gray-600">Available for urgent removals (subject to availability)</p>
+                <p className="text-gray-800">Available for urgent removals (subject to availability)</p>
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@ export default function ApplianceRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Environmentally Responsible Disposal</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               We follow strict EPA guidelines for appliance disposal and recycling
             </p>
           </div>
@@ -252,7 +252,7 @@ export default function ApplianceRemovalPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">🌍 Our Environmental Commitment</h3>
-              <ul className="space-y-4 text-gray-600">
+              <ul className="space-y-4 text-gray-800">
                 <li className="flex items-start">
                   <span className="text-green-600 mr-3 text-xl">✓</span>
                   <div>
@@ -285,15 +285,15 @@ export default function ApplianceRemovalPage() {
               <div className="space-y-4">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600">95%</div>
-                  <div className="text-gray-600">Material Recovery Rate</div>
+                  <div className="text-gray-800">Material Recovery Rate</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600">100%</div>
-                  <div className="text-gray-600">EPA Compliance</div>
+                  <div className="text-gray-800">EPA Compliance</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600">500+</div>
-                  <div className="text-gray-600">Appliances Recycled Monthly</div>
+                  <div className="text-gray-800">Appliances Recycled Monthly</div>
                 </div>
               </div>
             </div>
@@ -306,7 +306,7 @@ export default function ApplianceRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Appliance Removal Service Areas</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               Professional appliance pickup throughout the DC metro area
             </p>
           </div>
@@ -314,27 +314,27 @@ export default function ApplianceRemovalPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🏛️ Washington DC</h3>
-              <p className="text-gray-600 text-sm">Georgetown, Dupont Circle, Capitol Hill, Adams Morgan</p>
+              <p className="text-gray-800 text-sm">Georgetown, Dupont Circle, Capitol Hill, Adams Morgan</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🌟 Fairfax County</h3>
-              <p className="text-gray-600 text-sm">McLean, Great Falls, Vienna, Oakton, Tysons</p>
+              <p className="text-gray-800 text-sm">McLean, Great Falls, Vienna, Oakton, Tysons</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🏘️ Loudoun County</h3>
-              <p className="text-gray-600 text-sm">Ashburn, Leesburg, Sterling, Herndon, Reston</p>
+              <p className="text-gray-800 text-sm">Ashburn, Leesburg, Sterling, Herndon, Reston</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🏛️ Arlington County</h3>
-              <p className="text-gray-600 text-sm">Arlington, Rosslyn, Ballston, Pentagon City</p>
+              <p className="text-gray-800 text-sm">Arlington, Rosslyn, Ballston, Pentagon City</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">🏡 Prince William</h3>
-              <p className="text-gray-600 text-sm">Woodbridge, Manassas, Gainesville, Haymarket</p>
+              <p className="text-gray-800 text-sm">Woodbridge, Manassas, Gainesville, Haymarket</p>
             </div>
             <div className="bg-white rounded-lg p-4">
               <h3 className="font-bold text-gray-900 mb-2">💎 Montgomery County</h3>
-              <p className="text-gray-600 text-sm">Bethesda, Potomac, Chevy Chase, Rockville</p>
+              <p className="text-gray-800 text-sm">Bethesda, Potomac, Chevy Chase, Rockville</p>
             </div>
           </div>
         </div>
@@ -350,35 +350,35 @@ export default function ApplianceRemovalPage() {
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Do you handle refrigerant removal from refrigerators and AC units?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Yes, we are EPA Section 608 certified for refrigerant recovery. We properly remove and dispose of all refrigerants according to federal environmental regulations, ensuring no harmful chemicals are released into the atmosphere.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Can you disconnect my appliances before removal?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 We can provide basic disconnection services for an additional fee ($50-100). For complex plumbing or electrical work, we recommend having a licensed professional disconnect the appliance before our arrival to ensure safety and code compliance.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">What's the difference in cost between different appliance types?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Pricing depends on size, weight, and disposal complexity. Small appliances like microwaves cost $75-125, major appliances like refrigerators cost $125-200, while large commercial units or HVAC systems start at $200. Refrigerated appliances require special handling due to refrigerant recovery.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Do you remove built-in appliances?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Yes, we remove built-in dishwashers, wall ovens, cooktops, and other integrated appliances. Additional labor charges may apply for removal of cabinetry or countertop modifications needed to access the appliance safely.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">How do you dispose of water heaters?</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Water heaters are drained completely and the metal tank is recycled. Gas water heaters require disconnection from the gas line (additional service). We ensure proper disposal of any sediment or mineral buildup according to local waste management regulations.
               </p>
             </div>

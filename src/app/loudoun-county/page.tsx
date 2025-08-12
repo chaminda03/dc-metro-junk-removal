@@ -21,7 +21,7 @@ export default function LoudounCountyPage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Loudoun County's Premier Junk Removal Service
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">
             Serving Ashburn, Sterling, Leesburg, Purcellville & Hamilton
             <br />
             Fast, reliable junk hauling throughout Loudoun County, VA
@@ -44,8 +44,8 @@ export default function LoudounCountyPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-green-700">Ashburn, VA</h3>
-              <p className="text-gray-600 mb-3">Leading junk removal service in Ashburn</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Leading junk removal service in Ashburn</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Tech corridor office cleanouts</li>
                 <li>• New construction debris</li>
                 <li>• Residential furniture removal</li>
@@ -53,8 +53,8 @@ export default function LoudounCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-green-700">Sterling, VA</h3>
-              <p className="text-gray-600 mb-3">Trusted junk hauling in Sterling</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Trusted junk hauling in Sterling</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Apartment cleanouts</li>
                 <li>• Appliance removal</li>
                 <li>• Storage unit cleanouts</li>
@@ -62,8 +62,8 @@ export default function LoudounCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-green-700">Leesburg, VA</h3>
-              <p className="text-gray-600 mb-3">Historic Leesburg junk removal experts</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Historic Leesburg junk removal experts</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Historic home cleanouts</li>
                 <li>• Estate sales cleanup</li>
                 <li>• Renovation debris removal</li>
@@ -71,8 +71,8 @@ export default function LoudounCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-green-700">Purcellville, VA</h3>
-              <p className="text-gray-600 mb-3">Rural property junk removal</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Rural property junk removal</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Barn & shed cleanouts</li>
                 <li>• Farm equipment removal</li>
                 <li>• Large property cleanups</li>
@@ -80,8 +80,8 @@ export default function LoudounCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-green-700">Hamilton, VA</h3>
-              <p className="text-gray-600 mb-3">Small town, big service</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Small town, big service</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Residential cleanouts</li>
                 <li>• Moving assistance</li>
                 <li>• Yard waste removal</li>
@@ -89,8 +89,8 @@ export default function LoudounCountyPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3 text-green-700">Dulles Area</h3>
-              <p className="text-gray-600 mb-3">Airport corridor service</p>
-              <ul className="text-sm text-gray-500">
+              <p className="text-gray-800 mb-3">Airport corridor service</p>
+              <ul className="text-sm text-gray-700">
                 <li>• Corporate office cleanouts</li>
                 <li>• Hotel furniture removal</li>
                 <li>• Commercial services</li>

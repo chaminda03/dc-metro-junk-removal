@@ -18,7 +18,7 @@ export default function GarageCleanoutPage() {
       <section className="bg-gradient-to-b from-yellow-50 to-white py-20">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-5xl font-bold text-gray-800 mb-6">Professional Garage Cleanout Services in Northern Virginia</h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">Complete garage cleaning and junk removal<br />Reclaim Your Garage Space Today</p>
+          <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">Complete garage cleaning and junk removal<br />Reclaim Your Garage Space Today</p>
           <a href="tel:5714892961" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">📞 Schedule Garage Cleanout</a>
         </div>
       </section>

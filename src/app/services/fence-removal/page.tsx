@@ -43,10 +43,10 @@ export default function FenceRemovalPage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Professional Fence Removal Services in Fairfax County VA
           </h1>
-          <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-800 mb-6 max-w-3xl mx-auto">
             Expert fence removal and disposal throughout Northern Virginia and DC Metro Area
           </p>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-lg text-gray-800 mb-8">
             Same Day & Next Day Service Available
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -65,7 +65,7 @@ export default function FenceRemovalPage() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Expert Fence Removal Services Throughout Northern Virginia</h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto">
               When it's time to remove that old, damaged, or unwanted fence from your property, Wee Haul Junk Removal & Hauling is Northern Virginia's trusted choice for professional fence removal services. Our skilled team specializes in safe, efficient, and eco-friendly fence removal for residential and commercial properties throughout Fairfax County, Arlington County, Prince William County, Loudoun County, Montgomery County, and the entire DC metro area.
             </p>
           </div>
@@ -89,37 +89,37 @@ export default function FenceRemovalPage() {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="text-green-600 text-2xl mb-3">✅</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Licensed, Bonded & Insured</h3>
-              <p className="text-gray-600">Professional fence removal specialists with full coverage</p>
+              <p className="text-gray-800">Professional fence removal specialists with full coverage</p>
             </div>
             
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="text-green-600 text-2xl mb-3">✅</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Same Day & Next Day Service</h3>
-              <p className="text-gray-600">Available throughout Northern Virginia when you need it most</p>
+              <p className="text-gray-800">Available throughout Northern Virginia when you need it most</p>
             </div>
             
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="text-green-600 text-2xl mb-3">✅</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">All Fence Types</h3>
-              <p className="text-gray-600">Wood, vinyl, chain link, wrought iron, and composite fencing</p>
+              <p className="text-gray-800">Wood, vinyl, chain link, wrought iron, and composite fencing</p>
             </div>
             
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="text-green-600 text-2xl mb-3">✅</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Complete Cleanup</h3>
-              <p className="text-gray-600">Post removal, concrete footings, and debris disposal included</p>
+              <p className="text-gray-800">Post removal, concrete footings, and debris disposal included</p>
             </div>
             
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="text-green-600 text-2xl mb-3">✅</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Eco-Friendly Disposal</h3>
-              <p className="text-gray-600">Recycling and donation when possible</p>
+              <p className="text-gray-800">Recycling and donation when possible</p>
             </div>
             
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="text-green-600 text-2xl mb-3">✅</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Local Expertise</h3>
-              <p className="text-gray-600">Deep knowledge of HOA requirements and local regulations</p>
+              <p className="text-gray-800">Deep knowledge of HOA requirements and local regulations</p>
             </div>
           </div>
         </div>
@@ -137,12 +137,12 @@ export default function FenceRemovalPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">🪵 Wood Fence Removal Services</h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-800 mb-4">
                   Professional wood fence removal throughout Northern Virginia's finest communities. Wood fences are the most common fencing material in Fairfax County neighborhoods, and our team has perfected the art of safe, efficient wood fence removal.
                 </p>
                 
                 <h4 className="font-bold text-gray-900 mb-2">Our Wood Fence Removal Process:</h4>
-                <ul className="space-y-2 text-gray-600 mb-4">
+                <ul className="space-y-2 text-gray-800 mb-4">
                   <li>• Pre-removal inspection to identify structural concerns or utility lines</li>
                   <li>• Systematic panel removal to prevent landscape damage</li>
                   <li>• Post and concrete footing extraction using specialized equipment</li>
@@ -153,7 +153,7 @@ export default function FenceRemovalPage() {
               
               <div className="bg-green-50 rounded-lg p-6">
                 <h4 className="font-bold text-gray-900 mb-3">Common Wood Fence Issues We Address:</h4>
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-2 text-gray-800">
                   <li>✓ Storm-damaged privacy fences</li>
                   <li>✓ Rotted cedar and pressure-treated lumber</li>
                   <li>✓ Warped and sagging fence panels</li>
@@ -167,7 +167,7 @@ export default function FenceRemovalPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="bg-gray-50 rounded-lg p-6 order-2 md:order-1">
                 <h4 className="font-bold text-gray-900 mb-3">Chain Link Removal Expertise:</h4>
-                <ul className="space-y-2 text-gray-600 mb-4">
+                <ul className="space-y-2 text-gray-800 mb-4">
                   <li>✓ Residential chain link removal for privacy upgrades</li>
                   <li>✓ Commercial chain link removal for property redevelopment</li>
                   <li>✓ Temporary fencing removal after construction projects</li>
@@ -176,7 +176,7 @@ export default function FenceRemovalPage() {
                 </ul>
                 
                 <h4 className="font-bold text-gray-900 mb-2">Our Advantages:</h4>
-                <ul className="space-y-1 text-sm text-gray-600">
+                <ul className="space-y-1 text-sm text-gray-800">
                   <li>• Specialized tools for efficient wire cutting</li>
                   <li>• Concrete cutting equipment for embedded footings</li>
                   <li>• Metal recycling partnerships</li>
@@ -186,7 +186,7 @@ export default function FenceRemovalPage() {
               
               <div className="order-1 md:order-2">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">⛓️ Chain Link Fence Removal Fairfax VA</h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-800 mb-4">
                   Complete chain link fence removal and disposal services. Chain link fences, while durable, eventually require removal due to rust, damage, or property improvements. Our experienced team handles all aspects of chain link fence removal throughout Fairfax County, Arlington, and surrounding areas, including the challenging task of removing deeply embedded posts and concrete footings.
                 </p>
               </div>
@@ -196,12 +196,12 @@ export default function FenceRemovalPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">🏠 Vinyl and Composite Fence Removal</h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-800 mb-4">
                   Expert removal of modern fencing materials. Vinyl and composite fences have become increasingly popular in Northern Virginia communities, but when removal becomes necessary, these materials require specialized handling. Our team understands the unique challenges of vinyl fence removal and employs techniques that maximize material recovery for recycling.
                 </p>
                 
                 <h4 className="font-bold text-gray-900 mb-2">Vinyl/Composite Removal Services:</h4>
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-2 text-gray-800">
                   <li>• PVC privacy fence panel and post removal</li>
                   <li>• Composite wood-alternative fencing systems</li>
                   <li>• Decorative vinyl fencing removal</li>
@@ -212,12 +212,12 @@ export default function FenceRemovalPage() {
               
               <div className="bg-blue-50 rounded-lg p-6">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">🔧 Wrought Iron and Metal Fence Removal</h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-800 mb-4">
                   Professional metal fencing removal throughout DC Metro. Ornate wrought iron and metal fencing adds elegance to properties but can become a liability when damaged or outdated.
                 </p>
                 
                 <h4 className="font-bold text-gray-900 mb-2">Metal Fence Removal Capabilities:</h4>
-                <ul className="space-y-1 text-sm text-gray-600">
+                <ul className="space-y-1 text-sm text-gray-800">
                   <li>• Historic wrought iron fence preservation and removal</li>
                   <li>• Aluminum decorative fencing systems</li>
                   <li>• Steel security fence removal</li>
@@ -240,12 +240,12 @@ export default function FenceRemovalPage() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">🔨 Post and Footing Removal Services</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-800 mb-6">
                 Complete fence post extraction throughout Northern Virginia. Removing fence posts and concrete footings is often the most challenging aspect of fence removal. Wee Haul Junk Removal & Hauling utilizes professional-grade equipment to safely extract posts without damaging your landscape or underground utilities.
               </p>
               
               <h4 className="font-bold text-gray-900 mb-3">Post Removal Expertise:</h4>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-800">
                 <li>• Deep concrete footing extraction using specialized equipment</li>
                 <li>• Utility line protection with proper marking and careful excavation</li>
                 <li>• Landscape preservation techniques to minimize yard damage</li>
@@ -256,12 +256,12 @@ export default function FenceRemovalPage() {
             
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">🌱 Property Restoration and Cleanup</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-800 mb-6">
                 Leave your property better than we found it. Our fence removal service doesn't end with hauling away the old fencing material. We take pride in restoring your property to its pre-fence condition, ready for new landscaping, construction, or fencing installation.
               </p>
               
               <h4 className="font-bold text-gray-900 mb-3">Post-Removal Services:</h4>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-800">
                 <li>• Complete debris cleanup and site restoration</li>
                 <li>• Soil grading and leveling where posts were removed</li>
                 <li>• Grass seed application in disturbed areas</li>
@@ -283,8 +283,8 @@ export default function FenceRemovalPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-green-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">🌟 Fairfax County Fence Removal</h3>
-              <p className="text-gray-600 mb-3">Professional fence removal in Fairfax County's premier communities</p>
-              <ul className="text-sm text-gray-600 space-y-1">
+              <p className="text-gray-800 mb-3">Professional fence removal in Fairfax County's premier communities</p>
+              <ul className="text-sm text-gray-800 space-y-1">
                 <li>• Vienna, VA - Historic neighborhoods and modern developments</li>
                 <li>• McLean, VA - Luxury properties and estate fencing</li>
                 <li>• Reston, VA - Planned community fence regulations</li>
@@ -298,8 +298,8 @@ export default function FenceRemovalPage() {
             
             <div className="bg-blue-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">🏛️ Arlington County Fence Removal</h3>
-              <p className="text-gray-600 mb-3">Expert fence removal services throughout Arlington County</p>
-              <ul className="text-sm text-gray-600 space-y-1">
+              <p className="text-gray-800 mb-3">Expert fence removal services throughout Arlington County</p>
+              <ul className="text-sm text-gray-800 space-y-1">
                 <li>• Arlington, VA - Downtown and residential areas</li>
                 <li>• Crystal City, VA - Commercial and residential properties</li>
                 <li>• Ballston, VA - Mixed-use development fence removal</li>
@@ -310,8 +310,8 @@ export default function FenceRemovalPage() {
             
             <div className="bg-purple-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">🏡 Prince William County</h3>
-              <p className="text-gray-600 mb-3">Comprehensive fence removal throughout Prince William County</p>
-              <ul className="text-sm text-gray-600 space-y-1">
+              <p className="text-gray-800 mb-3">Comprehensive fence removal throughout Prince William County</p>
+              <ul className="text-sm text-gray-800 space-y-1">
                 <li>• Manassas, VA - Historic and suburban fence removal</li>
                 <li>• Woodbridge, VA - Large residential community services</li>
                 <li>• Dale City, VA - Established neighborhood fence services</li>
@@ -322,8 +322,8 @@ export default function FenceRemovalPage() {
             
             <div className="bg-yellow-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">🏘️ Loudoun County</h3>
-              <p className="text-gray-600 mb-3">Professional fencing removal in Loudoun County's fastest-growing areas</p>
-              <ul className="text-sm text-gray-600 space-y-1">
+              <p className="text-gray-800 mb-3">Professional fencing removal in Loudoun County's fastest-growing areas</p>
+              <ul className="text-sm text-gray-800 space-y-1">
                 <li>• Ashburn, VA - Modern community fence services</li>
                 <li>• Sterling, VA - Established residential fence removal</li>
                 <li>• Leesburg, VA - Historic and modern fence clearing</li>
@@ -334,8 +334,8 @@ export default function FenceRemovalPage() {
             
             <div className="bg-red-50 rounded-lg p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">💎 Montgomery County, MD</h3>
-              <p className="text-gray-600 mb-3">Expert fence removal throughout Montgomery County Maryland</p>
-              <ul className="text-sm text-gray-600 space-y-1">
+              <p className="text-gray-800 mb-3">Expert fence removal throughout Montgomery County Maryland</p>
+              <ul className="text-sm text-gray-800 space-y-1">
                 <li>• Potomac, MD - Luxury property fence removal</li>
                 <li>• Bethesda, MD - Residential fence services</li>
                 <li>• Chevy Chase, MD - Premium neighborhood fence removal</li>
@@ -356,12 +356,12 @@ export default function FenceRemovalPage() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">⚡ Emergency Fence Removal Northern Virginia</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-800 mb-6">
                 When you need fence removal fast, we deliver. Storm damage, property emergencies, or urgent renovation deadlines sometimes require immediate fence removal. Wee Haul Junk Removal & Hauling offers same day and next day fence removal services throughout the DC metro area.
               </p>
               
               <h4 className="font-bold text-gray-900 mb-3">Emergency Situations We Handle:</h4>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-800">
                 <li>• Storm-damaged fences posing safety hazards</li>
                 <li>• Insurance claim deadlines requiring rapid removal</li>
                 <li>• Real estate closing preparations</li>
@@ -373,12 +373,12 @@ export default function FenceRemovalPage() {
             
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">📅 Scheduled Fence Removal Services</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-800 mb-6">
                 Convenient scheduling to fit your timeline. For planned fence removal projects, we offer flexible scheduling options to accommodate your timeline and budget. Our team works efficiently to minimize disruption to your property and daily routine.
               </p>
               
               <h4 className="font-bold text-gray-900 mb-3">Scheduling Options:</h4>
-              <ul className="space-y-2 text-gray-600">
+              <ul className="space-y-2 text-gray-800">
                 <li>• Same day service for urgent needs</li>
                 <li>• Next day removal for quick turnaround</li>
                 <li>• Weekend appointments for busy schedules</li>
@@ -396,12 +396,12 @@ export default function FenceRemovalPage() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Affordable and Transparent Fence Removal Pricing</h2>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-800 mb-6">
                 Most competitive rates in Northern Virginia. At Wee Haul Junk Removal & Hauling, we believe professional fence removal should be affordable for every property owner. Our transparent pricing structure eliminates surprises and ensures you receive exceptional value for expert service.
               </p>
               
               <h3 className="text-xl font-bold text-gray-900 mb-3">Pricing Factors:</h3>
-              <ul className="space-y-2 text-gray-600 mb-6">
+              <ul className="space-y-2 text-gray-800 mb-6">
                 <li>• Linear footage of fencing to be removed</li>
                 <li>• Fence type and height considerations</li>
                 <li>• Post and footing complexity</li>
@@ -412,7 +412,7 @@ export default function FenceRemovalPage() {
               
               <div className="bg-green-100 rounded-lg p-6">
                 <h4 className="font-bold text-gray-900 mb-2">Free Estimates and Consultations</h4>
-                <p className="text-gray-600">No-obligation assessments for all fence removal projects</p>
+                <p className="text-gray-800">No-obligation assessments for all fence removal projects</p>
               </div>
             </div>
             
@@ -424,7 +424,7 @@ export default function FenceRemovalPage() {
                   <div className="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">1</div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Free Consultation and Estimate</h4>
-                    <p className="text-gray-600 text-sm">Contact us for your free, no-obligation fence removal consultation and detailed pricing.</p>
+                    <p className="text-gray-800 text-sm">Contact us for your free, no-obligation fence removal consultation and detailed pricing.</p>
                   </div>
                 </div>
                 
@@ -432,7 +432,7 @@ export default function FenceRemovalPage() {
                   <div className="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">2</div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Project Planning and Scheduling</h4>
-                    <p className="text-gray-600 text-sm">We'll work with you to schedule your fence removal at a convenient time.</p>
+                    <p className="text-gray-800 text-sm">We'll work with you to schedule your fence removal at a convenient time.</p>
                   </div>
                 </div>
                 
@@ -440,7 +440,7 @@ export default function FenceRemovalPage() {
                   <div className="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">3</div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Professional Removal and Cleanup</h4>
-                    <p className="text-gray-600 text-sm">Our skilled team handles all aspects from initial dismantling to final cleanup.</p>
+                    <p className="text-gray-800 text-sm">Our skilled team handles all aspects from initial dismantling to final cleanup.</p>
                   </div>
                 </div>
                 
@@ -448,7 +448,7 @@ export default function FenceRemovalPage() {
                   <div className="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">4</div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Final Inspection and Satisfaction</h4>
-                    <p className="text-gray-600 text-sm">We conduct a thorough final inspection to ensure your complete satisfaction.</p>
+                    <p className="text-gray-800 text-sm">We conduct a thorough final inspection to ensure your complete satisfaction.</p>
                   </div>
                 </div>
               </div>
@@ -472,7 +472,7 @@ export default function FenceRemovalPage() {
                   <span key={star} className="text-yellow-400">★</span>
                 ))}
               </div>
-              <p className="text-gray-600 italic mb-4">
+              <p className="text-gray-800 italic mb-4">
                 "Outstanding service from start to finish! Wee Haul removed our old wood fence in McLean and cleaned up everything perfectly. Same day service and very reasonable pricing. Highly recommend!"
               </p>
               <p className="text-sm font-bold text-gray-900">- Sarah M., McLean VA</p>
@@ -485,7 +485,7 @@ export default function FenceRemovalPage() {
                   <span key={star} className="text-yellow-400">★</span>
                 ))}
               </div>
-              <p className="text-gray-600 italic mb-4">
+              <p className="text-gray-800 italic mb-4">
                 "Called them for emergency chain link removal after storm damage in Arlington. They responded within hours and had everything cleared safely. Professional team and fair pricing."
               </p>
               <p className="text-sm font-bold text-gray-900">- Mike T., Arlington VA</p>
@@ -498,7 +498,7 @@ export default function FenceRemovalPage() {
                   <span key={star} className="text-yellow-400">★</span>
                 ))}
               </div>
-              <p className="text-gray-600 italic mb-4">
+              <p className="text-gray-800 italic mb-4">
                 "Needed extensive fence removal for our Fairfax County development project. Wee Haul handled everything efficiently and worked around our tight construction schedule. Will definitely use them again."
               </p>
               <p className="text-sm font-bold text-gray-900">- Johnson Construction, Fairfax VA</p>
