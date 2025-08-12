@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://weehauljunkdc.com'),
   title: {
     template: '%s | Wee Haul Junk Removal - DC Metro Area',
-    default: 'Junk Removal Near Me | Same Day Service Washington DC Metro | Wee Haul'
+    default: 'Best Junk Removal Near Me | #1 Rated Washington DC Metro | Same Day Service'
   },
-  description: 'Same-day junk removal DC metro. Licensed & insured serving Potomac, Bethesda, Georgetown, Fairfax, Loudoun, Prince William. Call (571) 489-2961',
+  description: '#1 junk removal company Washington DC metro. Same-day service $150+. Licensed & insured. Serving Potomac, Bethesda, McLean, Georgetown. Free estimates. Call (571) 489-2961',
   keywords: 'junk removal near me, junk removal Washington DC, junk removal Potomac MD, junk removal Bethesda, junk removal Georgetown, junk removal Chevy Chase, junk removal Fairfax VA, junk removal Loudoun County, same day junk removal, furniture removal, appliance removal, estate cleanout, luxury junk removal, construction debris removal, eco-friendly junk removal',
   authors: [{ name: 'Wee Haul Junk Removal' }],
   creator: 'Wee Haul Junk Removal',
