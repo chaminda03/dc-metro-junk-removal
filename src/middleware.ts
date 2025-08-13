@@ -1,17 +1,29 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 export function middleware(request: NextRequest) {
-  // Handle www to non-www redirect
   const url = request.nextUrl.clone()
   const hostname = request.headers.get('host')
   
-  // If request comes from www subdomain, redirect to non-www
+  // Handle WWW to non-WWW redirect (301 permanent)
   if (hostname?.startsWith('www.')) {
-    url.host = hostname.replace('www.', '')
+    url.hostname = hostname.replace('www.', '')
     return NextResponse.redirect(url, 301)
   }
   
-  return NextResponse.next()
+  // Add performance headers for speed optimization
+  const response = NextResponse.next()
+  
+  // Aggressive caching for static assets
+  if (url.pathname.match(/\.(js|css|woff2|png|jpg|jpeg|gif|webp|svg|ico)$/)) {
+    response.headers.set('Cache-Control', 'public, max-age=31536000, immutable')
+    response.headers.set('Vary', 'Accept-Encoding')
+  }
+  
+  // Performance and security headers
+  response.headers.set('X-DNS-Prefetch-Control', 'on')
+  response.headers.set('X-Content-Type-Options', 'nosniff')
+  
+  return response
 }
 
 export const config = {
