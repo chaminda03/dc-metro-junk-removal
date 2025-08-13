@@ -73,7 +73,7 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
             // Not a routing issue, break and handle error
             break
           }
-        } catch (err) {
+        } catch {
           continue // Try next endpoint
         }
       }
