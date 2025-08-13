@@ -82,6 +82,15 @@ export default function RootLayout({
         <link rel="icon" href="/Logo.webp" />
         <link rel="manifest" href="/site.webmanifest" />
         
+        {/* WWW Canonicalization - Additional HTML redirect */}
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            if (window.location.hostname.startsWith('www.')) {
+              window.location.replace('https://' + window.location.hostname.replace('www.', '') + window.location.pathname + window.location.search + window.location.hash);
+            }
+          `
+        }} />
+        
         {/* Local Business Schema */}
         <script
           type="application/ld+json"
