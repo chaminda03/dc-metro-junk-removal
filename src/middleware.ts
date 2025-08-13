@@ -2,13 +2,6 @@ import { NextRequest, NextResponse } from 'next/server'
 
 export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone()
-  const hostname = request.headers.get('host')
-  
-  // Handle WWW to non-WWW redirect (301 permanent)
-  if (hostname?.startsWith('www.')) {
-    url.hostname = hostname.replace('www.', '')
-    return NextResponse.redirect(url, 301)
-  }
   
   // Add performance headers for speed optimization
   const response = NextResponse.next()

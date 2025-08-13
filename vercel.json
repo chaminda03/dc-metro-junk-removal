@@ -4,33 +4,7 @@
       "includeFiles": "src/**"
     }
   },
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.weehauljunkdc.com"
-        }
-      ],
-      "destination": "https://weehauljunkdc.com/$1",
-      "permanent": true,
-      "statusCode": 301
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "header",
-          "key": "host",
-          "value": "www.weehauljunkdc.com"
-        }
-      ],
-      "destination": "https://weehauljunkdc.com/$1",
-      "permanent": true,
-      "statusCode": 301
-    }
-  ],
+  "redirects": [],
   "rewrites": [
     {
       "source": "/api/contact/",
