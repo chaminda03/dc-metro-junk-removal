@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Furniture Removal Northern Virginia - Sofa, Mattress, Couch Pickup | Wee Haul',
   description: 'Professional furniture removal in Northern Virginia. We remove sofas, mattresses, couches, dining sets, beds. Serving Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',

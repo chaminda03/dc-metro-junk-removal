@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Basement Cleanout Northern Virginia - Basement Junk Removal Service | Wee Haul',
   description: 'Professional basement cleanout services in Northern Virginia. Complete basement cleaning, junk removal, and clearing. Transform your basement space in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',

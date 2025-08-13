@@ -60,6 +60,11 @@ export const metadata: Metadata = {
     'geo.position': '38.9072;-77.0369',
     'ICBM': '38.9072, -77.0369',
     'format-detection': 'telephone=no',
+    'google': 'notranslate',
+    'content-language': 'en-US',
+    'revisit-after': '1 days',
+    'rating': 'general',
+    'distribution': 'global',
   },
   alternates: {
     canonical: 'https://weehauljunkdc.com',

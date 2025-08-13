@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Junk Removal Fairfax County VA - McLean, Vienna, Reston | Same Day Pickup',
   description: 'Top-rated junk removal in Fairfax County, VA. Serving McLean, Vienna, Great Falls, Reston, Herndon, Oakton. Same-day service, luxury home specialists. Licensed & insured. Call (571) 489-2961',

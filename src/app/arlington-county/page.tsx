@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '@/components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Junk Removal Arlington County VA - Arlington, Crystal City | Wee Haul',
   description: 'Professional junk removal in Arlington County, VA. Serving Arlington, Crystal City, Ballston, Clarendon, Rosslyn. Urban junk hauling experts. Call (571) 489-2961',

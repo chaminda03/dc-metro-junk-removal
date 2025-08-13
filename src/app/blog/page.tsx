@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Junk Removal Blog - Expert Tips & Local Insights | Wee Haul',
   description: 'Expert junk removal tips, guides, and local insights for Northern Virginia. Learn from professionals about furniture removal, appliance disposal, and property cleanouts in Fairfax, Loudoun, Prince William & Arlington.',

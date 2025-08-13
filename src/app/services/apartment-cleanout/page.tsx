@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Apartment Cleanout Northern Virginia - Condo & Apartment Junk Removal | Wee Haul',
   description: 'Professional apartment and condo cleanout in Northern Virginia. Complete apartment junk removal, moving assistance, and property cleaning in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',

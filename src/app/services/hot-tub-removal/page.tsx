@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Hot Tub Removal Northern Virginia - Spa & Jacuzzi Removal | Wee Haul',
   description: 'Professional hot tub and spa removal in Northern Virginia. We remove jacuzzis, spas, swim spas, and pool equipment. Expert demolition and disposal in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',

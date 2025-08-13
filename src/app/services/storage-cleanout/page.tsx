@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Storage Unit Cleanout Northern Virginia - Storage Facility Junk Removal | Wee Haul',
   description: 'Professional storage unit cleanout in Northern Virginia. Complete storage facility cleaning and junk removal services. Clear your storage space in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',

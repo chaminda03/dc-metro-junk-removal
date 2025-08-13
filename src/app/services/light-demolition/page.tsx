@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Light Demolition Northern Virginia - Interior Demolition & Deck Removal | Wee Haul',
   description: 'Professional light demolition services in Northern Virginia. Interior demolition, deck removal, and small structure demolition in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',

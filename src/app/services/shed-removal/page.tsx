@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Shed Removal Northern Virginia - Storage Shed Demolition & Disposal | Wee Haul',
   description: 'Professional shed removal and demolition in Northern Virginia. We remove storage sheds, garden sheds, tool sheds, and outbuildings. Complete demolition and debris removal in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',

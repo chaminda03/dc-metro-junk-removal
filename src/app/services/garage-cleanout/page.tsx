@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Garage Cleanout Northern Virginia - Garage Junk Removal Service | Wee Haul',
   description: 'Professional garage cleanout services in Northern Virginia. Complete garage cleaning, junk removal, and organization. Clear your garage space in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',

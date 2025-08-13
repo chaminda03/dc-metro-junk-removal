@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '@/components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Junk Removal Prince William County VA - Manassas, Woodbridge | Wee Haul',
   description: 'Professional junk removal in Prince William County, VA. Serving Manassas, Woodbridge, Dale City, Gainesville. Same-day pickup available. Call (571) 489-2961',

@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'About Wee Haul Junk Removal - DC Metro\'s Most Trusted Hauling Company | Licensed & Insured',
   description: 'Learn about Wee Haul Junk Removal - Washington DC Metro Area\'s premier junk removal company. Serving Fairfax, Arlington, Loudoun, Prince William, Montgomery Counties with professional, eco-friendly service since our founding. Licensed, insured, and locally owned.',

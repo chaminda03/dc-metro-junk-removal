@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Fence Removal Fairfax VA | Professional Service Loudoun & Prince William Counties | Wee Haul',
   description: 'Expert fence removal services in Fairfax, Loudoun, and Prince William Counties. Professional wood, vinyl, chain link fence removal with permits, disposal & cleanup. Call (571) 489-2961 for same-day service.',

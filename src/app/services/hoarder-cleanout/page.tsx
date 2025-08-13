@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import Header from '../../../components/Header'
 
+// Enable static generation for better SEO indexing
+export const dynamic = 'force-static'
+export const revalidate = 86400 // 24 hours
+
 export const metadata: Metadata = {
   title: 'Hoarder Cleanout Northern Virginia - Hoarding Cleanup Service | Wee Haul',
   description: 'Professional, compassionate hoarder cleanout services in Northern Virginia. Sensitive hoarding cleanup, sanitization, and restoration in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',
