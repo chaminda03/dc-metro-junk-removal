@@ -1,0 +1,13 @@
+Contact: info@weehaulnow.com
+Contact: tel:+1-571-489-2961
+Encryption: https://weehauljunkdc.com
+Canonical: https://weehauljunkdc.com/.well-known/security.txt
+Policy: https://weehauljunkdc.com/security-policy
+Hiring: https://weehauljunkdc.com/about
+
+# Security Information for Wee Haul Junk Removal
+# Government-compliant business operations
+# HTTPS enforced with HSTS preload
+# Licensed and insured with federal/state compliance
+# Professional junk removal services
+# Serving government facilities and secure locations
