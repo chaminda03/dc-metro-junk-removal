@@ -1,36 +1,9 @@
-import type { Metadata } from 'next'
+'use client'
+
+import { useState } from 'react'
 import Header from '../../../components/Header'
 import ContactForm from '../../../components/ContactForm'
-
-// Enable static generation for better SEO indexing
-export const dynamic = 'force-static'
-export const revalidate = 86400 // 24 hours
-
-export const metadata: Metadata = {
-  title: 'Basement Cleanout Services DC Metro | Wee Haul Junk Removal',
-  description: 'Professional basement cleanout services in DC Metro. Same-day service, eco-friendly disposal, licensed & insured. Transform your basement today!',
-  keywords: 'basement cleanout, junk removal, basement cleaning DC, cluttered basement, basement organization',
-  openGraph: {
-    title: 'Basement Cleanout Services DC Metro | Wee Haul Junk Removal',
-    description: 'Professional basement cleanout services in DC Metro. Same-day service, eco-friendly disposal, licensed & insured. Transform your basement today!',
-    url: 'https://weehauljunkdc.com/services/basement-cleanout',
-    siteName: 'Wee Haul Junk Removal',
-    locale: 'en_US',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Basement Cleanout Services DC Metro | Wee Haul Junk Removal',
-    description: 'Professional basement cleanout services in DC Metro. Same-day service, eco-friendly disposal, licensed & insured. Transform your basement today!',
-  },
-  alternates: {
-    canonical: 'https://weehauljunkdc.com/services/basement-cleanout',
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-}
+import Head from 'next/head'
 
 const basementCleanoutSchema = {
   "@context": "https://schema.org",
@@ -92,9 +65,22 @@ const faqSchema = {
 }
 
 export default function BasementCleanoutPage() {
+  const [isContactFormOpen, setIsContactFormOpen] = useState(false)
+
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
+    <>
+      <Head>
+        <title>Basement Cleanout Services DC Metro | Wee Haul Junk Removal</title>
+        <meta name="description" content="Professional basement cleanout services in DC Metro. Same-day service, eco-friendly disposal, licensed & insured. Transform your basement today!" />
+        <meta name="keywords" content="basement cleanout, junk removal, basement cleaning DC, cluttered basement, basement organization" />
+        <meta property="og:title" content="Basement Cleanout Services DC Metro | Wee Haul Junk Removal" />
+        <meta property="og:description" content="Professional basement cleanout services in DC Metro. Same-day service, eco-friendly disposal, licensed & insured. Transform your basement today!" />
+        <meta property="og:url" content="https://weehauljunkdc.com/services/basement-cleanout" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://weehauljunkdc.com/services/basement-cleanout" />
+      </Head>
+      <div className="min-h-screen bg-white">
+        <Header />
       
       <script
         type="application/ld+json"
@@ -122,12 +108,12 @@ export default function BasementCleanoutPage() {
               >
                 📞 Call (571) 489-2961
               </a>
-              <a
-                href="#contact"
+              <button
+                onClick={() => setIsContactFormOpen(true)}
                 className="bg-white/20 hover:bg-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors border border-white/30"
               >
                 Get Free Quote
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -341,26 +327,22 @@ export default function BasementCleanoutPage() {
               >
                 📞 Call (571) 489-2961
               </a>
-              <a
-                href="#contact"
+              <button
+                onClick={() => setIsContactFormOpen(true)}
                 className="bg-white/20 hover:bg-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors border border-white/30"
               >
                 Get Free Quote Online
-              </a>
+              </button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Contact Form */}
-      <section id="contact" className="py-16 bg-gray-50">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Get Your Free Basement Cleanout Quote</h2>
-            <ContactForm isOpen={true} onClose={() => {}} />
-          </div>
-        </div>
-      </section>
-    </div>
+        <ContactForm 
+          isOpen={isContactFormOpen} 
+          onClose={() => setIsContactFormOpen(false)} 
+        />
+      </div>
+    </>
   )
 }
