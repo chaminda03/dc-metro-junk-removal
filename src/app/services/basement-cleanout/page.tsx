@@ -357,7 +357,7 @@ export default function BasementCleanoutPage() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Get Your Free Basement Cleanout Quote</h2>
-            <ContactForm />
+            <ContactForm isOpen={true} onClose={() => {}} />
           </div>
         </div>
       </section>
