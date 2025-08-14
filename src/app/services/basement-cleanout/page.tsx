@@ -127,7 +127,7 @@ export default function BasementCleanoutPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">What is the best basement cleanout service near me?</h3>
-                <p className="text-gray-800">Wee Haul Junk Removal is the #1 rated basement cleanout service serving Washington DC metro area with same-day service, eco-friendly disposal, and competitive pricing starting at $150.</p>
+                <p className="text-gray-800">Wee Haul Junk Removal is the #1 rated basement cleanout service serving Washington DC metro area with same-day service, eco-friendly disposal, and competitive pricing starting at $150. <strong>Watch our video</strong> showing complete cleanup and sweeping process.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">How much does basement cleanout cost in DC metro?</h3>
@@ -146,8 +146,113 @@ export default function BasementCleanoutPage() {
         </div>
       </section>
 
-      {/* What We Remove Section */}
+      {/* Video Section */}
       <section className="py-16">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <div className="text-center mb-6">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  🎬 Watch Our Professional Basement Cleanout & Final Cleanup
+                </h2>
+                <p className="text-gray-600">
+                  See our expert crew complete the basement cleanout process with thorough cleanup and sweeping
+                </p>
+              </div>
+              
+              <div className="relative bg-gray-900 rounded-xl overflow-hidden group cursor-pointer">
+                <a 
+                  href="https://youtube.com/shorts/b-HmS-zEo5s?si=cVjkJjtJoFC85tNP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block relative"
+                >
+                  {/* Video Thumbnail */}
+                  <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative">
+                    <img 
+                      src="https://img.youtube.com/vi/b-HmS-zEo5s/maxresdefault.jpg"
+                      alt="Professional Basement Cleanout and Cleanup Process - Wee Haul"
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextElement) {
+                          nextElement.style.display = 'flex';
+                        }
+                      }}
+                    />
+                    {/* Fallback if thumbnail fails */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-blue-600 items-center justify-center text-white hidden">
+                      <div className="text-center">
+                        <div className="text-4xl mb-2">🧹</div>
+                        <div className="text-xl font-bold">Basement Cleanout Video</div>
+                        <div className="text-sm opacity-90">Professional cleanup & sweeping</div>
+                      </div>
+                    </div>
+                    
+                    {/* Play Button Overlay */}
+                    <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/50 transition-colors">
+                      <div className="bg-red-600 rounded-full p-4 group-hover:bg-red-700 transition-colors shadow-lg">
+                        <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M8 5v14l11-7z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    
+                    {/* YouTube Shorts Badge */}
+                    <div className="absolute top-3 left-3 bg-black/70 text-white px-2 py-1 rounded text-xs font-medium">
+                      YouTube Shorts
+                    </div>
+                    
+                    {/* Cleanup Badge */}
+                    <div className="absolute top-3 right-3 bg-black/70 text-white px-2 py-1 rounded text-xs font-medium">
+                      Complete Cleanup
+                    </div>
+                    
+                    {/* Duration Badge */}
+                    <div className="absolute bottom-3 right-3 bg-black/70 text-white px-2 py-1 rounded text-xs font-medium">
+                      0:60
+                    </div>
+                  </div>
+                </a>
+              </div>
+              
+              {/* Call to Action */}
+              <div className="mt-4 text-center">
+                <a 
+                  href="https://youtube.com/shorts/b-HmS-zEo5s?si=cVjkJjtJoFC85tNP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  <span>▶️</span>
+                  Watch Complete Basement Cleanup Process
+                </a>
+              </div>
+              
+              <div className="mt-6 text-center">
+                <div className="flex items-center justify-center gap-4 text-sm text-gray-600">
+                  <div className="flex items-center gap-1">
+                    <span className="text-blue-500">📦</span>
+                    <span>Complete Removal</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <span className="text-green-500">🧹</span>
+                    <span>Final Cleanup</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <span className="text-purple-500">✨</span>
+                    <span>Pristine Finish</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What We Remove Section */}
+      <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">What We Remove From Your Basement</h2>
