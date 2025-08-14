@@ -317,19 +317,61 @@ export default function FenceRemovalPage() {
                     </p>
                   </div>
                   
-                  <div className="relative bg-gray-100 rounded-xl overflow-hidden" style={{paddingBottom: '56.25%', height: 0}}>
-                    <iframe
-                      src="https://www.youtube-nocookie.com/embed/WhhJY__orMA?rel=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&controls=1"
-                      title="Professional Fence Removal Process in Action - Wee Haul Junk Removal Fairfax County VA"
-                      className="absolute top-0 left-0 w-full h-full"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowFullScreen
-                      referrerPolicy="strict-origin-when-cross-origin"
-                    />
+                  <div className="relative bg-gray-900 rounded-xl overflow-hidden group cursor-pointer">
+                    <a 
+                      href="https://youtube.com/shorts/WhhJY__orMA?si=2ySDXFdaCu8TpEYo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block relative"
+                    >
+                      {/* Video Thumbnail */}
+                      <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative">
+                        <img 
+                          src="https://img.youtube.com/vi/WhhJY__orMA/maxresdefault.jpg"
+                          alt="Professional Fence Removal Process - Wee Haul"
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.currentTarget.style.display = 'none';
+                            e.currentTarget.nextElementSibling.style.display = 'flex';
+                          }}
+                        />
+                        {/* Fallback if thumbnail fails */}
+                        <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-emerald-700 items-center justify-center text-white hidden">
+                          <div className="text-center">
+                            <div className="text-4xl mb-2">🎬</div>
+                            <div className="text-xl font-bold">Fence Removal Video</div>
+                            <div className="text-sm opacity-90">Click to watch on YouTube</div>
+                          </div>
+                        </div>
+                        
+                        {/* Play Button Overlay */}
+                        <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/50 transition-colors">
+                          <div className="bg-red-600 rounded-full p-4 group-hover:bg-red-700 transition-colors shadow-lg">
+                            <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M8 5v14l11-7z"/>
+                            </svg>
+                          </div>
+                        </div>
+                        
+                        {/* YouTube Shorts Badge */}
+                        <div className="absolute top-3 left-3 bg-black/70 text-white px-2 py-1 rounded text-xs font-medium">
+                          YouTube Shorts
+                        </div>
+                        
+                        {/* Views Badge */}
+                        <div className="absolute top-3 right-3 bg-black/70 text-white px-2 py-1 rounded text-xs font-medium">
+                          1,600+ views
+                        </div>
+                        
+                        {/* Duration Badge */}
+                        <div className="absolute bottom-3 right-3 bg-black/70 text-white px-2 py-1 rounded text-xs font-medium">
+                          0:60
+                        </div>
+                      </div>
+                    </a>
                   </div>
                   
-                  {/* Fallback Link */}
+                  {/* Call to Action */}
                   <div className="mt-4 text-center">
                     <a 
                       href="https://youtube.com/shorts/WhhJY__orMA?si=2ySDXFdaCu8TpEYo"
@@ -337,8 +379,8 @@ export default function FenceRemovalPage() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
                     >
-                      <span>📱</span>
-                      Watch on YouTube (1,600+ views)
+                      <span>▶️</span>
+                      Watch Our Professional Fence Removal Process
                     </a>
                   </div>
                   
