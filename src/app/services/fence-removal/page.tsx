@@ -319,13 +319,27 @@ export default function FenceRemovalPage() {
                   
                   <div className="relative bg-gray-100 rounded-xl overflow-hidden" style={{paddingBottom: '56.25%', height: 0}}>
                     <iframe
-                      src="https://www.youtube.com/embed/WhhJY__orMA"
+                      src="https://www.youtube-nocookie.com/embed/WhhJY__orMA?rel=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&controls=1"
                       title="Professional Fence Removal Process in Action - Wee Haul Junk Removal Fairfax County VA"
                       className="absolute top-0 left-0 w-full h-full"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
+                      referrerPolicy="strict-origin-when-cross-origin"
                     />
+                  </div>
+                  
+                  {/* Fallback Link */}
+                  <div className="mt-4 text-center">
+                    <a 
+                      href="https://youtube.com/shorts/WhhJY__orMA?si=2ySDXFdaCu8TpEYo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                    >
+                      <span>📱</span>
+                      Watch on YouTube (1,600+ views)
+                    </a>
                   </div>
                   
                   <div className="mt-6 text-center">
