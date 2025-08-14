@@ -1,23 +1,61 @@
-import type { Metadata } from 'next'
+'use client'
+
+import { useState } from 'react'
 import Header from '../../../components/Header'
+import ContactForm from '../../../components/ContactForm'
+import Head from 'next/head'
 
-// Enable static generation for better SEO indexing
-export const dynamic = 'force-static'
-export const revalidate = 86400 // 24 hours
-
-export const metadata: Metadata = {
-  title: 'Appliance Removal Northern Virginia - Refrigerator, Washer, Dryer Pickup | Wee Haul',
-  description: 'Professional appliance removal in Northern Virginia. We remove refrigerators, washers, dryers, dishwashers, water heaters. Eco-friendly disposal in Fairfax, Loudoun, Prince William, Arlington. Call (571) 489-2961',
-  keywords: 'appliance removal Northern Virginia, refrigerator removal VA, washer dryer removal, dishwasher removal, water heater removal, appliance disposal Northern Virginia',
-  alternates: {
-    canonical: 'https://weehauljunkdc.com/services/appliance-removal',
+const applianceRemovalSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Appliance Removal Services",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Wee Haul Junk Removal",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fairfax",
+      "addressRegion": "VA",
+      "addressCountry": "US"
+    },
+    "telephone": "(571) 489-2961"
   },
+  "description": "Professional appliance removal services in Northern Virginia including refrigerators, washers, dryers, dishwashers, and water heaters",
+  "areaServed": ["Fairfax County", "Arlington County", "Washington DC", "Montgomery County"],
+  "serviceType": "Appliance Removal",
+  "video": {
+    "@type": "VideoObject",
+    "name": "Professional Appliance Removal Process - Wee Haul",
+    "description": "Watch our expert team safely remove appliances including refrigerators, washers, and dryers in Northern Virginia",
+    "thumbnailUrl": "https://img.youtube.com/vi/U5A2LTH6A1w/maxresdefault.jpg",
+    "embedUrl": "https://www.youtube.com/embed/U5A2LTH6A1w",
+    "uploadDate": "2024-12-01",
+    "duration": "PT60S"
+  }
 }
 
 export default function ApplianceRemovalPage() {
+  const [isContactFormOpen, setIsContactFormOpen] = useState(false)
+
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
+    <>
+      <Head>
+        <title>Appliance Removal Northern Virginia - Refrigerator, Washer, Dryer Pickup | Wee Haul</title>
+        <meta name="description" content="Professional appliance removal in Northern Virginia. We remove refrigerators, washers, dryers, dishwashers, water heaters. Eco-friendly disposal. Call (571) 489-2961" />
+        <meta name="keywords" content="appliance removal Northern Virginia, refrigerator removal VA, washer dryer removal, dishwasher removal, water heater removal" />
+        <meta property="og:title" content="Appliance Removal Northern Virginia - Refrigerator, Washer, Dryer Pickup | Wee Haul" />
+        <meta property="og:description" content="Professional appliance removal in Northern Virginia. We remove refrigerators, washers, dryers, dishwashers, water heaters. Eco-friendly disposal." />
+        <meta property="og:url" content="https://weehauljunkdc.com/services/appliance-removal" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://weehauljunkdc.com/services/appliance-removal" />
+      </Head>
+      <div className="min-h-screen bg-white">
+        <Header />
+        
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(applianceRemovalSchema) }}
+        />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-green-50 to-white py-20">
@@ -37,6 +75,117 @@ export default function ApplianceRemovalPage() {
             >
               📞 Schedule Appliance Pickup
             </a>
+            <button
+              onClick={() => setIsContactFormOpen(true)}
+              className="bg-white border-2 border-orange-500 text-orange-500 hover:bg-orange-50 font-bold py-4 px-8 rounded-lg text-xl transition-colors"
+            >
+              Get Free Quote
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <div className="text-center mb-6">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  🎬 Watch Our Professional Appliance Removal in Action
+                </h2>
+                <p className="text-gray-600">
+                  See how our expert team safely removes refrigerators, washers, dryers, and other appliances
+                </p>
+              </div>
+              
+              <div className="relative bg-gray-900 rounded-xl overflow-hidden group cursor-pointer">
+                <a 
+                  href="https://youtube.com/shorts/U5A2LTH6A1w?si=cI2YPaI4Odezlx7V"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block relative"
+                >
+                  {/* Video Thumbnail */}
+                  <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative">
+                    <img 
+                      src="https://img.youtube.com/vi/U5A2LTH6A1w/maxresdefault.jpg"
+                      alt="Professional Appliance Removal Process - Wee Haul"
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextElement) {
+                          nextElement.style.display = 'flex';
+                        }
+                      }}
+                    />
+                    {/* Fallback if thumbnail fails */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-green-600 items-center justify-center text-white hidden">
+                      <div className="text-center">
+                        <div className="text-4xl mb-2">📦</div>
+                        <div className="text-xl font-bold">Appliance Removal Video</div>
+                        <div className="text-sm opacity-90">Click to watch on YouTube</div>
+                      </div>
+                    </div>
+                    
+                    {/* Play Button Overlay */}
+                    <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/50 transition-colors">
+                      <div className="bg-red-600 rounded-full p-4 group-hover:bg-red-700 transition-colors shadow-lg">
+                        <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M8 5v14l11-7z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    
+                    {/* YouTube Shorts Badge */}
+                    <div className="absolute top-3 left-3 bg-black/70 text-white px-2 py-1 rounded text-xs font-medium">
+                      YouTube Shorts
+                    </div>
+                    
+                    {/* Professional Badge */}
+                    <div className="absolute top-3 right-3 bg-black/70 text-white px-2 py-1 rounded text-xs font-medium">
+                      Professional Service
+                    </div>
+                    
+                    {/* Duration Badge */}
+                    <div className="absolute bottom-3 right-3 bg-black/70 text-white px-2 py-1 rounded text-xs font-medium">
+                      0:60
+                    </div>
+                  </div>
+                </a>
+              </div>
+              
+              {/* Call to Action */}
+              <div className="mt-4 text-center">
+                <a 
+                  href="https://youtube.com/shorts/U5A2LTH6A1w?si=cI2YPaI4Odezlx7V"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  <span>▶️</span>
+                  Watch Professional Appliance Removal Process
+                </a>
+              </div>
+              
+              <div className="mt-6 text-center">
+                <div className="flex items-center justify-center gap-4 text-sm text-gray-600">
+                  <div className="flex items-center gap-1">
+                    <span className="text-blue-500">📦</span>
+                    <span>Refrigerators</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <span className="text-green-500">🔧</span>
+                    <span>Washers & Dryers</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <span className="text-red-500">🛡️</span>
+                    <span>Safe & Insured</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -408,6 +557,11 @@ export default function ApplianceRemovalPage() {
           </div>
         </div>
       </section>
-    </div>
+        <ContactForm 
+          isOpen={isContactFormOpen} 
+          onClose={() => setIsContactFormOpen(false)} 
+        />
+      </div>
+    </>
   )
 }
