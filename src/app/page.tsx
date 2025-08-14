@@ -720,6 +720,8 @@ export default function Home() {
                     <span className="bg-white/20 px-3 py-1 rounded-full text-sm">Loudoun</span>
                     <span className="bg-white/20 px-3 py-1 rounded-full text-sm">Prince William</span>
                     <span className="bg-white/20 px-3 py-1 rounded-full text-sm">Arlington</span>
+                    <span className="bg-white/20 px-3 py-1 rounded-full text-sm">Montgomery County</span>
+                    <span className="bg-white/20 px-3 py-1 rounded-full text-sm">Washington DC</span>
                   </div>
                 </div>
               </div>
