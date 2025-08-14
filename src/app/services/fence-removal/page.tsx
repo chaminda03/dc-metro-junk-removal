@@ -23,7 +23,16 @@ const fenceRemovalSchema = {
   },
   "description": "Professional fence removal services in Fairfax County VA including wood, vinyl, chain link, and metal fence removal",
   "areaServed": ["Fairfax County", "Arlington County", "Washington DC", "Montgomery County"],
-  "serviceType": "Fence Removal"
+  "serviceType": "Fence Removal",
+  "video": {
+    "@type": "VideoObject",
+    "name": "Professional Fence Removal Process in Action - Wee Haul",
+    "description": "Watch our expert team professionally remove fences in Fairfax County VA with specialized equipment and techniques",
+    "thumbnailUrl": "https://img.youtube.com/vi/WhhJY__orMA/maxresdefault.jpg",
+    "embedUrl": "https://www.youtube.com/embed/WhhJY__orMA",
+    "uploadDate": "2024-12-01",
+    "duration": "PT60S"
+  }
 }
 
 const faqSchema = {
@@ -144,7 +153,7 @@ export default function FenceRemovalPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-2xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">What is the best fence removal service near me?</h3>
-                  <p className="text-gray-800">Wee Haul Junk Removal is the #1 rated fence removal service serving Fairfax County and DC metro area with same-day service, all fence types, and competitive pricing starting at $300.</p>
+                  <p className="text-gray-800">Wee Haul Junk Removal is the #1 rated fence removal service serving Fairfax County and DC metro area with same-day service, all fence types, and competitive pricing starting at $300. <strong>Watch our 1,600+ viewed video</strong> showing professional fence removal in action.</p>
                 </div>
                 <div className="bg-white p-6 rounded-2xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">How much does fence removal cost in Fairfax VA?</h3>
@@ -295,6 +304,50 @@ export default function FenceRemovalPage() {
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Our Fence Removal Process</h2>
+              
+              {/* Video Section */}
+              <div className="mb-16">
+                <div className="bg-white p-8 rounded-2xl shadow-lg max-w-4xl mx-auto">
+                  <div className="text-center mb-6">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                      🎬 Watch Our Professional Fence Removal in Action
+                    </h3>
+                    <p className="text-gray-600">
+                      See how our expert team safely and efficiently removes fences with professional equipment
+                    </p>
+                  </div>
+                  
+                  <div className="relative bg-gray-100 rounded-xl overflow-hidden" style={{paddingBottom: '56.25%', height: 0}}>
+                    <iframe
+                      src="https://www.youtube.com/embed/WhhJY__orMA"
+                      title="Professional Fence Removal Process in Action - Wee Haul Junk Removal Fairfax County VA"
+                      className="absolute top-0 left-0 w-full h-full"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    />
+                  </div>
+                  
+                  <div className="mt-6 text-center">
+                    <div className="flex items-center justify-center gap-4 text-sm text-gray-600">
+                      <div className="flex items-center gap-1">
+                        <span className="text-red-500">👁️</span>
+                        <span>1,600+ views</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <span className="text-green-500">✅</span>
+                        <span>Professional Results</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <span className="text-blue-500">🛡️</span>
+                        <span>Safe & Insured</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Process Steps */}
               <div className="grid md:grid-cols-4 gap-8">
                 <div className="text-center">
                   <div className="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
