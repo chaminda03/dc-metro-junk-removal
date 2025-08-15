@@ -75,6 +75,14 @@ export default function ApplianceRemovalPage() {
             >
               📞 Schedule Appliance Pickup
             </a>
+            <a 
+              href="https://calendly.com/weehaulnow-info/30min" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors"
+            >
+              📅 Book My Appointment
+            </a>
             <button
               onClick={() => setIsContactFormOpen(true)}
               className="bg-white border-2 border-orange-500 text-orange-500 hover:bg-orange-50 font-bold py-4 px-8 rounded-lg text-xl transition-colors"
@@ -544,12 +552,22 @@ export default function ApplianceRemovalPage() {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Remove Your Old Appliances?</h2>
           <p className="text-xl mb-8">Professional, EPA-compliant appliance removal throughout Northern Virginia</p>
-          <a 
-            href="tel:5714892961" 
-            className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-12 rounded-lg text-xl transition-colors inline-block"
-          >
-            📞 Call: (571) 489-2961
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="https://calendly.com/weehaulnow-info/30min" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-green-900 hover:bg-gray-100 font-bold py-4 px-12 rounded-lg text-xl transition-colors"
+            >
+              📅 Book My Appointment
+            </a>
+            <a 
+              href="tel:5714892961" 
+              className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-12 rounded-lg text-xl transition-colors"
+            >
+              📞 Call: (571) 489-2961
+            </a>
+          </div>
           <div className="mt-8 text-green-200">
             <p>✅ EPA compliant disposal</p>
             <p>✅ Same-day service available</p>

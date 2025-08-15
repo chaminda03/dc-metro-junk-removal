@@ -108,6 +108,14 @@ export default function BasementCleanoutPage() {
               >
                 📞 Call (571) 489-2961
               </a>
+              <a 
+                href="https://calendly.com/weehaulnow-info/30min" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors"
+              >
+                📅 Book My Appointment
+              </a>
               <button
                 onClick={() => setIsContactFormOpen(true)}
                 className="bg-white/20 hover:bg-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors border border-white/30"
@@ -426,18 +434,20 @@ export default function BasementCleanoutPage() {
               Get your free estimate today and discover why we're the top choice for basement cleanout in DC metro
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a 
+                href="https://calendly.com/weehaulnow-info/30min" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition-colors"
+              >
+                📅 Book My Appointment
+              </a>
               <a
                 href="tel:5714892961"
-                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition-colors"
+                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors"
               >
                 📞 Call (571) 489-2961
               </a>
-              <button
-                onClick={() => setIsContactFormOpen(true)}
-                className="bg-white/20 hover:bg-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors border border-white/30"
-              >
-                Get Free Quote Online
-              </button>
             </div>
           </div>
         </div>
