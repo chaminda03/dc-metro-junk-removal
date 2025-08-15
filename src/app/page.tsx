@@ -78,7 +78,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="group bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 sm:py-4 sm:px-8 rounded-lg text-lg sm:text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                   >
-                    📅 Book Free Estimate
+                    📅 Book My Appointment
                   </a>
                   <button 
                     onClick={() => setIsContactFormOpen(true)}
@@ -780,7 +780,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="bg-white text-orange-600 font-bold py-6 px-12 rounded-2xl text-2xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl"
                     >
-                      📅 BOOK ESTIMATE ONLINE
+                      📅 BOOK MY APPOINTMENT
                     </a>
                     <a 
                       href="tel:5714892961" 

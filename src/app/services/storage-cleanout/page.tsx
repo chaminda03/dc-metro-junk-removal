@@ -127,7 +127,7 @@ export default function StorageCleanoutPage() {
                     rel="noopener noreferrer"
                     className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors text-center"
                   >
-                    📅 Book Online
+                    📅 Book My Appointment
                   </a>
                   <button
                     onClick={() => setIsContactFormOpen(true)}
@@ -511,7 +511,7 @@ export default function StorageCleanoutPage() {
                   rel="noopener noreferrer"
                   className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition-colors"
                 >
-                  📅 Book Estimate Online
+                  📅 Book My Appointment
                 </a>
                 <a
                   href="tel:5714892961"
