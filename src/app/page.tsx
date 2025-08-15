@@ -72,6 +72,14 @@ export default function Home() {
                     <span className="relative z-10">📞 (571) 489-2961</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
                   </a>
+                  <a 
+                    href="https://calendly.com/weehauljunk/estimate" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 sm:py-4 sm:px-8 rounded-lg text-lg sm:text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                  >
+                    📅 Book Free Estimate
+                  </a>
                   <button 
                     onClick={() => setIsContactFormOpen(true)}
                     className="group border-2 border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white font-bold py-3 px-4 sm:py-4 sm:px-8 rounded-lg text-lg sm:text-xl transition-all duration-300 transform hover:scale-105"
@@ -766,12 +774,14 @@ export default function Home() {
                 {/* Big CTA Button */}
                 <div className="text-center">
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <button 
-                      onClick={() => setIsContactFormOpen(true)}
+                    <a 
+                      href="https://calendly.com/weehauljunk/estimate" 
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-white text-orange-600 font-bold py-6 px-12 rounded-2xl text-2xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl"
                     >
-                      📝 GET FREE QUOTE NOW
-                    </button>
+                      📅 BOOK ESTIMATE ONLINE
+                    </a>
                     <a 
                       href="tel:5714892961" 
                       className="border-2 border-white text-white hover:bg-white hover:text-orange-600 font-bold py-6 px-12 rounded-2xl text-2xl transition-all duration-300 transform hover:scale-105"
@@ -780,7 +790,7 @@ export default function Home() {
                     </a>
                   </div>
                   <div className="mt-4 text-orange-100">
-                    Call now or we'll call you back within 5 minutes!
+                    Book online instantly or call for immediate service!
                   </div>
                 </div>
               </div>
