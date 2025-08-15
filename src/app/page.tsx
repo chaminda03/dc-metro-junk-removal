@@ -73,7 +73,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
                   </a>
                   <a 
-                    href="https://calendly.com/weehauljunk/estimate" 
+                    href="https://calendly.com/weehaulnow-info/30min" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 sm:py-4 sm:px-8 rounded-lg text-lg sm:text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
@@ -775,7 +775,7 @@ export default function Home() {
                 <div className="text-center">
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a 
-                      href="https://calendly.com/weehauljunk/estimate" 
+                      href="https://calendly.com/weehaulnow-info/30min" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-white text-orange-600 font-bold py-6 px-12 rounded-2xl text-2xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl"

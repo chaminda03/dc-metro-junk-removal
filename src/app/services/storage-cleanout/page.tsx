@@ -122,7 +122,7 @@ export default function StorageCleanoutPage() {
                     📞 Call (571) 489-2961
                   </a>
                   <a 
-                    href="https://calendly.com/weehauljunk/estimate" 
+                    href="https://calendly.com/weehaulnow-info/30min" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors text-center"
@@ -506,7 +506,7 @@ export default function StorageCleanoutPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://calendly.com/weehauljunk/estimate" 
+                  href="https://calendly.com/weehaulnow-info/30min" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition-colors"
