@@ -86,7 +86,7 @@ export default function StorageCleanoutPage() {
         <meta property="og:title" content="Storage Unit Cleanout Fairfax County VA | Stop Paying Storage Fees | Wee Haul" />
         <meta property="og:description" content="Professional storage unit cleanout in Fairfax County VA. Stop paying monthly storage fees! Same-day service, eco-friendly disposal." />
         <meta property="og:url" content="https://weehauljunkdc.com/services/storage-cleanout" />
-        <meta property="og:image" content="https://weehauljunkdc.com/images/services/Storage-units-cleanup.jpg" />
+        <meta property="og:image" content="https://weehauljunkdc.com/images/services/Storage-Unit-Cleanup.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://weehauljunkdc.com/services/storage-cleanout" />
       </Head>
@@ -132,7 +132,7 @@ export default function StorageCleanoutPage() {
               <div className="relative">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-2">
                   <Image
-                    src="/images/services/Storage-units-cleanup.jpg"
+                    src="/images/services/Storage-Unit-Cleanup.jpg"
                     alt="Professional storage unit cleanout service in Fairfax County VA"
                     width={600}
                     height={400}
